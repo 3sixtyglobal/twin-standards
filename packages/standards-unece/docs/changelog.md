@@ -1,5 +1,56 @@
 # Changelog
 
+## [0.9.1-next.1](https://github.com/iotaledger/twin-standards/compare/standards-unece-v0.9.1-next.0...standards-unece-v0.9.1-next.1) (2026-06-26)
+
+
+### Features
+
+* add contentEncoding for unece base64 properties ([#228](https://github.com/iotaledger/twin-standards/issues/228)) ([c8325c8](https://github.com/iotaledger/twin-standards/commit/c8325c86e9172047d57941e0f8b43b332256f9f4))
+* add context id features ([#64](https://github.com/iotaledger/twin-standards/issues/64)) ([e68bb87](https://github.com/iotaledger/twin-standards/commit/e68bb87a215f3c3956cfd6400a5e1e2a16256085))
+* add unlocode ([#140](https://github.com/iotaledger/twin-standards/issues/140)) ([4832edd](https://github.com/iotaledger/twin-standards/commit/4832edd24134f4027fbce257e9e80f12b216acf9))
+* add validate-locales ([838389c](https://github.com/iotaledger/twin-standards/commit/838389c1daf62ed42397d5758d267c3d1a37fa4d))
+* adding the typecode unece descriptions in locales ([#165](https://github.com/iotaledger/twin-standards/issues/165)) ([c3af882](https://github.com/iotaledger/twin-standards/commit/c3af8827d3543a84df97c8b1a396f91a9e5275d6))
+* data types registered with full qualified names ([d64bd08](https://github.com/iotaledger/twin-standards/commit/d64bd082084172da543e9bfaffb78cdc34e6641d))
+* eslint migration to flat config ([648c1a1](https://github.com/iotaledger/twin-standards/commit/648c1a1e69d99b6b0cf69358ec6bdeecdbe3a5ea))
+* export unece schemas ([ef9af8d](https://github.com/iotaledger/twin-standards/commit/ef9af8db9931d1b7ca3a77c15b17bba6a3e7badc))
+* generate unece types from JSON schema ([#71](https://github.com/iotaledger/twin-standards/issues/71)) ([5a596e7](https://github.com/iotaledger/twin-standards/commit/5a596e7a79c1a0b213560f5fb8b9ec5019d598d7))
+* improve caching ([#196](https://github.com/iotaledger/twin-standards/issues/196)) ([968e61a](https://github.com/iotaledger/twin-standards/commit/968e61a04156a22cf5ffc3ba237a42a81ec2e0c1))
+* improve the cardinality information in UNECE definitions ([03c6511](https://github.com/iotaledger/twin-standards/commit/03c6511fe5d009cfc861fa7ed091ea3cf4829359))
+* improve the cardinality information in UNECE definitions ([82e4ca3](https://github.com/iotaledger/twin-standards/commit/82e4ca30fc0073210e9d8aff2c8087baeb4ee3c6))
+* improve unece cardinality ([#151](https://github.com/iotaledger/twin-standards/issues/151)) ([e37d696](https://github.com/iotaledger/twin-standards/commit/e37d696d949e2f4853ddc7193a991a883ccf6ee5))
+* improved namespaces and contexts ([#102](https://github.com/iotaledger/twin-standards/issues/102)) ([c74c370](https://github.com/iotaledger/twin-standards/commit/c74c370cd8145d6166ca4454353f3774c302ac3b))
+* register schemas at hosted location ([#128](https://github.com/iotaledger/twin-standards/issues/128)) ([ab35298](https://github.com/iotaledger/twin-standards/commit/ab35298c812d69f043f69c35ab5aa1ac4a6aaa90))
+* remove gaia-x ([3e87ac1](https://github.com/iotaledger/twin-standards/commit/3e87ac14480758289cd43c8da7fa02dd251ed6c4))
+* remove IJsonLdNodeObject base interfaces ([#172](https://github.com/iotaledger/twin-standards/issues/172)) ([8ff8d7a](https://github.com/iotaledger/twin-standards/commit/8ff8d7a2892d626879b76ba5da912469ff899954))
+* revert unece decimal changes ([#156](https://github.com/iotaledger/twin-standards/issues/156)) ([0e054d3](https://github.com/iotaledger/twin-standards/commit/0e054d3abf9cea5eacae5b973a821895b0eb61d8))
+* support ZZZ type code in unece ([433eaf6](https://github.com/iotaledger/twin-standards/commit/433eaf6f24721b2be7f7144b0024f6cf31b0bacf))
+* typescript 6 update ([79bfb52](https://github.com/iotaledger/twin-standards/commit/79bfb52e3dcb24689cec7b201dde822bcee970c5))
+* un code list descriptions ([#158](https://github.com/iotaledger/twin-standards/issues/158)) ([ad685ab](https://github.com/iotaledger/twin-standards/commit/ad685ab46f237e724388af6d2822007502b5b232))
+* unece add support for identifier objects and date-time formatting ([8de5075](https://github.com/iotaledger/twin-standards/commit/8de507574b54f1ee8eeba7bb980f05fdd2e22981))
+* unece code list labels ([#167](https://github.com/iotaledger/twin-standards/issues/167)) ([41d411e](https://github.com/iotaledger/twin-standards/commit/41d411eb269c01bf44de6c9f9028dafe63682380))
+* unece type codes ([#146](https://github.com/iotaledger/twin-standards/issues/146)) ([7fb94cd](https://github.com/iotaledger/twin-standards/commit/7fb94cd5c920c7371782dd9d4d52faa7d1aa51ca))
+* update dependencies ([e422ed3](https://github.com/iotaledger/twin-standards/commit/e422ed351fb09e2deea5ef741326c37b0802af3a))
+* update framework core ([58c0c3d](https://github.com/iotaledger/twin-standards/commit/58c0c3dd6cea0e4c2393dc0e3e1eb33a6d06f617))
+* update schemas to support additional properties ([4679e21](https://github.com/iotaledger/twin-standards/commit/4679e21728a54cb587f120874841c3d1ed3771de))
+* update schemas with new enum format ([4851603](https://github.com/iotaledger/twin-standards/commit/4851603f26910fafd7fe22b46533814dba3b041c))
+* update to latest JSON schema spec ([7a23930](https://github.com/iotaledger/twin-standards/commit/7a2393032d7f48bfb20d3a484f981fb6dd83a92c))
+* update to new ts-ts-schema and generic constructs ([4dff991](https://github.com/iotaledger/twin-standards/commit/4dff991fb70de4320668641ed94abf8e9b06acad))
+* update type names ([#89](https://github.com/iotaledger/twin-standards/issues/89)) ([6fdef47](https://github.com/iotaledger/twin-standards/commit/6fdef4792151f89d1a95a07da8309d05a7b6de3d))
+* update unece context property ([6ff8f20](https://github.com/iotaledger/twin-standards/commit/6ff8f2050beb5aef11c388605fae5b44d644b804))
+* use inline import for unece types ([ccf61f4](https://github.com/iotaledger/twin-standards/commit/ccf61f4e99da1ff1ca20eda6acff5059b5e103c1))
+* use shared store mechanism ([#11](https://github.com/iotaledger/twin-standards/issues/11)) ([96fa237](https://github.com/iotaledger/twin-standards/commit/96fa23735f69c1fc7e3d0019b527634fa0a042d9))
+
+
+### Bug Fixes
+
+* add prefix to unece schema urls ([9e82037](https://github.com/iotaledger/twin-standards/commit/9e82037c3444a2200b181a4718080ce4c9a8ad0b))
+* correct data destination folder ([#211](https://github.com/iotaledger/twin-standards/issues/211)) ([e428f5a](https://github.com/iotaledger/twin-standards/commit/e428f5ae1116c7323f38112f2ac043f1df8da03d))
+* map decimal to number and update numeric property types in UNECE model generation ([#153](https://github.com/iotaledger/twin-standards/issues/153)) ([e3e3c1b](https://github.com/iotaledger/twin-standards/commit/e3e3c1b5226c053bb4eb7d43510bb1b8a0e3cdfd))
+* replace fileURLToPath usage as not available in UI ([5557dab](https://github.com/iotaledger/twin-standards/commit/5557dabeacf0432fd28e84d44bbff480e0d99b65))
+* unece cardinality using incorrect properties of imported data ([#137](https://github.com/iotaledger/twin-standards/issues/137)) ([f236eb0](https://github.com/iotaledger/twin-standards/commit/f236eb04b466546a4c8aea491836da55e0cb2804))
+* updating the missing packages ([#114](https://github.com/iotaledger/twin-standards/issues/114)) ([90b03f8](https://github.com/iotaledger/twin-standards/commit/90b03f8bdcd81506284d74a445840386c2da2d35))
+* use id types in id unions ([8256206](https://github.com/iotaledger/twin-standards/commit/8256206deb3b276e5d75f91e50941d0f01c5ee9c))
+
 ## [0.9.0](https://github.com/iotaledger/twin-standards/compare/standards-unece-v0.9.0...standards-unece-v0.9.0) (2026-06-23)
 
 

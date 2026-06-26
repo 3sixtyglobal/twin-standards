@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.9.1-next.1](https://github.com/iotaledger/twin-standards/compare/standards-w3c-vcard-v0.9.1-next.0...standards-w3c-vcard-v0.9.1-next.1) (2026-06-26)
+
+
+### Features
+
+* add context id features ([#64](https://github.com/iotaledger/twin-standards/issues/64)) ([e68bb87](https://github.com/iotaledger/twin-standards/commit/e68bb87a215f3c3956cfd6400a5e1e2a16256085))
+* add validate-locales ([838389c](https://github.com/iotaledger/twin-standards/commit/838389c1daf62ed42397d5758d267c3d1a37fa4d))
+* add w3c dcat standards package ([#68](https://github.com/iotaledger/twin-standards/issues/68)) ([85746c6](https://github.com/iotaledger/twin-standards/commit/85746c673464498a52e9c30ce498fd88b81a7434))
+* eslint migration to flat config ([648c1a1](https://github.com/iotaledger/twin-standards/commit/648c1a1e69d99b6b0cf69358ec6bdeecdbe3a5ea))
+* improved namespaces and contexts ([#102](https://github.com/iotaledger/twin-standards/issues/102)) ([c74c370](https://github.com/iotaledger/twin-standards/commit/c74c370cd8145d6166ca4454353f3774c302ac3b))
+* typescript 6 update ([79bfb52](https://github.com/iotaledger/twin-standards/commit/79bfb52e3dcb24689cec7b201dde822bcee970c5))
+* update dependencies ([e422ed3](https://github.com/iotaledger/twin-standards/commit/e422ed351fb09e2deea5ef741326c37b0802af3a))
+* update framework core ([58c0c3d](https://github.com/iotaledger/twin-standards/commit/58c0c3dd6cea0e4c2393dc0e3e1eb33a6d06f617))
+* update to latest JSON schema spec ([7a23930](https://github.com/iotaledger/twin-standards/commit/7a2393032d7f48bfb20d3a484f981fb6dd83a92c))
+* update to new ts-ts-schema and generic constructs ([4dff991](https://github.com/iotaledger/twin-standards/commit/4dff991fb70de4320668641ed94abf8e9b06acad))
+* update ts-to-schema generation ([0905daa](https://github.com/iotaledger/twin-standards/commit/0905daa4a344ed35fc37b7f12fcf9ce9d34e4bd6))
+* use shared store mechanism ([#11](https://github.com/iotaledger/twin-standards/issues/11)) ([96fa237](https://github.com/iotaledger/twin-standards/commit/96fa23735f69c1fc7e3d0019b527634fa0a042d9))
+
+
+### Bug Fixes
+
+* updating the missing packages ([#114](https://github.com/iotaledger/twin-standards/issues/114)) ([90b03f8](https://github.com/iotaledger/twin-standards/commit/90b03f8bdcd81506284d74a445840386c2da2d35))
+
 ## [0.9.0](https://github.com/iotaledger/twin-standards/compare/standards-w3c-vcard-v0.9.0...standards-w3c-vcard-v0.9.0) (2026-06-23)
 
 
