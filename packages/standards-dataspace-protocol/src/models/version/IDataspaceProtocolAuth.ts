@@ -3,8 +3,7 @@
 
 /**
  * Interface for the authentication descriptor on a versioned Dataspace Protocol endpoint.
- * Describes the authentication mechanism required to call the versioned endpoint (not for the
- * unauthenticated /.well-known/dspace-version discovery endpoint itself).
+ * Describes the authentication mechanism required to call the versioned endpoint.
  * @see https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1-err1/#exposure-of-dataspace-protocol-versions
  */
 export interface IDataspaceProtocolAuth {
