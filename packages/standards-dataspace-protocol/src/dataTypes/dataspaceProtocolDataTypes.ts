@@ -6,6 +6,7 @@ import { DcatContexts } from "@twin.org/standards-w3c-dcat";
 import { CatalogDataTypes } from "./catalogDataTypes.js";
 import { ContractNegotiationDataTypes } from "./contractNegotiationDataTypes.js";
 import { TransferProcessDataTypes } from "./transferProcessDataTypes.js";
+import { VersionDataTypes } from "./versionDataTypes.js";
 import { DataspaceProtocolContexts } from "../models/dataspaceProtocolContexts.js";
 import DsProtocolContextTypeSchema from "../schemas/DataspaceProtocolContextType.json" with { type: "json" };
 
@@ -50,5 +51,6 @@ export class DataspaceProtocolDataTypes {
 		ContractNegotiationDataTypes.registerTypes();
 		CatalogDataTypes.registerTypes();
 		TransferProcessDataTypes.registerTypes();
+		VersionDataTypes.registerTypes();
 	}
 }

@@ -59,4 +59,13 @@ export * from "./models/transferProcess/types/dataspaceProtocolTransferProcessSt
 
 export * from "./dataTypes/transferProcessDataTypes.js";
 
+// Version Protocol
+export * from "./models/version/dataspaceProtocolVersionTypes.js";
+export * from "./models/version/IDataspaceProtocolAuth.js";
+export * from "./models/version/IDataspaceProtocolVersion.js";
+export * from "./models/version/IDataspaceProtocolVersionResponse.js";
+export * from "./models/version/types/dataspaceProtocolVersionBindingType.js";
+
+export * from "./dataTypes/versionDataTypes.js";
+
 export * from "./utils/dataspaceProtocolHelper.js";

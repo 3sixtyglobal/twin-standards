@@ -37,7 +37,11 @@
 		"./src/models/transferProcess/IDataspaceProtocolTransferStartMessage.ts",
 		"./src/models/transferProcess/IDataspaceProtocolTransferSuspensionMessage.ts",
 		"./src/models/transferProcess/IDataspaceProtocolTransferTerminationMessage.ts",
-		"./src/models/transferProcess/types/dataspaceProtocolTransferProcessStateType.ts"
+		"./src/models/transferProcess/types/dataspaceProtocolTransferProcessStateType.ts",
+		"./src/models/version/IDataspaceProtocolAuth.ts",
+		"./src/models/version/IDataspaceProtocolVersion.ts",
+		"./src/models/version/IDataspaceProtocolVersionResponse.ts",
+		"./src/models/version/types/dataspaceProtocolVersionBindingType.ts"
 	],
 	"externalReferences": {
 		"JsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1",
