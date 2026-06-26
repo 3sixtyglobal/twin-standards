@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.9.1-next.2](https://github.com/iotaledger/twin-standards/compare/standards-dataspace-protocol-v0.9.1-next.1...standards-dataspace-protocol-v0.9.1-next.2) (2026-06-26)
+
+
+### Features
+
+* update components ([5fab18c](https://github.com/iotaledger/twin-standards/commit/5fab18c34d42d544353f9af2ec3bb86b518432e6))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.9.1-next.1 to 0.9.1-next.2
+    * @twin.org/standards-w3c-odrl bumped from 0.9.1-next.1 to 0.9.1-next.2
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.9.1-next.1 to 0.9.1-next.2
+
 ## [0.9.1-next.1](https://github.com/iotaledger/twin-standards/compare/standards-dataspace-protocol-v0.9.1-next.0...standards-dataspace-protocol-v0.9.1-next.1) (2026-06-26)
 
 
