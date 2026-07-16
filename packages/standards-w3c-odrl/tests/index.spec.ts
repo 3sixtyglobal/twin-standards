@@ -1777,4 +1777,73 @@ describe("OdrlDataTypes Validation", () => {
 			expect(result.length).toBe(testCase.expect);
 		}
 	});
+
+	describe("PartyCollection.source optionality", () => {
+		let schema: IJsonSchema;
+
+		beforeAll(async () => {
+			const typeKey = `${OdrlContexts.Namespace}${OdrlTypes.PartyCollection}`;
+			const handler = DataTypeHandlerFactory.get(typeKey);
+			expect(handler).toBeDefined();
+			expect(handler?.jsonSchema).toBeDefined();
+
+			const resolvedSchema = await handler?.jsonSchema?.();
+			expect(resolvedSchema).toBeDefined();
+			schema = resolvedSchema as IJsonSchema;
+		});
+
+		it("accepts a source-less, refinement-only PartyCollection", async () => {
+			// Mirrors twin-supply-chain's real isn-notify-template.json assignee shape, and the
+			// ODRL-idiomatic pattern DefaultPolicyArbiter's resolveRulePartyContext() treats as
+			// supported (scope a rule to parties matching a refinement, no external source lookup).
+			// source is optional, so this shape is schema-valid.
+			const sourceLessPartyCollection = {
+				refinement: {
+					leftOperand: "twin:jsonPath",
+					"twin:jsonPathExpression": "$.role",
+					operator: OdrlOperatorType.Eq,
+					rightOperand: "BorderAgency"
+				}
+			};
+
+			const result = await JsonSchemaHelper.validate(schema, sourceLessPartyCollection);
+			expect(result.length).toBe(0);
+		});
+
+		it("still accepts a source-bearing PartyCollection", async () => {
+			// source remains a valid, optional property at the schema level - DefaultPolicyArbiter's
+			// own runtime rejection of this shape (partyCollectionSourceNotSupported) is a separate,
+			// arbiter-level business rule, not something the schema itself should also enforce.
+			const sourceBearingPartyCollection = {
+				source: "https://example.com/parties/group-a"
+			};
+
+			const result = await JsonSchemaHelper.validate(schema, sourceBearingPartyCollection);
+			expect(result.length).toBe(0);
+		});
+
+		it("accepts a PartyCollection with neither source nor refinement", async () => {
+			// A distinct, named case per components.md's "Party Scoping" section: a party entry with
+			// neither a resolvable id nor a refinement falls back to the ordinary id-matching path at
+			// the arbiter level (fail-closed, denies on an empty id list). That is DefaultPolicyArbiter's
+			// own business rule, not something the schema itself should also enforce - the schema only
+			// needs to confirm this shape is structurally valid, which it is, since neither property is
+			// required.
+			const emptyPartyCollection = {};
+
+			const result = await JsonSchemaHelper.validate(schema, emptyPartyCollection);
+			expect(result.length).toBe(0);
+		});
+
+		it("rejects a PartyCollection whose source is not a string", async () => {
+			// Regression guard for the exact property this fix touched: making source optional must
+			// not loosen its own type constraint.
+			const wrongTypeSourcePartyCollection = {
+				source: 123
+			};
+
+			const result = await JsonSchemaHelper.validate(schema, wrongTypeSourcePartyCollection);
+			expect(result.length).toBeGreaterThan(0);
+		});
+	});
 });

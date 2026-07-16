@@ -2,7 +2,7 @@
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
 	"$id": "https://schema.twindev.org/dataspace-protocol/DataspaceProtocolAuth",
 	"title": "DataspaceProtocolAuth",
-	"description": "Interface for the authentication descriptor on a versioned Dataspace Protocol endpoint.\nDescribes the authentication mechanism required to call the versioned endpoint (not for the\nunauthenticated /.well-known/dspace-version discovery endpoint itself).",
+	"description": "Interface for the authentication descriptor on a versioned Dataspace Protocol endpoint.\nDescribes the authentication mechanism required to call the versioned endpoint.",
 	"type": "object",
 	"properties": {
 		"protocol": {

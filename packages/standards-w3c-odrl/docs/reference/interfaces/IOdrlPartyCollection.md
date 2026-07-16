@@ -78,12 +78,13 @@ the assigner functional role of all the Rules of that Policy.
 
 ***
 
-### source {#source}
+### source? {#source}
 
-> **source**: `string`
+> `optional` **source?**: `string`
 
 Reference to the source of the party collection.
 Used to identify the origin or location of the collection.
+Omit to scope the collection entirely by its refinement instead.
 
 ***
 
