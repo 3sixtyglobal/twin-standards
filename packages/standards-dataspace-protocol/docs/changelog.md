@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.9.1-next.3](https://github.com/iotaledger/twin-standards/compare/standards-dataspace-protocol-v0.9.1-next.2...standards-dataspace-protocol-v0.9.1-next.3) (2026-07-16)
+
+
+### Bug Fixes
+
+* make IOdrlPartyCollection.source optional to match supported usage ([#256](https://github.com/iotaledger/twin-standards/issues/256)) ([866111b](https://github.com/iotaledger/twin-standards/commit/866111b6870533b414a83ef2b285ab81a9447065))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.9.1-next.2 to 0.9.1-next.3
+    * @twin.org/standards-w3c-odrl bumped from 0.9.1-next.2 to 0.9.1-next.3
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.9.1-next.2 to 0.9.1-next.3
+
 ## [0.9.1-next.2](https://github.com/iotaledger/twin-standards/compare/standards-dataspace-protocol-v0.9.1-next.1...standards-dataspace-protocol-v0.9.1-next.2) (2026-06-26)
 
 
