@@ -87,7 +87,9 @@ export abstract class DataspaceProtocolHelper {
 			? DataspaceProtocolContexts.Context
 			: DataspaceProtocolContexts.JsonLdContext;
 
-		const compactedObject = await JsonLdProcessor.compact(annotatedObject, [contextToUse]);
+		const compactedObject = await JsonLdProcessor.compact(annotatedObject, [contextToUse], {
+			compactArrays: false
+		});
 
 		if (!Is.array(compactedObject["@context"])) {
 			ObjectHelper.propertySet(compactedObject, "@context", [
