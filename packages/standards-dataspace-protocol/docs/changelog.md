@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.9.1-next.4](https://github.com/iotaledger/twin-standards/compare/standards-dataspace-protocol-v0.9.1-next.3...standards-dataspace-protocol-v0.9.1-next.4) (2026-07-20)
+
+
+### Bug Fixes
+
+* normalize disable array compaction ([#259](https://github.com/iotaledger/twin-standards/issues/259)) ([01143b0](https://github.com/iotaledger/twin-standards/commit/01143b037714b5e6e8c32637bcb23ee35d36cc2d))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.9.1-next.3 to 0.9.1-next.4
+    * @twin.org/standards-w3c-odrl bumped from 0.9.1-next.3 to 0.9.1-next.4
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.9.1-next.3 to 0.9.1-next.4
+
 ## [0.9.1-next.3](https://github.com/iotaledger/twin-standards/compare/standards-dataspace-protocol-v0.9.1-next.2...standards-dataspace-protocol-v0.9.1-next.3) (2026-07-16)
 
 

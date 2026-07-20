@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.9.1-next.4](https://github.com/iotaledger/twin-standards/compare/standards-schema-org-v0.9.1-next.3...standards-schema-org-v0.9.1-next.4) (2026-07-20)
+
+
+### Miscellaneous Chores
+
+* **standards-schema-org:** Synchronize repo versions
+
 ## [0.9.1-next.3](https://github.com/iotaledger/twin-standards/compare/standards-schema-org-v0.9.1-next.2...standards-schema-org-v0.9.1-next.3) (2026-07-16)
 
 

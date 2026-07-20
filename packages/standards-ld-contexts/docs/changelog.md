@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.9.1-next.4](https://github.com/iotaledger/twin-standards/compare/standards-ld-contexts-v0.9.1-next.3...standards-ld-contexts-v0.9.1-next.4) (2026-07-20)
+
+
+### Miscellaneous Chores
+
+* **standards-ld-contexts:** Synchronize repo versions
+
 ## [0.9.1-next.3](https://github.com/iotaledger/twin-standards/compare/standards-ld-contexts-v0.9.1-next.2...standards-ld-contexts-v0.9.1-next.3) (2026-07-16)
 
 
