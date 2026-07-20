@@ -15,9 +15,10 @@ export interface IOdrlAssetCollection extends IOdrlAsset {
 	/**
 	 * Reference to the source of the asset collection.
 	 * Must be an IRI that references the AssetCollection.
+	 * Omit to scope the collection entirely by its refinement instead.
 	 * @json-schema format:uri
 	 */
-	source: string;
+	source?: string;
 
 	/**
 	 * Refinements applied to the asset collection.

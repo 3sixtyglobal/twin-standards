@@ -63,12 +63,13 @@ Used to identify the Policy that governs this Asset.
 
 ***
 
-### source {#source}
+### source? {#source}
 
-> **source**: `string`
+> `optional` **source?**: `string`
 
 Reference to the source of the asset collection.
 Must be an IRI that references the AssetCollection.
+Omit to scope the collection entirely by its refinement instead.
 
 ***
 
