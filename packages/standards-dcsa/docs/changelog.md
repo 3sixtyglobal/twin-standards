@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.9.1-next.5](https://github.com/iotaledger/twin-standards/compare/standards-dcsa-v0.9.1-next.4...standards-dcsa-v0.9.1-next.5) (2026-07-20)
+
+
+### Miscellaneous Chores
+
+* **standards-dcsa:** Synchronize repo versions
+
 ## [0.9.1-next.4](https://github.com/iotaledger/twin-standards/compare/standards-dcsa-v0.9.1-next.3...standards-dcsa-v0.9.1-next.4) (2026-07-20)
 
 

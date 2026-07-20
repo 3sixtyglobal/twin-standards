@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.9.1-next.5](https://github.com/iotaledger/twin-standards/compare/standards-w3c-odrl-v0.9.1-next.4...standards-w3c-odrl-v0.9.1-next.5) (2026-07-20)
+
+
+### Bug Fixes
+
+* make IOdrlAssetCollection.source optional per W3C ODRL spec ([#261](https://github.com/iotaledger/twin-standards/issues/261)) ([bf26e61](https://github.com/iotaledger/twin-standards/commit/bf26e6107d7a37168debfbe8eb7f5833a53f80bc))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-vcard bumped from 0.9.1-next.4 to 0.9.1-next.5
+    * @twin.org/standards-dublin-core bumped from 0.9.1-next.4 to 0.9.1-next.5
+
 ## [0.9.1-next.4](https://github.com/iotaledger/twin-standards/compare/standards-w3c-odrl-v0.9.1-next.3...standards-w3c-odrl-v0.9.1-next.4) (2026-07-20)
 
 
