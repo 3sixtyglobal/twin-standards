@@ -5,7 +5,7 @@ import {
 	LD_CONTEXTS,
 	addAllContextsToDocumentCache,
 	addContextToDocumentCache
-} from "../src/index.js";
+} from "../src/ldContexts.js";
 
 describe("standards-ld-contexts", () => {
 	test("LD_CONTEXTS contains expected well-known context URLs", () => {

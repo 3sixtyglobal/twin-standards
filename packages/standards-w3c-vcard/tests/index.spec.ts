@@ -1,6 +1,7 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import { VCardContexts, VCardPropertyType } from "../src/index.js";
+import { VCardContexts } from "../src/models/vcardContexts.js";
+import { VCardPropertyType } from "../src/models/vcardTypes.js";
 
 describe("VCard", () => {
 	it("should have correct context", () => {

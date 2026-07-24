@@ -11,16 +11,14 @@ import {
 	DcatDataTypes
 } from "@twin.org/standards-w3c-dcat";
 import { OdrlDataTypes } from "@twin.org/standards-w3c-odrl";
-import {
-	DataspaceProtocolCatalogTypes,
-	DataspaceProtocolContexts,
-	DataspaceProtocolDataTypes,
-	type IDataspaceProtocolCatalogRequestMessage,
-	type IDataspaceProtocolDatasetRequestMessage,
-	type IDataspaceProtocolCatalogError,
-	type IDataspaceProtocolTransferProcess,
-	DataspaceProtocolTransferProcessStateType
-} from "../src/index.js";
+import { DataspaceProtocolDataTypes } from "../src/dataTypes/dataspaceProtocolDataTypes.js";
+import { DataspaceProtocolCatalogTypes } from "../src/models/catalog/dataspaceProtocolCatalogTypes.js";
+import type { IDataspaceProtocolCatalogError } from "../src/models/catalog/IDataspaceProtocolCatalogError.js";
+import type { IDataspaceProtocolCatalogRequestMessage } from "../src/models/catalog/IDataspaceProtocolCatalogRequestMessage.js";
+import type { IDataspaceProtocolDatasetRequestMessage } from "../src/models/catalog/IDataspaceProtocolDatasetRequestMessage.js";
+import { DataspaceProtocolContexts } from "../src/models/dataspaceProtocolContexts.js";
+import type { IDataspaceProtocolTransferProcess } from "../src/models/transferProcess/IDataspaceProtocolTransferProcess.js";
+import { DataspaceProtocolTransferProcessStateType } from "../src/models/transferProcess/types/dataspaceProtocolTransferProcessStateType.js";
 
 describe("Dataspace Protocol", () => {
 	beforeAll(async () => {

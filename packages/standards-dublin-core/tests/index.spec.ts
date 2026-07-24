@@ -1,6 +1,7 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import { DublinCoreContexts, DublinCorePropertyType } from "../src/index.js";
+import { DublinCoreContexts } from "../src/models/dublinCoreContexts.js";
+import { DublinCorePropertyType } from "../src/models/dublinCorePropertyType.js";
 
 describe("Dublin Core", () => {
 	it("should have correct namespace", () => {

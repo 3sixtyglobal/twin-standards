@@ -8,19 +8,17 @@ import { FoafContexts } from "@twin.org/standards-foaf";
 import { addAllContextsToDocumentCache } from "@twin.org/standards-ld-contexts";
 import { VCardContexts } from "@twin.org/standards-w3c-vcard";
 import { DcatDataTypes } from "../src/dataTypes/dcatDataTypes.js";
-import {
-	DcatClasses,
-	type IDcatCatalog,
-	type IDcatCatalogRecord,
-	type IDcatDataService,
-	type IDcatDataset,
-	type IDcatDatasetSeries,
-	type IDcatDistribution,
-	type IDcatRelationship,
-	type IDcatRole
-} from "../src/index.js";
+import { DcatClasses } from "../src/models/dcatClasses.js";
 import { DcatContexts } from "../src/models/dcatContexts.js";
+import type { IDcatCatalog } from "../src/models/IDcatCatalog.js";
+import type { IDcatCatalogRecord } from "../src/models/IDcatCatalogRecord.js";
+import type { IDcatDataService } from "../src/models/IDcatDataService.js";
+import type { IDcatDataset } from "../src/models/IDcatDataset.js";
+import type { IDcatDatasetSeries } from "../src/models/IDcatDatasetSeries.js";
+import type { IDcatDistribution } from "../src/models/IDcatDistribution.js";
+import type { IDcatRelationship } from "../src/models/IDcatRelationship.js";
 import type { IDcatResource } from "../src/models/IDcatResource.js";
+import type { IDcatRole } from "../src/models/IDcatRole.js";
 
 describe("DCAT Interfaces and Schemas", () => {
 	beforeAll(async () => {
