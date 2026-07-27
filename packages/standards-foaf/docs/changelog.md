@@ -1,5 +1,54 @@
 # Changelog
 
+## [0.9.1-next.5](https://github.com/iotaledger/twin-standards/compare/standards-foaf-v0.9.1-next.4...standards-foaf-v0.9.1-next.5) (2026-07-20)
+
+
+### Miscellaneous Chores
+
+* **standards-foaf:** Synchronize repo versions
+
+## [0.9.1-next.4](https://github.com/iotaledger/twin-standards/compare/standards-foaf-v0.9.1-next.3...standards-foaf-v0.9.1-next.4) (2026-07-20)
+
+
+### Miscellaneous Chores
+
+* **standards-foaf:** Synchronize repo versions
+
+## [0.9.1-next.3](https://github.com/iotaledger/twin-standards/compare/standards-foaf-v0.9.1-next.2...standards-foaf-v0.9.1-next.3) (2026-07-16)
+
+
+### Miscellaneous Chores
+
+* **standards-foaf:** Synchronize repo versions
+
+## [0.9.1-next.2](https://github.com/iotaledger/twin-standards/compare/standards-foaf-v0.9.1-next.1...standards-foaf-v0.9.1-next.2) (2026-06-26)
+
+
+### Miscellaneous Chores
+
+* **standards-foaf:** Synchronize repo versions
+
+## [0.9.1-next.1](https://github.com/iotaledger/twin-standards/compare/standards-foaf-v0.9.1-next.0...standards-foaf-v0.9.1-next.1) (2026-06-26)
+
+
+### Features
+
+* add w3c dcat standards package ([#68](https://github.com/iotaledger/twin-standards/issues/68)) ([85746c6](https://github.com/iotaledger/twin-standards/commit/85746c673464498a52e9c30ce498fd88b81a7434))
+* improve caching ([#196](https://github.com/iotaledger/twin-standards/issues/196)) ([968e61a](https://github.com/iotaledger/twin-standards/commit/968e61a04156a22cf5ffc3ba237a42a81ec2e0c1))
+* improved namespaces and contexts ([#102](https://github.com/iotaledger/twin-standards/issues/102)) ([c74c370](https://github.com/iotaledger/twin-standards/commit/c74c370cd8145d6166ca4454353f3774c302ac3b))
+* register schemas at hosted location ([#128](https://github.com/iotaledger/twin-standards/issues/128)) ([ab35298](https://github.com/iotaledger/twin-standards/commit/ab35298c812d69f043f69c35ab5aa1ac4a6aaa90))
+* remove IJsonLdNodeObject base interfaces ([#172](https://github.com/iotaledger/twin-standards/issues/172)) ([8ff8d7a](https://github.com/iotaledger/twin-standards/commit/8ff8d7a2892d626879b76ba5da912469ff899954))
+* typescript 6 update ([79bfb52](https://github.com/iotaledger/twin-standards/commit/79bfb52e3dcb24689cec7b201dde822bcee970c5))
+* update dependencies ([e422ed3](https://github.com/iotaledger/twin-standards/commit/e422ed351fb09e2deea5ef741326c37b0802af3a))
+* update schemas to support additional properties ([4679e21](https://github.com/iotaledger/twin-standards/commit/4679e21728a54cb587f120874841c3d1ed3771de))
+* update to new ts-ts-schema and generic constructs ([4dff991](https://github.com/iotaledger/twin-standards/commit/4dff991fb70de4320668641ed94abf8e9b06acad))
+* update type names ([#89](https://github.com/iotaledger/twin-standards/issues/89)) ([6fdef47](https://github.com/iotaledger/twin-standards/commit/6fdef4792151f89d1a95a07da8309d05a7b6de3d))
+
+
+### Bug Fixes
+
+* updating the missing packages ([#114](https://github.com/iotaledger/twin-standards/issues/114)) ([90b03f8](https://github.com/iotaledger/twin-standards/commit/90b03f8bdcd81506284d74a445840386c2da2d35))
+
 ## [0.9.0](https://github.com/iotaledger/twin-standards/compare/standards-foaf-v0.9.0...standards-foaf-v0.9.0) (2026-06-23)
 
 

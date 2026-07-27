@@ -6,6 +6,7 @@
 - [ContractNegotiationDataTypes](classes/ContractNegotiationDataTypes.md)
 - [DataspaceProtocolDataTypes](classes/DataspaceProtocolDataTypes.md)
 - [TransferProcessDataTypes](classes/TransferProcessDataTypes.md)
+- [VersionDataTypes](classes/VersionDataTypes.md)
 - [DataspaceProtocolHelper](classes/DataspaceProtocolHelper.md)
 
 ## Interfaces
@@ -43,6 +44,9 @@
 - [IDataspaceProtocolTransferStartMessage](interfaces/IDataspaceProtocolTransferStartMessage.md)
 - [IDataspaceProtocolTransferSuspensionMessage](interfaces/IDataspaceProtocolTransferSuspensionMessage.md)
 - [IDataspaceProtocolTransferTerminationMessage](interfaces/IDataspaceProtocolTransferTerminationMessage.md)
+- [IDataspaceProtocolAuth](interfaces/IDataspaceProtocolAuth.md)
+- [IDataspaceProtocolVersion](interfaces/IDataspaceProtocolVersion.md)
+- [IDataspaceProtocolVersionResponse](interfaces/IDataspaceProtocolVersionResponse.md)
 
 ## Type Aliases
 
@@ -55,6 +59,8 @@
 - [DataspaceProtocolTransferProcessTypes](type-aliases/DataspaceProtocolTransferProcessTypes.md)
 - [DataspaceProtocolEndpointType](type-aliases/DataspaceProtocolEndpointType.md)
 - [DataspaceProtocolTransferProcessStateType](type-aliases/DataspaceProtocolTransferProcessStateType.md)
+- [DataspaceProtocolVersionTypes](type-aliases/DataspaceProtocolVersionTypes.md)
+- [DataspaceProtocolVersionBindingType](type-aliases/DataspaceProtocolVersionBindingType.md)
 
 ## Variables
 
@@ -66,3 +72,5 @@
 - [DataspaceProtocolTransferProcessTypes](variables/DataspaceProtocolTransferProcessTypes.md)
 - [DataspaceProtocolEndpointType](variables/DataspaceProtocolEndpointType.md)
 - [DataspaceProtocolTransferProcessStateType](variables/DataspaceProtocolTransferProcessStateType.md)
+- [DataspaceProtocolVersionTypes](variables/DataspaceProtocolVersionTypes.md)
+- [DataspaceProtocolVersionBindingType](variables/DataspaceProtocolVersionBindingType.md)

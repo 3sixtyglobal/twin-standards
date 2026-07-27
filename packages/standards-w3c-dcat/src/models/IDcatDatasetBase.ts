@@ -19,9 +19,7 @@ export interface IDcatDatasetBase extends IDcatResourceBase {
 	 * Can also be "Catalog" or "DatasetSeries" for subclasses.
 	 */
 	"@type":
-		| typeof DcatClasses.Dataset
-		| typeof DcatClasses.Catalog
-		| typeof DcatClasses.DatasetSeries;
+		typeof DcatClasses.Dataset | typeof DcatClasses.Catalog | typeof DcatClasses.DatasetSeries;
 
 	/**
 	 * An available distribution of the dataset.

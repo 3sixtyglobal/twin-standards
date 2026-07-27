@@ -1777,4 +1777,141 @@ describe("OdrlDataTypes Validation", () => {
 			expect(result.length).toBe(testCase.expect);
 		}
 	});
+
+	describe("PartyCollection.source optionality", () => {
+		let schema: IJsonSchema;
+
+		beforeAll(async () => {
+			const typeKey = `${OdrlContexts.Namespace}${OdrlTypes.PartyCollection}`;
+			const handler = DataTypeHandlerFactory.get(typeKey);
+			expect(handler).toBeDefined();
+			expect(handler?.jsonSchema).toBeDefined();
+
+			const resolvedSchema = await handler?.jsonSchema?.();
+			expect(resolvedSchema).toBeDefined();
+			schema = resolvedSchema as IJsonSchema;
+		});
+
+		it("accepts a source-less, refinement-only PartyCollection", async () => {
+			// Mirrors twin-supply-chain's real isn-notify-template.json assignee shape, and the
+			// ODRL-idiomatic pattern DefaultPolicyArbiter's resolveRulePartyContext() treats as
+			// supported (scope a rule to parties matching a refinement, no external source lookup).
+			// source is optional, so this shape is schema-valid.
+			const sourceLessPartyCollection = {
+				refinement: {
+					leftOperand: "twin:jsonPath",
+					"twin:jsonPathExpression": "$.role",
+					operator: OdrlOperatorType.Eq,
+					rightOperand: "BorderAgency"
+				}
+			};
+
+			const result = await JsonSchemaHelper.validate(schema, sourceLessPartyCollection);
+			expect(result.length).toBe(0);
+		});
+
+		it("still accepts a source-bearing PartyCollection", async () => {
+			// source remains a valid, optional property at the schema level - DefaultPolicyArbiter's
+			// own runtime rejection of this shape (partyCollectionSourceNotSupported) is a separate,
+			// arbiter-level business rule, not something the schema itself should also enforce.
+			const sourceBearingPartyCollection = {
+				source: "https://example.com/parties/group-a"
+			};
+
+			const result = await JsonSchemaHelper.validate(schema, sourceBearingPartyCollection);
+			expect(result.length).toBe(0);
+		});
+
+		it("accepts a PartyCollection with neither source nor refinement", async () => {
+			// A distinct, named case per components.md's "Party Scoping" section: a party entry with
+			// neither a resolvable id nor a refinement falls back to the ordinary id-matching path at
+			// the arbiter level (fail-closed, denies on an empty id list). That is DefaultPolicyArbiter's
+			// own business rule, not something the schema itself should also enforce - the schema only
+			// needs to confirm this shape is structurally valid, which it is, since neither property is
+			// required.
+			const emptyPartyCollection = {};
+
+			const result = await JsonSchemaHelper.validate(schema, emptyPartyCollection);
+			expect(result.length).toBe(0);
+		});
+
+		it("rejects a PartyCollection whose source is not a string", async () => {
+			// Regression guard for the exact property this fix touched: making source optional must
+			// not loosen its own type constraint.
+			const wrongTypeSourcePartyCollection = {
+				source: 123
+			};
+
+			const result = await JsonSchemaHelper.validate(schema, wrongTypeSourcePartyCollection);
+			expect(result.length).toBeGreaterThan(0);
+		});
+	});
+
+	describe("AssetCollection.source optionality", () => {
+		let schema: IJsonSchema;
+
+		beforeAll(async () => {
+			const typeKey = `${OdrlContexts.Namespace}${OdrlTypes.AssetCollection}`;
+			const handler = DataTypeHandlerFactory.get(typeKey);
+			expect(handler).toBeDefined();
+			expect(handler?.jsonSchema).toBeDefined();
+
+			const resolvedSchema = await handler?.jsonSchema?.();
+			expect(resolvedSchema).toBeDefined();
+			schema = resolvedSchema as IJsonSchema;
+		});
+
+		it("accepts a source-less, refinement-only AssetCollection", async () => {
+			// Mirrors UC2's real policy.json shape but without source. This test only asserts schema
+			// optionality: per the W3C ODRL spec, AssetCollection MAY have one `source`, so this
+			// refinement-only shape is structurally valid when `source` is omitted.
+			// Runtime support for source-less AssetCollection targets is handled outside this package.
+			const sourceLessAssetCollection = {
+				refinement: {
+					leftOperand: "twin:jsonPath",
+					"twin:jsonPathExpression": "$.consignments[*].destinationCountry",
+					operator: OdrlOperatorType.Eq,
+					rightOperand: "GB"
+				}
+			};
+
+			const result = await JsonSchemaHelper.validate(schema, sourceLessAssetCollection);
+			expect(result.length).toBe(0);
+		});
+
+		it("still accepts a source-bearing AssetCollection", async () => {
+			// source remains a valid, optional property at the schema level - DefaultPolicyArbiter's
+			// own rejection of any source value other than "twin:jsonPath" is a separate, arbiter-level
+			// business rule, not something the schema itself should also enforce.
+			const sourceBearingAssetCollection = {
+				source: "twin:jsonPath",
+				"twin:jsonPathExpression": "$.consignments[*]"
+			};
+
+			const result = await JsonSchemaHelper.validate(schema, sourceBearingAssetCollection);
+			expect(result.length).toBe(0);
+		});
+
+		it("accepts an AssetCollection with neither source nor refinement", async () => {
+			// A distinct, named shape: no external source, no member-level refinement. Structurally
+			// valid at the schema level, since neither property is required - DefaultPolicyArbiter's
+			// own handling of this shape (target = the collection as a whole, no expansion) is a
+			// separate, arbiter-level concern.
+			const emptyAssetCollection = {};
+
+			const result = await JsonSchemaHelper.validate(schema, emptyAssetCollection);
+			expect(result.length).toBe(0);
+		});
+
+		it("rejects an AssetCollection whose source is not a string", async () => {
+			// Regression guard for the exact property this fix touched: making source optional must
+			// not loosen its own type constraint.
+			const wrongTypeSourceAssetCollection = {
+				source: 123
+			};
+
+			const result = await JsonSchemaHelper.validate(schema, wrongTypeSourceAssetCollection);
+			expect(result.length).toBeGreaterThan(0);
+		});
+	});
 });

@@ -7,5 +7,4 @@ import type { IDidVerifiablePresentationV2 } from "./IDidVerifiablePresentationV
  * Interface describing a verifiable presentation.
  */
 export type IDidVerifiablePresentation =
-	| IDidVerifiablePresentationV1
-	| IDidVerifiablePresentationV2;
+	IDidVerifiablePresentationV1 | IDidVerifiablePresentationV2;

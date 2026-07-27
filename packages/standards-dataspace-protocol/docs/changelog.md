@@ -1,5 +1,143 @@
 # Changelog
 
+## [0.9.1-next.5](https://github.com/iotaledger/twin-standards/compare/standards-dataspace-protocol-v0.9.1-next.4...standards-dataspace-protocol-v0.9.1-next.5) (2026-07-20)
+
+
+### Miscellaneous Chores
+
+* **standards-dataspace-protocol:** Synchronize repo versions
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.9.1-next.4 to 0.9.1-next.5
+    * @twin.org/standards-w3c-odrl bumped from 0.9.1-next.4 to 0.9.1-next.5
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.9.1-next.4 to 0.9.1-next.5
+
+## [0.9.1-next.4](https://github.com/iotaledger/twin-standards/compare/standards-dataspace-protocol-v0.9.1-next.3...standards-dataspace-protocol-v0.9.1-next.4) (2026-07-20)
+
+
+### Bug Fixes
+
+* normalize disable array compaction ([#259](https://github.com/iotaledger/twin-standards/issues/259)) ([01143b0](https://github.com/iotaledger/twin-standards/commit/01143b037714b5e6e8c32637bcb23ee35d36cc2d))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.9.1-next.3 to 0.9.1-next.4
+    * @twin.org/standards-w3c-odrl bumped from 0.9.1-next.3 to 0.9.1-next.4
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.9.1-next.3 to 0.9.1-next.4
+
+## [0.9.1-next.3](https://github.com/iotaledger/twin-standards/compare/standards-dataspace-protocol-v0.9.1-next.2...standards-dataspace-protocol-v0.9.1-next.3) (2026-07-16)
+
+
+### Bug Fixes
+
+* make IOdrlPartyCollection.source optional to match supported usage ([#256](https://github.com/iotaledger/twin-standards/issues/256)) ([866111b](https://github.com/iotaledger/twin-standards/commit/866111b6870533b414a83ef2b285ab81a9447065))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.9.1-next.2 to 0.9.1-next.3
+    * @twin.org/standards-w3c-odrl bumped from 0.9.1-next.2 to 0.9.1-next.3
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.9.1-next.2 to 0.9.1-next.3
+
+## [0.9.1-next.2](https://github.com/iotaledger/twin-standards/compare/standards-dataspace-protocol-v0.9.1-next.1...standards-dataspace-protocol-v0.9.1-next.2) (2026-06-26)
+
+
+### Features
+
+* update components ([5fab18c](https://github.com/iotaledger/twin-standards/commit/5fab18c34d42d544353f9af2ec3bb86b518432e6))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.9.1-next.1 to 0.9.1-next.2
+    * @twin.org/standards-w3c-odrl bumped from 0.9.1-next.1 to 0.9.1-next.2
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.9.1-next.1 to 0.9.1-next.2
+
+## [0.9.1-next.1](https://github.com/iotaledger/twin-standards/compare/standards-dataspace-protocol-v0.9.1-next.0...standards-dataspace-protocol-v0.9.1-next.1) (2026-06-26)
+
+
+### Features
+
+* add context id features ([#64](https://github.com/iotaledger/twin-standards/issues/64)) ([e68bb87](https://github.com/iotaledger/twin-standards/commit/e68bb87a215f3c3956cfd6400a5e1e2a16256085))
+* add dataspace protocol dataset ([06b2180](https://github.com/iotaledger/twin-standards/commit/06b21803551bef6c4c9fba488d672323b22ee54e))
+* add dataspace protocol dataset ([26d9031](https://github.com/iotaledger/twin-standards/commit/26d9031e18667b6e6c4395323522e4b56fcc0356))
+* add ds protocol catalog dataset ([#86](https://github.com/iotaledger/twin-standards/issues/86)) ([45600e6](https://github.com/iotaledger/twin-standards/commit/45600e6cba212d85e250cb12cbdcb712d8db0e52))
+* add dsp version types ([#250](https://github.com/iotaledger/twin-standards/issues/250)) ([a11b419](https://github.com/iotaledger/twin-standards/commit/a11b4190cfb090e5bb6c76e4b9fbcfb8e9b48e5f))
+* add HttpPushActivityStreamFormat and HttpPostActivityStreamForm at constants ([#216](https://github.com/iotaledger/twin-standards/issues/216)) ([33ef63f](https://github.com/iotaledger/twin-standards/commit/33ef63f85aec153365a1880fdacf14d379c0a513))
+* add missing const modifiers for enum const ([0f40483](https://github.com/iotaledger/twin-standards/commit/0f40483395b5d214ae7a80ff0f17991ee11acdea))
+* add missing const modifiers for enum const ([7e66eaf](https://github.com/iotaledger/twin-standards/commit/7e66eaff416654c6f71efd86c65557f7dcb55de1))
+* adding twin protocol endpoins constants ([#133](https://github.com/iotaledger/twin-standards/issues/133)) ([3592c81](https://github.com/iotaledger/twin-standards/commit/3592c811c368b23046ef8b60f6cca0eb8356ad87))
+* ds protocol - data transfer ([#77](https://github.com/iotaledger/twin-standards/issues/77)) ([1bf0375](https://github.com/iotaledger/twin-standards/commit/1bf03750c74daaa0eb133b03927a0f40eb27a1e3))
+* fixes in dataspace and odrl ([9924f91](https://github.com/iotaledger/twin-standards/commit/9924f9135cb6e227e1040065ab017b1c7ef8347a))
+* implement Dataspace Protocol Objects ([#73](https://github.com/iotaledger/twin-standards/issues/73)) ([2505495](https://github.com/iotaledger/twin-standards/commit/2505495c03b54a6606a775d7f2211308372c7cc6))
+* improve caching ([#196](https://github.com/iotaledger/twin-standards/issues/196)) ([968e61a](https://github.com/iotaledger/twin-standards/commit/968e61a04156a22cf5ffc3ba237a42a81ec2e0c1))
+* improved ds protocol schemas ([ed0abe0](https://github.com/iotaledger/twin-standards/commit/ed0abe0eb5c25da0c837bc39061419c1f3ccbb6d))
+* improved namespaces and contexts ([#102](https://github.com/iotaledger/twin-standards/issues/102)) ([c74c370](https://github.com/iotaledger/twin-standards/commit/c74c370cd8145d6166ca4454353f3774c302ac3b))
+* missing ds protocol schemas ([d47e3ed](https://github.com/iotaledger/twin-standards/commit/d47e3ed30daa6f7857da3b7813f239118bb2ad46))
+* naming fixing and usage ([#98](https://github.com/iotaledger/twin-standards/issues/98)) ([9e95344](https://github.com/iotaledger/twin-standards/commit/9e953440963c9bc028399be9cbea25d92922bd01))
+* register schemas at hosted location ([#128](https://github.com/iotaledger/twin-standards/issues/128)) ([ab35298](https://github.com/iotaledger/twin-standards/commit/ab35298c812d69f043f69c35ab5aa1ac4a6aaa90))
+* remove IJsonLdNodeObject base interfaces ([#172](https://github.com/iotaledger/twin-standards/issues/172)) ([8ff8d7a](https://github.com/iotaledger/twin-standards/commit/8ff8d7a2892d626879b76ba5da912469ff899954))
+* remove ObjectOrArray usage ([61fd52d](https://github.com/iotaledger/twin-standards/commit/61fd52da035356bbe5bcc315367089405b4d1386))
+* restore [@id](https://github.com/id) on hasPolicy Offer type ([#177](https://github.com/iotaledger/twin-standards/issues/177)) ([4b0e4f0](https://github.com/iotaledger/twin-standards/commit/4b0e4f08ec931584e559ed0b2c04b1daec73a872))
+* typescript 6 update ([79bfb52](https://github.com/iotaledger/twin-standards/commit/79bfb52e3dcb24689cec7b201dde822bcee970c5))
+* update dependencies ([e422ed3](https://github.com/iotaledger/twin-standards/commit/e422ed351fb09e2deea5ef741326c37b0802af3a))
+* update ds and dcat generated schemas ([efc333e](https://github.com/iotaledger/twin-standards/commit/efc333e00bb7af828fd005484d0e28204776d948))
+* update JsonSchemaHelper.validate usage ([fe08315](https://github.com/iotaledger/twin-standards/commit/fe0831571cc618465a4510b52c3032a750e6e149))
+* update registrations ([dd3c92f](https://github.com/iotaledger/twin-standards/commit/dd3c92f52ff44679f61ff2a84b9fbc98bdc574d5))
+* update schemas ([c3c11e0](https://github.com/iotaledger/twin-standards/commit/c3c11e07da6c0d3eac5ea4a68e3ad57f022b2351))
+* update schemas to support additional properties ([4679e21](https://github.com/iotaledger/twin-standards/commit/4679e21728a54cb587f120874841c3d1ed3771de))
+* update schemas with new enum format ([4851603](https://github.com/iotaledger/twin-standards/commit/4851603f26910fafd7fe22b46533814dba3b041c))
+* update to new ts-ts-schema and generic constructs ([4dff991](https://github.com/iotaledger/twin-standards/commit/4dff991fb70de4320668641ed94abf8e9b06acad))
+* update type names ([#89](https://github.com/iotaledger/twin-standards/issues/89)) ([6fdef47](https://github.com/iotaledger/twin-standards/commit/6fdef4792151f89d1a95a07da8309d05a7b6de3d))
+* use local LD contexts in tests instead of remote ones ([#201](https://github.com/iotaledger/twin-standards/issues/201)) ([7d6c6ea](https://github.com/iotaledger/twin-standards/commit/7d6c6ea7b952fb9e2240ff252f8ce85c42d78985))
+* w3id endpoints constants added ([#131](https://github.com/iotaledger/twin-standards/issues/131)) ([5fe981a](https://github.com/iotaledger/twin-standards/commit/5fe981a6508bbf19886436cedb88c7044619e295))
+
+
+### Bug Fixes
+
+* adapting regex to fix the bad behavior ([#107](https://github.com/iotaledger/twin-standards/issues/107)) ([17ba814](https://github.com/iotaledger/twin-standards/commit/17ba8140b6356a1c4d5923c91a28a996f22af484))
+* context doc name ([e994ebc](https://github.com/iotaledger/twin-standards/commit/e994ebcd5d3b296b21a678716bf740c91e5899c3))
+* correct registration type for DS DCAT3 type ([04703df](https://github.com/iotaledger/twin-standards/commit/04703df048f56f6315bbd0bb73b7b6b62eb858a1))
+* dataspace array not singular as per spec ([#235](https://github.com/iotaledger/twin-standards/issues/235)) ([ff0fadf](https://github.com/iotaledger/twin-standards/commit/ff0fadf4087edd6837283b4837f1559bb51f7c45))
+* dcat LD Context fix and aligned with DCAT prefixed models ([#85](https://github.com/iotaledger/twin-standards/issues/85)) ([4546167](https://github.com/iotaledger/twin-standards/commit/4546167b1f61dba85206a64a8b2535f468d74845))
+* dcat resource optional context for policy ([#231](https://github.com/iotaledger/twin-standards/issues/231)) ([2dd5a55](https://github.com/iotaledger/twin-standards/commit/2dd5a553ec43f811bb9c4f65f0fff976d7074101))
+* documentation. ds protocol LD Context updated ([6e5203d](https://github.com/iotaledger/twin-standards/commit/6e5203d3115a257653181a5f0cddb9f380cf9a39))
+* DS Protocol LDContext ([931679d](https://github.com/iotaledger/twin-standards/commit/931679d6736acbe55efee5d1f542b923ac3875eb))
+* dspace protocol context ([769c758](https://github.com/iotaledger/twin-standards/commit/769c7583b11db681c1fde66713976112b7f12de8))
+* filter is array in catalog request (please merge after [#77](https://github.com/iotaledger/twin-standards/issues/77)) ([#78](https://github.com/iotaledger/twin-standards/issues/78)) ([72a234c](https://github.com/iotaledger/twin-standards/commit/72a234c6620466ac4a5aded677af7590ccf94077))
+* min items in dataspace protocol ([c94f8df](https://github.com/iotaledger/twin-standards/commit/c94f8dfae176b46baaade13a4ab6d3df82f0cffa))
+* omit context for dcat objects in dspace protocol ([#104](https://github.com/iotaledger/twin-standards/issues/104)) ([05004d4](https://github.com/iotaledger/twin-standards/commit/05004d40734a1e87473cb99c67e6c1c217cdf0c0))
+* remove uid from ds protocol offer ([ebd3ef8](https://github.com/iotaledger/twin-standards/commit/ebd3ef88aa0f90eaf8f826f84784db59d1f55da0))
+* removing typeof in the state of the IDataspaceProtocolTransferProcess model ([#94](https://github.com/iotaledger/twin-standards/issues/94)) ([2b9814e](https://github.com/iotaledger/twin-standards/commit/2b9814e4882a505a087455271782cd6d4ba5305d))
+* updating the missing packages ([#114](https://github.com/iotaledger/twin-standards/issues/114)) ([90b03f8](https://github.com/iotaledger/twin-standards/commit/90b03f8bdcd81506284d74a445840386c2da2d35))
+* use async getStore in tests ([c5f4d53](https://github.com/iotaledger/twin-standards/commit/c5f4d533d5c9726e0cff6711fe22edbf0fc4d746))
+* when a prefix is declared in an [@context](https://github.com/context) it should be Namespace and not Context ([#119](https://github.com/iotaledger/twin-standards/issues/119)) ([110cc50](https://github.com/iotaledger/twin-standards/commit/110cc5039394c7fcfada0e3ca001013cb503f31a))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.9.1-next.0 to 0.9.1-next.1
+    * @twin.org/standards-w3c-odrl bumped from 0.9.1-next.0 to 0.9.1-next.1
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.9.1-next.0 to 0.9.1-next.1
+
 ## [0.9.0](https://github.com/iotaledger/twin-standards/compare/standards-dataspace-protocol-v0.9.0...standards-dataspace-protocol-v0.9.0) (2026-06-23)
 
 

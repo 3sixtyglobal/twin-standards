@@ -1,6 +1,9 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import { DcatClasses, DcatContexts, DcatDataTypes, DcatRelationshipType } from "../src/index.js";
+import { DcatDataTypes } from "../src/dataTypes/dcatDataTypes.js";
+import { DcatClasses } from "../src/models/dcatClasses.js";
+import { DcatContexts } from "../src/models/dcatContexts.js";
+import { DcatRelationshipType } from "../src/models/dcatRelationshipTypes.js";
 
 describe("DCAT", () => {
 	describe("Contexts", () => {
