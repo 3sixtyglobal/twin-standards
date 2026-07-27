@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.9.1](https://github.com/iotaledger/twin-standards/compare/standards-w3c-did-v0.9.1...standards-w3c-did-v0.9.1) (2026-07-27)
+
+
+### Features
+
+* release to production ([2ae4125](https://github.com/iotaledger/twin-standards/commit/2ae4125f305d4714b50036eb8a0bd47e4100a7be))
+* release to production ([#246](https://github.com/iotaledger/twin-standards/issues/246)) ([6e6796b](https://github.com/iotaledger/twin-standards/commit/6e6796bd76aa70a9215eeb300ff479cde79368b8))
+* release to production ([#265](https://github.com/iotaledger/twin-standards/issues/265)) ([b7b7b00](https://github.com/iotaledger/twin-standards/commit/b7b7b002b37fb737129967b582e2aa7a2b6d1f86))
+
 ## [0.9.1-next.5](https://github.com/iotaledger/twin-standards/compare/standards-w3c-did-v0.9.1-next.4...standards-w3c-did-v0.9.1-next.5) (2026-07-20)
 
 
