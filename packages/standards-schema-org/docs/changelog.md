@@ -1,5 +1,34 @@
 # Changelog
 
+## [0.9.2-next.1](https://github.com/iotaledger/twin-standards/compare/standards-schema-org-v0.9.2-next.0...standards-schema-org-v0.9.2-next.1) (2026-08-07)
+
+
+### Features
+
+* add context id features ([#64](https://github.com/iotaledger/twin-standards/issues/64)) ([e68bb87](https://github.com/iotaledger/twin-standards/commit/e68bb87a215f3c3956cfd6400a5e1e2a16256085))
+* add ItemList, ItemListElement and NextItem types ([19d7baf](https://github.com/iotaledger/twin-standards/commit/19d7baf31a3e6385c68051da75835d917d134deb))
+* add ItemList, ItemListElement and NextItem types ([fb40e25](https://github.com/iotaledger/twin-standards/commit/fb40e25bd3552760452cc31d654d3f0596482ae9))
+* add validate-locales ([838389c](https://github.com/iotaledger/twin-standards/commit/838389c1daf62ed42397d5758d267c3d1a37fa4d))
+* adding a test to verify the link discovery ([#207](https://github.com/iotaledger/twin-standards/issues/207)) ([07b36a8](https://github.com/iotaledger/twin-standards/commit/07b36a85e5e7f7117cc59747242f7715640f070c))
+* data types registered with full qualified names ([d64bd08](https://github.com/iotaledger/twin-standards/commit/d64bd082084172da543e9bfaffb78cdc34e6641d))
+* eslint migration to flat config ([648c1a1](https://github.com/iotaledger/twin-standards/commit/648c1a1e69d99b6b0cf69358ec6bdeecdbe3a5ea))
+* improved namespaces and contexts ([#102](https://github.com/iotaledger/twin-standards/issues/102)) ([c74c370](https://github.com/iotaledger/twin-standards/commit/c74c370cd8145d6166ca4454353f3774c302ac3b))
+* linting and dependency update ([25c96f7](https://github.com/iotaledger/twin-standards/commit/25c96f7994c363d42c913fe18185a36003686a25))
+* normalise type outputs ([0b3aed7](https://github.com/iotaledger/twin-standards/commit/0b3aed7df0802cd609423bbd7fda6bde601d3ceb))
+* typescript 6 update ([79bfb52](https://github.com/iotaledger/twin-standards/commit/79bfb52e3dcb24689cec7b201dde822bcee970c5))
+* unused dependencies ([f8bc5bf](https://github.com/iotaledger/twin-standards/commit/f8bc5bfbccdc6036cbac9a3b3ff91e3de90c8a9b))
+* update dependencies ([e422ed3](https://github.com/iotaledger/twin-standards/commit/e422ed351fb09e2deea5ef741326c37b0802af3a))
+* update framework core ([58c0c3d](https://github.com/iotaledger/twin-standards/commit/58c0c3dd6cea0e4c2393dc0e3e1eb33a6d06f617))
+* update to latest JSON schema spec ([7a23930](https://github.com/iotaledger/twin-standards/commit/7a2393032d7f48bfb20d3a484f981fb6dd83a92c))
+* update to new ts-ts-schema and generic constructs ([4dff991](https://github.com/iotaledger/twin-standards/commit/4dff991fb70de4320668641ed94abf8e9b06acad))
+* use shared store mechanism ([#11](https://github.com/iotaledger/twin-standards/issues/11)) ([96fa237](https://github.com/iotaledger/twin-standards/commit/96fa23735f69c1fc7e3d0019b527634fa0a042d9))
+
+
+### Bug Fixes
+
+* modifying the schema of the namespace and adding the context ([#112](https://github.com/iotaledger/twin-standards/issues/112)) ([3fc06fc](https://github.com/iotaledger/twin-standards/commit/3fc06fcc4e76450499679b8bc12c361526c06146))
+* updating the missing packages ([#114](https://github.com/iotaledger/twin-standards/issues/114)) ([90b03f8](https://github.com/iotaledger/twin-standards/commit/90b03f8bdcd81506284d74a445840386c2da2d35))
+
 ## [0.9.1](https://github.com/iotaledger/twin-standards/compare/standards-schema-org-v0.9.1...standards-schema-org-v0.9.1) (2026-07-27)
 
 

@@ -1,5 +1,42 @@
 # Changelog
 
+## [0.9.2-next.1](https://github.com/iotaledger/twin-standards/compare/standards-ld-contexts-v0.9.2-next.0...standards-ld-contexts-v0.9.2-next.1) (2026-08-07)
+
+
+### Features
+
+* add context id features ([#64](https://github.com/iotaledger/twin-standards/issues/64)) ([e68bb87](https://github.com/iotaledger/twin-standards/commit/e68bb87a215f3c3956cfd6400a5e1e2a16256085))
+* add ds protocol catalog dataset ([#86](https://github.com/iotaledger/twin-standards/issues/86)) ([45600e6](https://github.com/iotaledger/twin-standards/commit/45600e6cba212d85e250cb12cbdcb712d8db0e52))
+* add extra ld contexts needed ([#17](https://github.com/iotaledger/twin-standards/issues/17)) ([d9f1be2](https://github.com/iotaledger/twin-standards/commit/d9f1be2a852f776cb3a8f00bb4dd631da0fe848e))
+* add ids contract negotiation types ([6225dde](https://github.com/iotaledger/twin-standards/commit/6225ddec9e845e3782e2944f30c771911855f165))
+* add ld-contexts package ([c361354](https://github.com/iotaledger/twin-standards/commit/c3613542c3dab5c37cc3d9869ea72eef86bc1ba1))
+* add validate-locales ([838389c](https://github.com/iotaledger/twin-standards/commit/838389c1daf62ed42397d5758d267c3d1a37fa4d))
+* add w3c dcat standards package ([#68](https://github.com/iotaledger/twin-standards/issues/68)) ([85746c6](https://github.com/iotaledger/twin-standards/commit/85746c673464498a52e9c30ce498fd88b81a7434))
+* eslint migration to flat config ([648c1a1](https://github.com/iotaledger/twin-standards/commit/648c1a1e69d99b6b0cf69358ec6bdeecdbe3a5ea))
+* generate unece types from JSON schema ([#71](https://github.com/iotaledger/twin-standards/issues/71)) ([5a596e7](https://github.com/iotaledger/twin-standards/commit/5a596e7a79c1a0b213560f5fb8b9ec5019d598d7))
+* normalise type outputs ([0b3aed7](https://github.com/iotaledger/twin-standards/commit/0b3aed7df0802cd609423bbd7fda6bde601d3ceb))
+* remove gaia-x ([b8c05b7](https://github.com/iotaledger/twin-standards/commit/b8c05b78a85e9f00d9fd98749852c83377a099e1))
+* remove gaia-x ([3e87ac1](https://github.com/iotaledger/twin-standards/commit/3e87ac14480758289cd43c8da7fa02dd251ed6c4))
+* typescript 6 update ([79bfb52](https://github.com/iotaledger/twin-standards/commit/79bfb52e3dcb24689cec7b201dde822bcee970c5))
+* update dependencies ([e422ed3](https://github.com/iotaledger/twin-standards/commit/e422ed351fb09e2deea5ef741326c37b0802af3a))
+* update epcis models to match spec ([#92](https://github.com/iotaledger/twin-standards/issues/92)) ([1e56f70](https://github.com/iotaledger/twin-standards/commit/1e56f70415a8612113a36ad65a6cc5abdd85e091))
+* update framework core ([58c0c3d](https://github.com/iotaledger/twin-standards/commit/58c0c3dd6cea0e4c2393dc0e3e1eb33a6d06f617))
+* update ld context cache ([#169](https://github.com/iotaledger/twin-standards/issues/169)) ([5fb59af](https://github.com/iotaledger/twin-standards/commit/5fb59af25526f040bbd4bb5dbe1a7574158c500a))
+* update to latest JSON schema spec ([7a23930](https://github.com/iotaledger/twin-standards/commit/7a2393032d7f48bfb20d3a484f981fb6dd83a92c))
+* update to new ts-ts-schema and generic constructs ([4dff991](https://github.com/iotaledger/twin-standards/commit/4dff991fb70de4320668641ed94abf8e9b06acad))
+* use local LD contexts in tests instead of remote ones ([#201](https://github.com/iotaledger/twin-standards/issues/201)) ([7d6c6ea](https://github.com/iotaledger/twin-standards/commit/7d6c6ea7b952fb9e2240ff252f8ce85c42d78985))
+* use shared store mechanism ([#11](https://github.com/iotaledger/twin-standards/issues/11)) ([96fa237](https://github.com/iotaledger/twin-standards/commit/96fa23735f69c1fc7e3d0019b527634fa0a042d9))
+
+
+### Bug Fixes
+
+* add extra ld contexts associated to URLs. cache ([#21](https://github.com/iotaledger/twin-standards/issues/21)) ([05f7bba](https://github.com/iotaledger/twin-standards/commit/05f7bbafd0efbff445b878ccc2709975e50a7773))
+* federated catalogue terms ld context last version copied ([#26](https://github.com/iotaledger/twin-standards/issues/26)) ([37f4ff0](https://github.com/iotaledger/twin-standards/commit/37f4ff00664e8b5efc7d24f1e2417061fd2bda56))
+* gaia-x loire LD Context ([#62](https://github.com/iotaledger/twin-standards/issues/62)) ([072c4e7](https://github.com/iotaledger/twin-standards/commit/072c4e789158b3f989fa0fdd23df2532f7626dad))
+* gaia-x pinned LD Context ([#59](https://github.com/iotaledger/twin-standards/issues/59)) ([7572616](https://github.com/iotaledger/twin-standards/commit/7572616a2e853e8f6f6234763e675edb96e54005))
+* pin to 24.11 Gaia-X LD Context ([#58](https://github.com/iotaledger/twin-standards/issues/58)) ([4d3b9cc](https://github.com/iotaledger/twin-standards/commit/4d3b9cc365af276f5d4fc111a1744768746daa28))
+* refine local LD Contexts ([#84](https://github.com/iotaledger/twin-standards/issues/84)) ([785e359](https://github.com/iotaledger/twin-standards/commit/785e359ad6895fcb97197ca707915651fe3ae79c))
+
 ## [0.9.1](https://github.com/iotaledger/twin-standards/compare/standards-ld-contexts-v0.9.1...standards-ld-contexts-v0.9.1) (2026-07-27)
 
 
