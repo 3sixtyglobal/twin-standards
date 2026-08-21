@@ -1,5 +1,6 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
+import { Is } from "@twin.org/core";
 import { JsonLdHelper, JsonLdProcessor, type IJsonLdDocument } from "@twin.org/data-json-ld";
 import { FetchHelper, HttpMethod } from "@twin.org/web";
 
@@ -9,7 +10,7 @@ describe("standards-schema-org", () => {
 		(JsonLdProcessor as unknown as { [key: string]: unknown });
 
 	function urlFromFetchInput(input: RequestInfo | URL): string {
-		if (typeof input === "string") {
+		if (Is.string(input)) {
 			return input;
 		}
 		if (input instanceof URL) {
