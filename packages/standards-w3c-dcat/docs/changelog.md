@@ -1,5 +1,49 @@
 # Changelog
 
+## [0.9.2-next.1](https://github.com/iotaledger/twin-standards/compare/standards-w3c-dcat-v0.9.2-next.0...standards-w3c-dcat-v0.9.2-next.1) (2026-08-07)
+
+
+### Features
+
+* add ds protocol catalog dataset ([#86](https://github.com/iotaledger/twin-standards/issues/86)) ([45600e6](https://github.com/iotaledger/twin-standards/commit/45600e6cba212d85e250cb12cbdcb712d8db0e52))
+* add w3c dcat standards package ([#68](https://github.com/iotaledger/twin-standards/issues/68)) ([85746c6](https://github.com/iotaledger/twin-standards/commit/85746c673464498a52e9c30ce498fd88b81a7434))
+* fixes in dataspace and odrl ([9924f91](https://github.com/iotaledger/twin-standards/commit/9924f9135cb6e227e1040065ab017b1c7ef8347a))
+* improve caching ([#196](https://github.com/iotaledger/twin-standards/issues/196)) ([968e61a](https://github.com/iotaledger/twin-standards/commit/968e61a04156a22cf5ffc3ba237a42a81ec2e0c1))
+* improved namespaces and contexts ([#102](https://github.com/iotaledger/twin-standards/issues/102)) ([c74c370](https://github.com/iotaledger/twin-standards/commit/c74c370cd8145d6166ca4454353f3774c302ac3b))
+* linting and dependency update ([25c96f7](https://github.com/iotaledger/twin-standards/commit/25c96f7994c363d42c913fe18185a36003686a25))
+* naming fixing and usage ([#98](https://github.com/iotaledger/twin-standards/issues/98)) ([9e95344](https://github.com/iotaledger/twin-standards/commit/9e953440963c9bc028399be9cbea25d92922bd01))
+* register schemas at hosted location ([#128](https://github.com/iotaledger/twin-standards/issues/128)) ([ab35298](https://github.com/iotaledger/twin-standards/commit/ab35298c812d69f043f69c35ab5aa1ac4a6aaa90))
+* remove IJsonLdNodeObject base interfaces ([#172](https://github.com/iotaledger/twin-standards/issues/172)) ([8ff8d7a](https://github.com/iotaledger/twin-standards/commit/8ff8d7a2892d626879b76ba5da912469ff899954))
+* remove ObjectOrArray usage ([61fd52d](https://github.com/iotaledger/twin-standards/commit/61fd52da035356bbe5bcc315367089405b4d1386))
+* typescript 6 update ([79bfb52](https://github.com/iotaledger/twin-standards/commit/79bfb52e3dcb24689cec7b201dde822bcee970c5))
+* update dependencies ([e422ed3](https://github.com/iotaledger/twin-standards/commit/e422ed351fb09e2deea5ef741326c37b0802af3a))
+* update ds and dcat generated schemas ([efc333e](https://github.com/iotaledger/twin-standards/commit/efc333e00bb7af828fd005484d0e28204776d948))
+* update JsonSchemaHelper.validate usage ([fe08315](https://github.com/iotaledger/twin-standards/commit/fe0831571cc618465a4510b52c3032a750e6e149))
+* update registrations ([dd3c92f](https://github.com/iotaledger/twin-standards/commit/dd3c92f52ff44679f61ff2a84b9fbc98bdc574d5))
+* update schemas to support additional properties ([4679e21](https://github.com/iotaledger/twin-standards/commit/4679e21728a54cb587f120874841c3d1ed3771de))
+* update to new ts-ts-schema and generic constructs ([4dff991](https://github.com/iotaledger/twin-standards/commit/4dff991fb70de4320668641ed94abf8e9b06acad))
+* use local LD contexts in tests instead of remote ones ([#201](https://github.com/iotaledger/twin-standards/issues/201)) ([7d6c6ea](https://github.com/iotaledger/twin-standards/commit/7d6c6ea7b952fb9e2240ff252f8ce85c42d78985))
+
+
+### Bug Fixes
+
+* dcat LD Context fix and aligned with DCAT prefixed models ([#85](https://github.com/iotaledger/twin-standards/issues/85)) ([4546167](https://github.com/iotaledger/twin-standards/commit/4546167b1f61dba85206a64a8b2535f468d74845))
+* dcat resource optional context for policy ([#231](https://github.com/iotaledger/twin-standards/issues/231)) ([2dd5a55](https://github.com/iotaledger/twin-standards/commit/2dd5a553ec43f811bb9c4f65f0fff976d7074101))
+* updating the missing packages ([#114](https://github.com/iotaledger/twin-standards/issues/114)) ([90b03f8](https://github.com/iotaledger/twin-standards/commit/90b03f8bdcd81506284d74a445840386c2da2d35))
+* when a prefix is declared in an [@context](https://github.com/context) it should be Namespace and not Context ([#119](https://github.com/iotaledger/twin-standards/issues/119)) ([110cc50](https://github.com/iotaledger/twin-standards/commit/110cc5039394c7fcfada0e3ca001013cb503f31a))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-dublin-core bumped from 0.9.2-next.0 to 0.9.2-next.1
+    * @twin.org/standards-foaf bumped from 0.9.2-next.0 to 0.9.2-next.1
+    * @twin.org/standards-w3c-odrl bumped from 0.9.2-next.0 to 0.9.2-next.1
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.9.2-next.0 to 0.9.2-next.1
+    * @twin.org/standards-w3c-vcard bumped from 0.9.2-next.0 to 0.9.2-next.1
+
 ## [0.9.1](https://github.com/iotaledger/twin-standards/compare/standards-w3c-dcat-v0.9.1...standards-w3c-dcat-v0.9.1) (2026-07-27)
 
 
