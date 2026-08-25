@@ -140,3 +140,75 @@ The locale to get the label for. If not provided, the default locale will be use
 `Promise`\<`string` \| `undefined`\>
 
 The label for the specified key in the code list.
+
+***
+
+### getCodeByDescription() {#getcodebydescription}
+
+> `static` **getCodeByDescription**(`codeList`, `description`, `locale?`): `Promise`\<`string`[]\>
+
+Get the codes whose descriptions match the supplied value.
+If an exact match (case-sensitive or case-insensitive) is found, only that single code is returned.
+Otherwise, all codes whose description partially matches the value are returned.
+
+#### Parameters
+
+##### codeList
+
+[`UneceCodeLists`](../type-aliases/UneceCodeLists.md)
+
+The code list to search.
+
+##### description
+
+`string`
+
+The description to search for.
+
+##### locale?
+
+`string`
+
+The locale to search in. If not provided, the default locale will be used.
+
+#### Returns
+
+`Promise`\<`string`[]\>
+
+The codes whose description matches, or an empty array if there is no match.
+
+***
+
+### getCodeByLabel() {#getcodebylabel}
+
+> `static` **getCodeByLabel**(`codeList`, `label`, `locale?`): `Promise`\<`string`[]\>
+
+Get the codes whose labels match the supplied value.
+If an exact match (case-sensitive or case-insensitive) is found, only that single code is returned.
+Otherwise, all codes whose label partially matches the value are returned.
+
+#### Parameters
+
+##### codeList
+
+[`UneceCodeLists`](../type-aliases/UneceCodeLists.md)
+
+The code list to search.
+
+##### label
+
+`string`
+
+The label to search for.
+
+##### locale?
+
+`string`
+
+The locale to search in. If not provided, the default locale will be used.
+
+#### Returns
+
+`Promise`\<`string`[]\>
+
+The codes whose label matches, or an empty array if there is no match.
