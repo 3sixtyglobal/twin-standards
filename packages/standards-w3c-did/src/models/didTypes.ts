@@ -39,7 +39,102 @@ export const DidTypes = {
 	/**
 	 * The type for Multikey.
 	 */
-	Multikey: "Multikey"
+	Multikey: "Multikey",
+
+	/**
+	 * The type for CredentialSchema.
+	 */
+	CredentialSchema: "CredentialSchema",
+
+	/**
+	 * The type for CredentialStatus.
+	 */
+	CredentialStatus: "CredentialStatus",
+
+	/**
+	 * The type for CryptoSuites.
+	 */
+	CryptoSuites: "CryptoSuites",
+
+	/**
+	 * The type for DataIntegrityProof.
+	 */
+	DataIntegrityProof: "DataIntegrityProof",
+
+	/**
+	 * The type for DocumentVerificationMethod.
+	 */
+	DocumentVerificationMethod: "DocumentVerificationMethod",
+
+	/**
+	 * The type for JsonWebSignature2020Proof.
+	 */
+	JsonWebSignature2020Proof: "JsonWebSignature2020Proof",
+
+	/**
+	 * The type for Label.
+	 */
+	Label: "Label",
+
+	/**
+	 * The type for PresentationVerification.
+	 */
+	PresentationVerification: "PresentationVerification",
+
+	/**
+	 * The type for Proof.
+	 */
+	Proof: "Proof",
+
+	/**
+	 * The type for ProofTypes.
+	 */
+	ProofTypes: "ProofTypes",
+
+	/**
+	 * The type for Service.
+	 */
+	Service: "Service",
+
+	/**
+	 * The type for Types.
+	 */
+	Types: "Types",
+
+	/**
+	 * The type for VerifiableCredentialCommon.
+	 */
+	VerifiableCredentialCommon: "VerifiableCredentialCommon",
+
+	/**
+	 * The type for VerifiableCredentialV1.
+	 */
+	VerifiableCredentialV1: "VerifiableCredentialV1",
+
+	/**
+	 * The type for VerifiableCredentialV2.
+	 */
+	VerifiableCredentialV2: "VerifiableCredentialV2",
+
+	/**
+	 * The type for VerifiablePresentationCommon.
+	 */
+	VerifiablePresentationCommon: "VerifiablePresentationCommon",
+
+	/**
+	 * The type for VerifiablePresentationV1.
+	 */
+	VerifiablePresentationV1: "VerifiablePresentationV1",
+
+	/**
+	 * The type for VerifiablePresentationV2.
+	 */
+	VerifiablePresentationV2: "VerifiablePresentationV2",
+
+	/**
+	 * The type for VerificationMethodType.
+	 */
+	VerificationMethodType: "VerificationMethodType"
 } as const;
 
 /**

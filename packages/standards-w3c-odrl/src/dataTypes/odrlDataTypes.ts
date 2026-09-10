@@ -9,6 +9,7 @@ import OdrlActionTypeSchema from "../schemas/OdrlActionType.json" with { type: "
 import OdrlAgreementSchema from "../schemas/OdrlAgreement.json" with { type: "json" };
 import OdrlAssetSchema from "../schemas/OdrlAsset.json" with { type: "json" };
 import OdrlAssetCollectionSchema from "../schemas/OdrlAssetCollection.json" with { type: "json" };
+import OdrlConflictStrategyTypeSchema from "../schemas/OdrlConflictStrategyType.json" with { type: "json" };
 import OdrlConstraintSchema from "../schemas/OdrlConstraint.json" with { type: "json" };
 import ContextTypeSchema from "../schemas/OdrlContextType.json" with { type: "json" };
 import OdrlDutySchema from "../schemas/OdrlDuty.json" with { type: "json" };
@@ -29,7 +30,6 @@ import OdrlRuleSchema from "../schemas/OdrlRule.json" with { type: "json" };
 import OdrlRuleTypeSchema from "../schemas/OdrlRuleType.json" with { type: "json" };
 import OdrlSetSchema from "../schemas/OdrlSet.json" with { type: "json" };
 import OdrlStatusTypeSchema from "../schemas/OdrlStatusType.json" with { type: "json" };
-import OdrlTypesSchema from "../schemas/OdrlTypes.json" with { type: "json" };
 
 /**
  * Handle all the data types for ODRL.
@@ -112,44 +112,44 @@ export class OdrlDataTypes {
 				schema: OdrlRuleSchema
 			},
 			{
-				type: "ContextType",
+				type: OdrlTypes.ContextType,
 				schema: ContextTypeSchema
 			},
 			{
-				type: "ActionType",
+				type: OdrlTypes.ActionType,
 				schema: OdrlActionTypeSchema
 			},
 			{
-				type: "LeftOperandType",
+				type: OdrlTypes.ConflictStrategyType,
+				schema: OdrlConflictStrategyTypeSchema
+			},
+			{
+				type: OdrlTypes.LeftOperandType,
 				schema: OdrlLeftOperandTypeSchema
 			},
 			{
-				type: "LogicalConstraintType",
+				type: OdrlTypes.LogicalConstraintType,
 				schema: OdrlLogicalConstraintTypeSchema
 			},
 			{
-				type: "OperatorType",
+				type: OdrlTypes.OperatorType,
 				schema: OdrlOperatorTypeSchema
 			},
 			{
-				type: "PolicyType",
+				type: OdrlTypes.PolicyType,
 				schema: OdrlPolicyTypeSchema
 			},
 			{
-				type: "RightOperandType",
+				type: OdrlTypes.RightOperandType,
 				schema: OdrlRightOperandTypeSchema
 			},
 			{
-				type: "RuleType",
+				type: OdrlTypes.RuleType,
 				schema: OdrlRuleTypeSchema
 			},
 			{
-				type: "StatusType",
+				type: OdrlTypes.StatusType,
 				schema: OdrlStatusTypeSchema
-			},
-			{
-				type: "Types",
-				schema: OdrlTypesSchema
 			}
 		];
 

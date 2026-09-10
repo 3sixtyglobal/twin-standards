@@ -1,0 +1,6 @@
+{
+	"baseUrl": "https://schema.twindev.org/dublin-core/",
+	"types": [
+		"./src/models/IDublinCorePeriodOfTime.ts"
+	]
+}

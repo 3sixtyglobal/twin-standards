@@ -13,9 +13,11 @@
 		"./src/models/IDidPresentationVerification.ts",
 		"./src/models/IDidService.ts",
 		"./src/models/IDidVerifiableCredential.ts",
+		"./src/models/IDidVerifiableCredentialCommon.ts",
 		"./src/models/IDidVerifiableCredentialV1.ts",
 		"./src/models/IDidVerifiableCredentialV2.ts",
 		"./src/models/IDidVerifiablePresentation.ts",
+		"./src/models/IDidVerifiablePresentationCommon.ts",
 		"./src/models/IDidVerifiablePresentationV1.ts",
 		"./src/models/IDidVerifiablePresentationV2.ts",
 		"./src/models/IJsonWebSignature2020Proof.ts",
@@ -25,7 +27,7 @@
 	],
 	"externalReferences": {
 		"JsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1",
-		"Jwk": "https://schema.twindev.org/framework/Jwk"
+		"Jwk": "https://schema.twindev.org/framework/"
 	},
 	"skippablePackages": [
 		"jose"

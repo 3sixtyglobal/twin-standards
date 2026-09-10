@@ -42,6 +42,7 @@
 		"@twin.org/standards-w3c-vcard": "0.9.3-next.1",
 		"@twin.org/ts-to-schema": "next",
 		"@twin.org/validate-locales": "next",
+		"@types/node": "26.1.2",
 		"@vitest/coverage-v8": "4.1.10",
 		"copyfiles": "2.4.1",
 		"nodemon": "3.1.14",

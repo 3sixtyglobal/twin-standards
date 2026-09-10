@@ -20,6 +20,7 @@ import GroupSchema from "../schemas/ActivityStreamsGroup.json" with { type: "jso
 import ImageSchema from "../schemas/ActivityStreamsImage.json" with { type: "json" };
 import IntransitiveActivitySchema from "../schemas/ActivityStreamsIntransitiveActivity.json" with { type: "json" };
 import LinkSchema from "../schemas/ActivityStreamsLink.json" with { type: "json" };
+import ActivityStreamsLinkTypesSchema from "../schemas/ActivityStreamsLinkTypes.json" with { type: "json" };
 import MentionSchema from "../schemas/ActivityStreamsMention.json" with { type: "json" };
 import NoteSchema from "../schemas/ActivityStreamsNote.json" with { type: "json" };
 import ObjectSchema from "../schemas/ActivityStreamsObject.json" with { type: "json" };
@@ -31,6 +32,10 @@ import PageSchema from "../schemas/ActivityStreamsPage.json" with { type: "json"
 import PersonSchema from "../schemas/ActivityStreamsPerson.json" with { type: "json" };
 import PlaceSchema from "../schemas/ActivityStreamsPlace.json" with { type: "json" };
 import ProfileSchema from "../schemas/ActivityStreamsProfile.json" with { type: "json" };
+import QuestionAnyOfChoiceSchema from "../schemas/ActivityStreamsQuestionAnyOfChoice.json" with { type: "json" };
+import QuestionBaseSchema from "../schemas/ActivityStreamsQuestionBase.json" with { type: "json" };
+import QuestionNeitherChoiceSchema from "../schemas/ActivityStreamsQuestionNeitherChoice.json" with { type: "json" };
+import QuestionOneOfChoiceSchema from "../schemas/ActivityStreamsQuestionOneOfChoice.json" with { type: "json" };
 import RelationshipSchema from "../schemas/ActivityStreamsRelationship.json" with { type: "json" };
 import ServiceSchema from "../schemas/ActivityStreamsService.json" with { type: "json" };
 import TombstoneSchema from "../schemas/ActivityStreamsTombstone.json" with { type: "json" };
@@ -275,6 +280,26 @@ export abstract class ActivityStreamsDataTypes {
 			{
 				type: ActivityStreamsObjectTypes.Video,
 				schema: VideoSchema
+			},
+			{
+				type: "QuestionAnyOfChoice",
+				schema: QuestionAnyOfChoiceSchema
+			},
+			{
+				type: "QuestionBase",
+				schema: QuestionBaseSchema
+			},
+			{
+				type: "QuestionNeitherChoice",
+				schema: QuestionNeitherChoiceSchema
+			},
+			{
+				type: "QuestionOneOfChoice",
+				schema: QuestionOneOfChoiceSchema
+			},
+			{
+				type: "LinkTypes",
+				schema: ActivityStreamsLinkTypesSchema
 			},
 			{
 				type: "ObjectTypes",

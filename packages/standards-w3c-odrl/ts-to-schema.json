@@ -19,12 +19,12 @@
 		"./src/models/IOdrlRule.ts",
 		"./src/models/IOdrlSet.ts",
 		"./src/models/types/odrlLogicalConstraintType.ts",
-		"./src/models/types/odrlTypes.ts",
 		"./src/models/types/odrlOperatorType.ts",
 		"./src/models/types/odrlPolicyType.ts",
 		"./src/models/types/odrlRuleType.ts",
 		"./src/models/types/odrlStatusType.ts",
 		"./src/models/types/odrlActionType.ts",
+		"./src/models/types/odrlConflictStrategyType.ts",
 		"./src/models/types/odrlLeftOperandType.ts",
 		"./src/models/types/odrlRightOperandType.ts"
 	],

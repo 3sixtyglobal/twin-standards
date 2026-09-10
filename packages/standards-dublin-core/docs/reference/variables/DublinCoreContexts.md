@@ -45,3 +45,9 @@ The Dublin Core DCMI Types JSON-LD context URL format includes a trailing slash.
 > `readonly` **JsonLdContextDcmiType**: `"https://schema.twindev.org/dublin-core/dcmitype.jsonld"` = `"https://schema.twindev.org/dublin-core/dcmitype.jsonld"`
 
 JSON-LD Context URL for DCMI Types
+
+### JsonSchemaNamespace {#jsonschemanamespace}
+
+> `readonly` **JsonSchemaNamespace**: `"https://schema.twindev.org/dublin-core/"` = `"https://schema.twindev.org/dublin-core/"`
+
+The namespace location of the hosted version of the JSON Schema.

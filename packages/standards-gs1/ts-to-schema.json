@@ -1,5 +1,5 @@
 {
-	"baseUrl": "https://schema.twindev.org/gs1-epcis/",
+	"baseUrl": "https://schema.twindev.org/gs1/",
 	"types": [
 		"./src/models/epcis20/epcisContextType.ts",
 		"./src/models/epcis20/epcisActionTypes.ts",

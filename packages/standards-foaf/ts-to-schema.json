@@ -3,6 +3,7 @@
 	"types": [
 		"./src/models/foafContextType.ts",
 		"./src/models/IFoafAgent.ts",
+		"./src/models/IFoafBaseObject.ts",
 		"./src/models/IFoafDocument.ts",
 		"./src/models/IFoafGroup.ts",
 		"./src/models/IFoafImage.ts",
