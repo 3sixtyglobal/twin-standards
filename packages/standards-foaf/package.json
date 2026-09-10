@@ -1,6 +1,6 @@
 {
 	"name": "@twin.org/standards-foaf",
-	"version": "0.9.3-next.1",
+	"version": "0.9.3-next.2",
 	"description": "Data models for the FOAF vocabulary.",
 	"repository": {
 		"type": "git",

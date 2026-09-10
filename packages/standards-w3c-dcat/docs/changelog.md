@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.9.3-next.2](https://github.com/iotaledger/twin-standards/compare/standards-w3c-dcat-v0.9.3-next.1...standards-w3c-dcat-v0.9.3-next.2) (2026-09-10)
+
+
+### Features
+
+* improve type definitions ([#278](https://github.com/iotaledger/twin-standards/issues/278)) ([bf3f37e](https://github.com/iotaledger/twin-standards/commit/bf3f37e1c191770f2a88b65bec3d59506c93c263))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-dublin-core bumped from 0.9.3-next.1 to 0.9.3-next.2
+    * @twin.org/standards-foaf bumped from 0.9.3-next.1 to 0.9.3-next.2
+    * @twin.org/standards-w3c-odrl bumped from 0.9.3-next.1 to 0.9.3-next.2
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.9.3-next.1 to 0.9.3-next.2
+    * @twin.org/standards-w3c-vcard bumped from 0.9.3-next.1 to 0.9.3-next.2
+
 ## [0.9.3-next.1](https://github.com/iotaledger/twin-standards/compare/standards-w3c-dcat-v0.9.3-next.0...standards-w3c-dcat-v0.9.3-next.1) (2026-08-25)
 
 

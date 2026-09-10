@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.9.3-next.2](https://github.com/iotaledger/twin-standards/compare/standards-dublin-core-v0.9.3-next.1...standards-dublin-core-v0.9.3-next.2) (2026-09-10)
+
+
+### Features
+
+* improve type definitions ([#278](https://github.com/iotaledger/twin-standards/issues/278)) ([bf3f37e](https://github.com/iotaledger/twin-standards/commit/bf3f37e1c191770f2a88b65bec3d59506c93c263))
+
 ## [0.9.3-next.1](https://github.com/iotaledger/twin-standards/compare/standards-dublin-core-v0.9.3-next.0...standards-dublin-core-v0.9.3-next.1) (2026-08-25)
 
 

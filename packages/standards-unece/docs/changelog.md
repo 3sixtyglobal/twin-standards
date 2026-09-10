@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.9.3-next.2](https://github.com/iotaledger/twin-standards/compare/standards-unece-v0.9.3-next.1...standards-unece-v0.9.3-next.2) (2026-09-10)
+
+
+### Miscellaneous Chores
+
+* **standards-unece:** Synchronize repo versions
+
 ## [0.9.3-next.1](https://github.com/iotaledger/twin-standards/compare/standards-unece-v0.9.3-next.0...standards-unece-v0.9.3-next.1) (2026-08-25)
 
 
