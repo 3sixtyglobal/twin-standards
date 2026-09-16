@@ -5,6 +5,7 @@ import { JsonLdProcessor } from "@twin.org/data-json-ld";
 import { FoafContexts } from "../models/foafContexts.js";
 import { FoafTypes } from "../models/foafTypes.js";
 import AgentSchema from "../schemas/FoafAgent.json" with { type: "json" };
+import BaseObjectSchema from "../schemas/FoafBaseObject.json" with { type: "json" };
 import ContextTypeSchema from "../schemas/FoafContextType.json" with { type: "json" };
 import DocumentSchema from "../schemas/FoafDocument.json" with { type: "json" };
 import GroupSchema from "../schemas/FoafGroup.json" with { type: "json" };
@@ -51,6 +52,10 @@ export abstract class FoafDataTypes {
 			{
 				type: FoafTypes.Person,
 				schema: PersonSchema
+			},
+			{
+				type: "BaseObject",
+				schema: BaseObjectSchema
 			},
 			{
 				type: "ContextType",

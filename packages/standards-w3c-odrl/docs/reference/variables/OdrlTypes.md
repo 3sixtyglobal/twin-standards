@@ -101,3 +101,63 @@ LogicalConstraint type.
 > `readonly` **LogicalConstraintOperand**: `"LogicalConstraintOperand"` = `"LogicalConstraintOperand"`
 
 LogicalConstraintOperand type.
+
+### ContextType {#contexttype}
+
+> `readonly` **ContextType**: `"ContextType"` = `"ContextType"`
+
+ContextType type.
+
+### ActionType {#actiontype}
+
+> `readonly` **ActionType**: `"ActionType"` = `"ActionType"`
+
+ActionType type.
+
+### ConflictStrategyType {#conflictstrategytype}
+
+> `readonly` **ConflictStrategyType**: `"ConflictStrategyType"` = `"ConflictStrategyType"`
+
+ConflictStrategyType type.
+
+### LeftOperandType {#leftoperandtype}
+
+> `readonly` **LeftOperandType**: `"LeftOperandType"` = `"LeftOperandType"`
+
+LeftOperandType type.
+
+### LogicalConstraintType {#logicalconstrainttype}
+
+> `readonly` **LogicalConstraintType**: `"LogicalConstraintType"` = `"LogicalConstraintType"`
+
+LogicalConstraintType type.
+
+### OperatorType {#operatortype}
+
+> `readonly` **OperatorType**: `"OperatorType"` = `"OperatorType"`
+
+OperatorType type.
+
+### PolicyType {#policytype}
+
+> `readonly` **PolicyType**: `"PolicyType"` = `"PolicyType"`
+
+PolicyType type.
+
+### RightOperandType {#rightoperandtype}
+
+> `readonly` **RightOperandType**: `"RightOperandType"` = `"RightOperandType"`
+
+RightOperandType type.
+
+### RuleType {#ruletype}
+
+> `readonly` **RuleType**: `"RuleType"` = `"RuleType"`
+
+RuleType type.
+
+### StatusType {#statustype}
+
+> `readonly` **StatusType**: `"StatusType"` = `"StatusType"`
+
+StatusType type.

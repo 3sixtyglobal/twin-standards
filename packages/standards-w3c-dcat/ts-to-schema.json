@@ -19,6 +19,8 @@
 		"./src/models/IDcatRole.ts"
 	],
 	"externalReferences": {
+		"DublinCore(.*)": "https://schema.twindev.org/dublin-core/DublinCore$1",
+		"Foaf(.*)": "https://schema.twindev.org/foaf/Foaf$1",
 		"JsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1",
 		"Odrl(.*)": "https://schema.twindev.org/w3c-odrl/Odrl$1"
 	}

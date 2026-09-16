@@ -23,3 +23,15 @@ Register the JSON-LD Redirects.
 #### Returns
 
 `void`
+
+***
+
+### registerTypes() {#registertypes}
+
+> `static` **registerTypes**(): `void`
+
+Register all the data types.
+
+#### Returns
+
+`void`

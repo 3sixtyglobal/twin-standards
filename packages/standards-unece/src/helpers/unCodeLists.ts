@@ -200,4 +200,87 @@ export class UnCodeLists {
 
 		return undefined;
 	}
+
+	/**
+	 * Get the codes whose descriptions match the supplied value.
+	 * If an exact match (case-sensitive or case-insensitive) is found, only that single code is returned.
+	 * Otherwise, all codes whose description partially matches the value are returned.
+	 * @param codeList The code list to search.
+	 * @param description The description to search for.
+	 * @param locale The locale to search in. If not provided, the default locale will be used.
+	 * @returns The codes whose description matches, or an empty array if there is no match.
+	 */
+	public static async getCodeByDescription(
+		codeList: UneceCodeLists,
+		description: string,
+		locale?: string
+	): Promise<string[]> {
+		Guards.stringValue(UnCodeLists.CLASS_NAME, nameof(description), description);
+
+		const descriptions = await UnCodeLists.getDescriptions(codeList, locale);
+
+		return UnCodeLists.findCodesByValue(descriptions, description);
+	}
+
+	/**
+	 * Get the codes whose labels match the supplied value.
+	 * If an exact match (case-sensitive or case-insensitive) is found, only that single code is returned.
+	 * Otherwise, all codes whose label partially matches the value are returned.
+	 * @param codeList The code list to search.
+	 * @param label The label to search for.
+	 * @param locale The locale to search in. If not provided, the default locale will be used.
+	 * @returns The codes whose label matches, or an empty array if there is no match.
+	 */
+	public static async getCodeByLabel(
+		codeList: UneceCodeLists,
+		label: string,
+		locale?: string
+	): Promise<string[]> {
+		Guards.stringValue(UnCodeLists.CLASS_NAME, nameof(label), label);
+
+		const labels = await UnCodeLists.getLabels(codeList, locale);
+
+		return UnCodeLists.findCodesByValue(labels, label);
+	}
+
+	/**
+	 * Find the codes whose value matches the search text. If an exact case-sensitive or case-insensitive
+	 * match is found, only that single code is returned. Otherwise, all codes matching a partial
+	 * (substring) match using a RegExp heuristic are returned.
+	 * @param dictionary The dictionary of codes to values to search.
+	 * @param searchText The text to search for.
+	 * @returns The matching codes, or an empty array if no exact or partial match is found.
+	 * @internal
+	 */
+	private static findCodesByValue(
+		dictionary: { [key: string]: string },
+		searchText: string
+	): string[] {
+		for (const code in dictionary) {
+			if (dictionary[code] === searchText) {
+				return [code];
+			}
+		}
+
+		const searchTextLower = searchText.toLowerCase();
+
+		for (const code in dictionary) {
+			if (dictionary[code].toLowerCase() === searchTextLower) {
+				return [code];
+			}
+		}
+
+		// Escape regex special characters so the search text is matched literally.
+		const escapedSearchText = searchText.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+		const searchRegExp = new RegExp(escapedSearchText, "i");
+
+		const partialMatches: string[] = [];
+		for (const code in dictionary) {
+			if (searchRegExp.test(dictionary[code])) {
+				partialMatches.push(code);
+			}
+		}
+
+		return partialMatches;
+	}
 }

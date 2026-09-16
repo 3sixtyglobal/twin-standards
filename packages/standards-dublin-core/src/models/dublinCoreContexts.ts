@@ -38,7 +38,12 @@ export const DublinCoreContexts = {
 	/**
 	 * JSON-LD Context URL for DCMI Types
 	 */
-	JsonLdContextDcmiType: "https://schema.twindev.org/dublin-core/dcmitype.jsonld"
+	JsonLdContextDcmiType: "https://schema.twindev.org/dublin-core/dcmitype.jsonld",
+
+	/**
+	 * The namespace location of the hosted version of the JSON Schema.
+	 */
+	JsonSchemaNamespace: "https://schema.twindev.org/dublin-core/"
 } as const;
 
 /**

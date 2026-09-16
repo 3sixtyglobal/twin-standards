@@ -8,6 +8,7 @@ import EndpointPropertySchema from "../schemas/DataspaceProtocolEndpointProperty
 import TransferCompletionMessageSchema from "../schemas/DataspaceProtocolTransferCompletionMessage.json" with { type: "json" };
 import TransferErrorSchema from "../schemas/DataspaceProtocolTransferError.json" with { type: "json" };
 import TransferProcessSchema from "../schemas/DataspaceProtocolTransferProcess.json" with { type: "json" };
+import TransferProcessStateTypeSchema from "../schemas/DataspaceProtocolTransferProcessStateType.json" with { type: "json" };
 import TransferRequestMessageSchema from "../schemas/DataspaceProtocolTransferRequestMessage.json" with { type: "json" };
 import TransferStartMessageSchema from "../schemas/DataspaceProtocolTransferStartMessage.json" with { type: "json" };
 import TransferSuspensionMessageSchema from "../schemas/DataspaceProtocolTransferSuspensionMessage.json" with { type: "json" };
@@ -41,6 +42,10 @@ export class TransferProcessDataTypes {
 			{
 				type: DataspaceProtocolTransferProcessTypes.TransferProcess,
 				schema: TransferProcessSchema
+			},
+			{
+				type: DataspaceProtocolTransferProcessTypes.TransferProcessStateType,
+				schema: TransferProcessStateTypeSchema
 			},
 			{
 				type: DataspaceProtocolTransferProcessTypes.TransferRequestMessage,

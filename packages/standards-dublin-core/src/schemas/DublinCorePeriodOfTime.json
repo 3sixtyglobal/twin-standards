@@ -1,0 +1,29 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://schema.twindev.org/dublin-core/DublinCorePeriodOfTime",
+	"title": "DublinCorePeriodOfTime",
+	"description": "Interface for Dublin Core Terms Period of Time.\nAn interval of time that is named or defined by its start and end dates.",
+	"type": "object",
+	"properties": {
+		"@type": {
+			"const": "PeriodOfTime",
+			"description": "The type identifier for PeriodOfTime."
+		},
+		"dcat:startDate": {
+			"type": "string",
+			"description": "The start date of the period."
+		},
+		"dcat:endDate": {
+			"type": "string",
+			"description": "The end date of the period."
+		},
+		"time:hasBeginning": {
+			"type": "string",
+			"description": "The beginning of a period or interval."
+		},
+		"time:hasEnd": {
+			"type": "string",
+			"description": "The end of a period or interval."
+		}
+	}
+}

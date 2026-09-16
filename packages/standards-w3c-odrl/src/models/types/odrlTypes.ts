@@ -84,7 +84,57 @@ export const OdrlTypes = {
 	/**
 	 * LogicalConstraintOperand type.
 	 */
-	LogicalConstraintOperand: "LogicalConstraintOperand"
+	LogicalConstraintOperand: "LogicalConstraintOperand",
+
+	/**
+	 * ContextType type.
+	 */
+	ContextType: "ContextType",
+
+	/**
+	 * ActionType type.
+	 */
+	ActionType: "ActionType",
+
+	/**
+	 * ConflictStrategyType type.
+	 */
+	ConflictStrategyType: "ConflictStrategyType",
+
+	/**
+	 * LeftOperandType type.
+	 */
+	LeftOperandType: "LeftOperandType",
+
+	/**
+	 * LogicalConstraintType type.
+	 */
+	LogicalConstraintType: "LogicalConstraintType",
+
+	/**
+	 * OperatorType type.
+	 */
+	OperatorType: "OperatorType",
+
+	/**
+	 * PolicyType type.
+	 */
+	PolicyType: "PolicyType",
+
+	/**
+	 * RightOperandType type.
+	 */
+	RightOperandType: "RightOperandType",
+
+	/**
+	 * RuleType type.
+	 */
+	RuleType: "RuleType",
+
+	/**
+	 * StatusType type.
+	 */
+	StatusType: "StatusType"
 } as const;
 
 /**

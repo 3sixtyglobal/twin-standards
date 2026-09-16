@@ -109,10 +109,13 @@ export class DcatDataTypes {
 		];
 
 		DataTypeHelper.registerTypes(DcatContexts.Namespace, DcatContexts.JsonLdContext, types);
+
+		// The DcatClasses values are prefixed with "dcat:" so the schemas are registered
+		// under their own titles, which is what the $refs between them use.
 		DataTypeHelper.registerTypes(
 			DcatContexts.JsonSchemaNamespace,
 			DcatContexts.JsonLdContext,
-			types.map(t => ({ type: `Dcat${t.type}`, schema: t.schema }))
+			types.map(t => ({ type: t.schema.title, schema: t.schema }))
 		);
 	}
 }

@@ -50,7 +50,12 @@ export const DataspaceProtocolTransferProcessTypes = {
 	/**
 	 * Transfer Error.
 	 */
-	TransferError: "TransferError"
+	TransferError: "TransferError",
+
+	/**
+	 * Transfer Process State Type.
+	 */
+	TransferProcessStateType: "TransferProcessStateType"
 } as const;
 
 /**
