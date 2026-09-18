@@ -16,7 +16,12 @@ export class Gs1Location {
 	/**
 	 * The GS1 sgln identifier.
 	 */
-	@property({ description: "Unique identifier for the location.", type: "string", isPrimary: true })
+	@property({
+		description: "Unique identifier for the location.",
+		type: "string",
+		isPrimary: true,
+		maxLength: 255
+	})
 	public id!: string;
 
 	/**
@@ -25,6 +30,7 @@ export class Gs1Location {
 	@property({
 		description: "Site identifier or name, if applicable.",
 		type: "string",
+		maxLength: 256,
 		optional: true
 	})
 	public site?: string;
@@ -35,6 +41,7 @@ export class Gs1Location {
 	@property({
 		description: "Additional site-specific information or code.",
 		type: "string",
+		maxLength: 128,
 		optional: true
 	})
 	public sst?: Gs1SubSiteTypes;
@@ -45,6 +52,7 @@ export class Gs1Location {
 	@property({
 		description: "Sub-site area or section information.",
 		type: "string",
+		maxLength: 128,
 		optional: true
 	})
 	public ssa?: Gs1SubSiteAttributes;
@@ -55,6 +63,7 @@ export class Gs1Location {
 	@property({
 		description: "Detailed site description or additional data.",
 		type: "string",
+		maxLength: 1024,
 		optional: true
 	})
 	public ssd?: string;
@@ -65,6 +74,7 @@ export class Gs1Location {
 	@property({
 		description: "Name of the location.",
 		type: "string",
+		maxLength: 256,
 		optional: true
 	})
 	public name?: string;
@@ -75,6 +85,7 @@ export class Gs1Location {
 	@property({
 		description: "Primary street address.",
 		type: "string",
+		maxLength: 256,
 		optional: true
 	})
 	public streetAddressOne?: string;
@@ -85,6 +96,7 @@ export class Gs1Location {
 	@property({
 		description: "Secondary street address, if needed.",
 		type: "string",
+		maxLength: 256,
 		optional: true
 	})
 	public streetAddressTwo?: string;
@@ -95,6 +107,7 @@ export class Gs1Location {
 	@property({
 		description: "Tertiary street address, if applicable.",
 		type: "string",
+		maxLength: 256,
 		optional: true
 	})
 	public streetAddressThree?: string;
@@ -105,6 +118,7 @@ export class Gs1Location {
 	@property({
 		description: "City where the location is situated.",
 		type: "string",
+		maxLength: 128,
 		optional: true
 	})
 	public city?: string;
@@ -115,6 +129,7 @@ export class Gs1Location {
 	@property({
 		description: "State or province of the location.",
 		type: "string",
+		maxLength: 128,
 		optional: true
 	})
 	public state?: string;
@@ -125,6 +140,7 @@ export class Gs1Location {
 	@property({
 		description: "Postal or ZIP code for the location.",
 		type: "string",
+		maxLength: 32,
 		optional: true
 	})
 	public postalCode?: string;
@@ -135,6 +151,7 @@ export class Gs1Location {
 	@property({
 		description: "Country code where the location is located.",
 		type: "string",
+		maxLength: 2,
 		optional: true
 	})
 	public countryCode?: string;
