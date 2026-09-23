@@ -15,7 +15,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { DataTypeHandlerFactory } from '@twin.org/data-core';
-import { directoryExists, fileExists, loadJson } from './common.mjs';
+import { directoryExists, fileExists, loadJson, loadWorkspaceDirs } from './common.mjs';
 
 /**
  * The namespaces which a schema shipped by this workspace declares an $id in.
@@ -75,6 +75,30 @@ async function registerModuleTypes(moduleSpecifier) {
 }
 
 /**
+ * Find the directory a dependency of a workspace package is installed in. Only the
+ * dependencies a package declares are linked into its own node_modules, so the lookup
+ * starts there, the repository root is the fallback for a hoisted install.
+ * @param workspace The workspace directory of the package.
+ * @param dependency The name of the dependency.
+ * @returns The directory the dependency is installed in.
+ * @throws Error if the dependency is not installed.
+ */
+async function resolveDependencyDirectory(workspace, dependency) {
+	const candidates = [
+		path.join(workspace, 'node_modules', dependency),
+		path.join('node_modules', dependency)
+	];
+
+	for (const candidate of candidates) {
+		if (await directoryExists(candidate)) {
+			return candidate;
+		}
+	}
+
+	throw new Error(`Dependency ${dependency} of ${workspace} is not installed`);
+}
+
+/**
  * Register the data types of a built package and the TWIN dependencies it declares.
  * @param workspace The workspace directory of the package.
  * @returns True if the package was built and its types were registered.
@@ -90,8 +114,12 @@ async function registerWorkspaceTypes(workspace) {
 
 	for (const dependency of Object.keys(workspacePackageJson.dependencies ?? {})) {
 		if (dependency.startsWith('@twin.org/')) {
-			await registerModuleTypes(dependency);
-			await collectLocalNamespaces(path.join('node_modules', dependency));
+			const dependencyDirectory = await resolveDependencyDirectory(workspace, dependency);
+
+			await registerModuleTypes(
+				pathToFileURL(path.resolve(dependencyDirectory, 'dist', 'es', 'index.js')).href
+			);
+			await collectLocalNamespaces(dependencyDirectory);
 		}
 	}
 
@@ -153,11 +181,12 @@ async function findUnresolvedRefs(workspace) {
 /**
  * Write the refs and the schemas which reference them.
  * @param refs The unresolved refs mapped to the schemas which reference them.
+ * @param icon The icon to prefix each ref with.
  */
-function writeRefs(refs) {
+function writeRefs(refs, icon) {
 	for (const ref of Object.keys(refs).sort()) {
-		process.stdout.write(`  ${ref}\n`);
-		process.stdout.write(`    referenced from ${refs[ref].sort().join(', ')}\n`);
+		process.stdout.write(`      ${icon} ${ref}\n`);
+		process.stdout.write(`         📄 ${refs[ref].sort().join(', ')}\n`);
 	}
 }
 
@@ -165,44 +194,58 @@ function writeRefs(refs) {
  * Execute the process.
  */
 async function run() {
-	process.stdout.write('Validate Schema Refs\n');
-	process.stdout.write('====================\n');
+	process.stdout.write('🔗 Validate Schema Refs\n');
 	process.stdout.write('\n');
 
-	const packageJson = await loadJson('package.json');
+	const workspaces = await loadWorkspaceDirs();
+
+	process.stdout.write('🧩 Registering types\n');
 
 	const builtWorkspaces = [];
-	for (const workspace of packageJson.workspaces) {
+	for (const workspace of workspaces) {
 		if (await registerWorkspaceTypes(workspace)) {
+			process.stdout.write(`   📦 ${workspace}\n`);
 			builtWorkspaces.push(workspace);
+		} else {
+			process.stdout.write(`   ⏭️  ${workspace} (not built, skipped)\n`);
 		}
 	}
-
-	process.stdout.write(`Packages: ${builtWorkspaces.length}\n`);
-	process.stdout.write(`Registered types: ${DataTypeHandlerFactory.names().length}\n`);
-	process.stdout.write(`Local namespaces: ${localNamespaces.size}\n`);
 	process.stdout.write('\n');
 
+	process.stdout.write(`📦 Packages:         ${builtWorkspaces.length}\n`);
+	process.stdout.write(`🧩 Registered types: ${DataTypeHandlerFactory.names().length}\n`);
+	process.stdout.write(`🏠 Local namespaces: ${localNamespaces.size}\n`);
+	process.stdout.write('\n');
+
+	process.stdout.write('🔍 Checking schema refs\n');
+
 	let unresolvedCount = 0;
+	let externalCount = 0;
 
 	for (const workspace of builtWorkspaces) {
 		const { local, external } = await findUnresolvedRefs(workspace);
 
-		if (Object.keys(local).length > 0 || Object.keys(external).length > 0) {
-			process.stdout.write(`${workspace}\n`);
+		if (Object.keys(local).length === 0 && Object.keys(external).length === 0) {
+			process.stdout.write(`   ✅ ${workspace}: no problems\n`);
+		} else {
+			process.stdout.write(`   📁 ${workspace}\n`);
 
 			unresolvedCount += Object.keys(local).length;
-			writeRefs(local);
+			writeRefs(local, '❌');
 
 			if (Object.keys(external).length > 0) {
+				externalCount += Object.keys(external).length;
 				process.stdout.write(
-					'  no package here registers these namespaces, they resolve over the network\n'
+					'      🌐 No package here registers these namespaces, they resolve over the network\n'
 				);
-				writeRefs(external);
+				writeRefs(external, '⚠️ ');
 			}
-
-			process.stdout.write('\n');
 		}
+	}
+	process.stdout.write('\n');
+
+	if (externalCount > 0) {
+		process.stdout.write(`⚠️  External $refs resolved over the network: ${externalCount}\n`);
 	}
 
 	if (unresolvedCount > 0) {
@@ -211,11 +254,13 @@ async function run() {
 		);
 	}
 
-	process.stdout.write('All schema refs into local namespaces resolve to registered data types\n');
+	process.stdout.write(
+		'✅ All schema refs into local namespaces resolve to registered data types\n'
+	);
 }
 
 run().catch(err => {
-	process.stderr.write(`${err}\n`);
+	process.stderr.write(`❌ ${err}\n`);
 	// eslint-disable-next-line unicorn/no-process-exit
 	process.exit(1);
 });
