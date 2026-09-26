@@ -22,5 +22,13 @@
 
 ## Variables
 
+- [CompiledFoafContextType](variables/CompiledFoafContextType.md)
+- [CompiledFoafAgent](variables/CompiledFoafAgent.md)
+- [CompiledFoafBaseObject](variables/CompiledFoafBaseObject.md)
+- [CompiledFoafDocument](variables/CompiledFoafDocument.md)
+- [CompiledFoafGroup](variables/CompiledFoafGroup.md)
+- [CompiledFoafImage](variables/CompiledFoafImage.md)
+- [CompiledFoafOrganization](variables/CompiledFoafOrganization.md)
+- [CompiledFoafPerson](variables/CompiledFoafPerson.md)
 - [FoafContexts](variables/FoafContexts.md)
 - [FoafTypes](variables/FoafTypes.md)
