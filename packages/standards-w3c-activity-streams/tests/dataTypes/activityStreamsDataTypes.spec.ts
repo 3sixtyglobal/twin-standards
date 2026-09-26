@@ -2,10 +2,12 @@
 // SPDX-License-Identifier: Apache-2.0.
 import fs from "node:fs/promises";
 import path from "node:path";
-import { Is } from "@twin.org/core";
-import { DataTypeHandlerFactory } from "@twin.org/data-core";
+import { Is, type IValidationFailure } from "@twin.org/core";
+import { DataTypeHandlerFactory, DataTypeHelper } from "@twin.org/data-core";
 import { JsonLdDataTypes } from "@twin.org/data-json-ld";
 import { ActivityStreamsDataTypes } from "../../src/dataTypes/activityStreamsDataTypes.js";
+import { ActivityStreamsContexts } from "../../src/models/activityStreamsContexts.js";
+import { ActivityStreamsTypes } from "../../src/models/activityStreamsTypes.js";
 
 const SCHEMAS_DIRECTORY = path.join(import.meta.dirname, "..", "..", "src", "schemas");
 
@@ -72,5 +74,40 @@ describe("ActivityStreamsDataTypes", () => {
 			.filter(ref => !DataTypeHandlerFactory.hasName(ref));
 
 		expect(unregistered).toEqual([]);
+	});
+
+	test("should validate a question with a single choice list", async () => {
+		const failures: IValidationFailure[] = [];
+		const isValid = await DataTypeHelper.validate(
+			"question",
+			`${ActivityStreamsContexts.Namespace}${ActivityStreamsTypes.Question}`,
+			{
+				"@context": ActivityStreamsContexts.Context,
+				type: ActivityStreamsTypes.Question,
+				oneOf: [{ type: "Note", name: "Yes" }]
+			},
+			failures
+		);
+
+		expect(failures).toEqual([]);
+		expect(isValid).toEqual(true);
+	});
+
+	test("should fail to validate a question with both choice lists", async () => {
+		const failures: IValidationFailure[] = [];
+		const isValid = await DataTypeHelper.validate(
+			"question",
+			`${ActivityStreamsContexts.Namespace}${ActivityStreamsTypes.Question}`,
+			{
+				"@context": ActivityStreamsContexts.Context,
+				type: ActivityStreamsTypes.Question,
+				oneOf: [{ type: "Note", name: "Yes" }],
+				anyOf: [{ type: "Note", name: "No" }]
+			},
+			failures
+		);
+
+		expect(failures.length).toBeGreaterThan(0);
+		expect(isValid).toEqual(false);
 	});
 });

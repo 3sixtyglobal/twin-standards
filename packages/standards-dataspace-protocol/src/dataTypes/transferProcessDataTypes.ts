@@ -1,6 +1,7 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import { DataTypeHelper } from "@twin.org/data-core";
+import * as CompiledValidators from "../compiled/validators.js";
 import { DataspaceProtocolContexts } from "../models/dataspaceProtocolContexts.js";
 import { DataspaceProtocolTransferProcessTypes } from "../models/transferProcess/dataspaceProtocolTransferProcessTypes.js";
 import DataAddressSchema from "../schemas/DataspaceProtocolDataAddress.json" with { type: "json" };
@@ -25,43 +26,53 @@ export class TransferProcessDataTypes {
 		const types = [
 			{
 				type: DataspaceProtocolTransferProcessTypes.DataAddress,
-				schema: DataAddressSchema
+				schema: DataAddressSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolDataAddress
 			},
 			{
 				type: DataspaceProtocolTransferProcessTypes.EndpointProperty,
-				schema: EndpointPropertySchema
+				schema: EndpointPropertySchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolEndpointProperty
 			},
 			{
 				type: DataspaceProtocolTransferProcessTypes.TransferCompletionMessage,
-				schema: TransferCompletionMessageSchema
+				schema: TransferCompletionMessageSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolTransferCompletionMessage
 			},
 			{
 				type: DataspaceProtocolTransferProcessTypes.TransferError,
-				schema: TransferErrorSchema
+				schema: TransferErrorSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolTransferError
 			},
 			{
 				type: DataspaceProtocolTransferProcessTypes.TransferProcess,
-				schema: TransferProcessSchema
+				schema: TransferProcessSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolTransferProcess
 			},
 			{
 				type: DataspaceProtocolTransferProcessTypes.TransferProcessStateType,
-				schema: TransferProcessStateTypeSchema
+				schema: TransferProcessStateTypeSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolTransferProcessStateType
 			},
 			{
 				type: DataspaceProtocolTransferProcessTypes.TransferRequestMessage,
-				schema: TransferRequestMessageSchema
+				schema: TransferRequestMessageSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolTransferRequestMessage
 			},
 			{
 				type: DataspaceProtocolTransferProcessTypes.TransferStartMessage,
-				schema: TransferStartMessageSchema
+				schema: TransferStartMessageSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolTransferStartMessage
 			},
 			{
 				type: DataspaceProtocolTransferProcessTypes.TransferSuspensionMessage,
-				schema: TransferSuspensionMessageSchema
+				schema: TransferSuspensionMessageSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolTransferSuspensionMessage
 			},
 			{
 				type: DataspaceProtocolTransferProcessTypes.TransferTerminationMessage,
-				schema: TransferTerminationMessageSchema
+				schema: TransferTerminationMessageSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolTransferTerminationMessage
 			}
 		];
 
@@ -74,7 +85,11 @@ export class TransferProcessDataTypes {
 		DataTypeHelper.registerTypes(
 			DataspaceProtocolContexts.JsonSchemaNamespace,
 			DataspaceProtocolContexts.JsonLdContext,
-			types.map(t => ({ type: `DataspaceProtocol${t.type}`, schema: t.schema }))
+			types.map(t => ({
+				type: `DataspaceProtocol${t.type}`,
+				schema: t.schema,
+				compiledValidator: t.compiledValidator
+			}))
 		);
 	}
 }

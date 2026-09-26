@@ -1,5 +1,6 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
+export * from "./compiled/validators.js";
 export * from "./dataTypes/foafDataTypes.js";
 export * from "./models/IFoafAgent.js";
 export * from "./models/IFoafBaseObject.js";

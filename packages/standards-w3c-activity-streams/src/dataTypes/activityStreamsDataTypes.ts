@@ -1,7 +1,8 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import { DataTypeHelper } from "@twin.org/data-core";
-import { JsonLdProcessor } from "@twin.org/data-json-ld";
+import { JsonLdDataTypes, JsonLdProcessor } from "@twin.org/data-json-ld";
+import * as CompiledValidators from "../compiled/validators.js";
 import { ActivityStreamsContexts } from "../models/activityStreamsContexts.js";
 import { ActivityStreamsLinkTypes } from "../models/activityStreamsLinkTypes.js";
 import { ActivityStreamsObjectTypes } from "../models/activityStreamsObjectTypes.js";
@@ -32,6 +33,7 @@ import PageSchema from "../schemas/ActivityStreamsPage.json" with { type: "json"
 import PersonSchema from "../schemas/ActivityStreamsPerson.json" with { type: "json" };
 import PlaceSchema from "../schemas/ActivityStreamsPlace.json" with { type: "json" };
 import ProfileSchema from "../schemas/ActivityStreamsProfile.json" with { type: "json" };
+import QuestionSchema from "../schemas/ActivityStreamsQuestion.json" with { type: "json" };
 import QuestionAnyOfChoiceSchema from "../schemas/ActivityStreamsQuestionAnyOfChoice.json" with { type: "json" };
 import QuestionBaseSchema from "../schemas/ActivityStreamsQuestionBase.json" with { type: "json" };
 import QuestionNeitherChoiceSchema from "../schemas/ActivityStreamsQuestionNeitherChoice.json" with { type: "json" };
@@ -60,258 +62,324 @@ export abstract class ActivityStreamsDataTypes {
 	 * Register all the data types.
 	 */
 	public static registerTypes(): void {
+		// Register the types referenced by the schemas, which are only registered once.
+		JsonLdDataTypes.registerTypes();
+
 		const types = [
 			{
 				type: ActivityStreamsObjectTypes.Object,
-				schema: ObjectSchema
+				schema: ObjectSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsObject
 			},
 			{
 				type: ActivityStreamsLinkTypes.Link,
-				schema: LinkSchema
+				schema: LinkSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsLink
 			},
 			{
 				type: ActivityStreamsLinkTypes.Mention,
-				schema: MentionSchema
+				schema: MentionSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsMention
 			},
 			{
 				type: ActivityStreamsTypes.Activity,
-				schema: ActivitySchema
+				schema: ActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActivity
 			},
 			{
 				type: ActivityStreamsTypes.Accept,
-				schema: ActivitySchema
+				schema: ActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActivity
 			},
 			{
 				type: ActivityStreamsTypes.Add,
-				schema: ActivitySchema
+				schema: ActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActivity
 			},
 			{
 				type: ActivityStreamsTypes.Announce,
-				schema: ActivitySchema
+				schema: ActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActivity
 			},
 			{
 				type: ActivityStreamsTypes.Arrive,
-				schema: ActivitySchema
+				schema: ActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActivity
 			},
 			{
 				type: ActivityStreamsTypes.Block,
-				schema: ActivitySchema
+				schema: ActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActivity
 			},
 			{
 				type: ActivityStreamsTypes.Create,
-				schema: ActivitySchema
+				schema: ActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActivity
 			},
 			{
 				type: ActivityStreamsTypes.Delete,
-				schema: ActivitySchema
+				schema: ActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActivity
 			},
 			{
 				type: ActivityStreamsTypes.Dislike,
-				schema: ActivitySchema
+				schema: ActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActivity
 			},
 			{
 				type: ActivityStreamsTypes.Flag,
-				schema: ActivitySchema
+				schema: ActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActivity
 			},
 			{
 				type: ActivityStreamsTypes.Follow,
-				schema: ActivitySchema
+				schema: ActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActivity
 			},
 			{
 				type: ActivityStreamsTypes.Ignore,
-				schema: ActivitySchema
+				schema: ActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActivity
 			},
 			{
 				type: ActivityStreamsTypes.Invite,
-				schema: ActivitySchema
+				schema: ActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActivity
 			},
 			{
 				type: ActivityStreamsTypes.Join,
-				schema: ActivitySchema
+				schema: ActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActivity
 			},
 			{
 				type: ActivityStreamsTypes.Leave,
-				schema: ActivitySchema
+				schema: ActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActivity
 			},
 			{
 				type: ActivityStreamsTypes.Like,
-				schema: ActivitySchema
+				schema: ActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActivity
 			},
 			{
 				type: ActivityStreamsTypes.Listen,
-				schema: ActivitySchema
+				schema: ActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActivity
 			},
 			{
 				type: ActivityStreamsTypes.Move,
-				schema: ActivitySchema
+				schema: ActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActivity
 			},
 			{
 				type: ActivityStreamsTypes.Offer,
-				schema: ActivitySchema
+				schema: ActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActivity
 			},
 			{
 				type: ActivityStreamsTypes.Question,
-				schema: ActivitySchema
+				schema: QuestionSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsQuestion
 			},
 			{
 				type: ActivityStreamsTypes.Reject,
-				schema: ActivitySchema
+				schema: ActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActivity
 			},
 			{
 				type: ActivityStreamsTypes.Read,
-				schema: ActivitySchema
+				schema: ActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActivity
 			},
 			{
 				type: ActivityStreamsTypes.Remove,
-				schema: ActivitySchema
+				schema: ActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActivity
 			},
 			{
 				type: ActivityStreamsTypes.TentativeReject,
-				schema: ActivitySchema
+				schema: ActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActivity
 			},
 			{
 				type: ActivityStreamsTypes.TentativeAccept,
-				schema: ActivitySchema
+				schema: ActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActivity
 			},
 			{
 				type: ActivityStreamsTypes.Travel,
-				schema: ActivitySchema
+				schema: ActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActivity
 			},
 			{
 				type: ActivityStreamsTypes.Undo,
-				schema: ActivitySchema
+				schema: ActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActivity
 			},
 			{
 				type: ActivityStreamsTypes.Update,
-				schema: ActivitySchema
+				schema: ActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActivity
 			},
 			{
 				type: ActivityStreamsTypes.View,
-				schema: ActivitySchema
+				schema: ActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActivity
 			},
 			{
 				type: ActivityStreamsObjectTypes.IntransitiveActivity,
-				schema: IntransitiveActivitySchema
+				schema: IntransitiveActivitySchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsIntransitiveActivity
 			},
 			{
 				type: ActivityStreamsObjectTypes.Collection,
-				schema: CollectionSchema
+				schema: CollectionSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsCollection
 			},
 			{
 				type: ActivityStreamsObjectTypes.OrderedCollection,
-				schema: OrderedCollectionSchema
+				schema: OrderedCollectionSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsOrderedCollection
 			},
 			{
 				type: ActivityStreamsObjectTypes.CollectionPage,
-				schema: CollectionPageSchema
+				schema: CollectionPageSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsCollectionPage
 			},
 			{
 				type: ActivityStreamsObjectTypes.OrderedCollectionPage,
-				schema: OrderedCollectionPageSchema
+				schema: OrderedCollectionPageSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsOrderedCollectionPage
 			},
 			{
 				type: ActivityStreamsObjectTypes.Actor,
-				schema: ActorSchema
+				schema: ActorSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsActor
 			},
 			{
 				type: ActivityStreamsObjectTypes.Application,
-				schema: ApplicationSchema
+				schema: ApplicationSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsApplication
 			},
 			{
 				type: ActivityStreamsObjectTypes.Group,
-				schema: GroupSchema
+				schema: GroupSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsGroup
 			},
 			{
 				type: ActivityStreamsObjectTypes.Organization,
-				schema: OrganizationSchema
+				schema: OrganizationSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsOrganization
 			},
 			{
 				type: ActivityStreamsObjectTypes.Person,
-				schema: PersonSchema
+				schema: PersonSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsPerson
 			},
 			{
 				type: ActivityStreamsObjectTypes.Service,
-				schema: ServiceSchema
+				schema: ServiceSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsService
 			},
 			{
 				type: ActivityStreamsObjectTypes.Article,
-				schema: ArticleSchema
+				schema: ArticleSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsArticle
 			},
 			{
 				type: ActivityStreamsObjectTypes.Audio,
-				schema: AudioSchema
+				schema: AudioSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsAudio
 			},
 			{
 				type: ActivityStreamsObjectTypes.Document,
-				schema: DocumentSchema
+				schema: DocumentSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsDocument
 			},
 			{
 				type: ActivityStreamsObjectTypes.Event,
-				schema: EventSchema
+				schema: EventSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsEvent
 			},
 			{
 				type: ActivityStreamsObjectTypes.Image,
-				schema: ImageSchema
+				schema: ImageSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsImage
 			},
 			{
 				type: ActivityStreamsObjectTypes.Note,
-				schema: NoteSchema
+				schema: NoteSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsNote
 			},
 			{
 				type: ActivityStreamsObjectTypes.Page,
-				schema: PageSchema
+				schema: PageSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsPage
 			},
 			{
 				type: ActivityStreamsObjectTypes.Place,
-				schema: PlaceSchema
+				schema: PlaceSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsPlace
 			},
 			{
 				type: ActivityStreamsObjectTypes.Profile,
-				schema: ProfileSchema
+				schema: ProfileSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsProfile
 			},
 			{
 				type: ActivityStreamsObjectTypes.Relationship,
-				schema: RelationshipSchema
+				schema: RelationshipSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsRelationship
 			},
 			{
 				type: ActivityStreamsObjectTypes.Tombstone,
-				schema: TombstoneSchema
+				schema: TombstoneSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsTombstone
 			},
 			{
 				type: ActivityStreamsObjectTypes.Video,
-				schema: VideoSchema
+				schema: VideoSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsVideo
 			},
 			{
 				type: "QuestionAnyOfChoice",
-				schema: QuestionAnyOfChoiceSchema
+				schema: QuestionAnyOfChoiceSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsQuestionAnyOfChoice
 			},
 			{
 				type: "QuestionBase",
-				schema: QuestionBaseSchema
+				schema: QuestionBaseSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsQuestionBase
 			},
 			{
 				type: "QuestionNeitherChoice",
-				schema: QuestionNeitherChoiceSchema
+				schema: QuestionNeitherChoiceSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsQuestionNeitherChoice
 			},
 			{
 				type: "QuestionOneOfChoice",
-				schema: QuestionOneOfChoiceSchema
+				schema: QuestionOneOfChoiceSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsQuestionOneOfChoice
 			},
 			{
 				type: "LinkTypes",
-				schema: ActivityStreamsLinkTypesSchema
+				schema: ActivityStreamsLinkTypesSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsLinkTypes
 			},
 			{
 				type: "ObjectTypes",
-				schema: ActivityStreamsObjectTypesSchema
+				schema: ActivityStreamsObjectTypesSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsObjectTypes
 			},
 			{
 				type: "Types",
-				schema: ActivityStreamsTypesSchema
+				schema: ActivityStreamsTypesSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsTypes
 			},
 			{
 				type: "ContextType",
-				schema: ContextTypeSchema
+				schema: ContextTypeSchema,
+				compiledValidator: CompiledValidators.CompiledActivityStreamsContextType
 			}
 		];
 
@@ -324,7 +392,11 @@ export abstract class ActivityStreamsDataTypes {
 		DataTypeHelper.registerTypes(
 			ActivityStreamsContexts.JsonSchemaNamespace,
 			ActivityStreamsContexts.JsonLdContext,
-			types.map(t => ({ type: `ActivityStreams${t.type}`, schema: t.schema }))
+			types.map(t => ({
+				type: `ActivityStreams${t.type}`,
+				schema: t.schema,
+				compiledValidator: t.compiledValidator
+			}))
 		);
 	}
 }

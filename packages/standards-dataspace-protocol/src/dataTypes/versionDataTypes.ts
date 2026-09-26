@@ -1,6 +1,7 @@
 // Copyright 2026 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import { DataTypeHelper } from "@twin.org/data-core";
+import * as CompiledValidators from "../compiled/validators.js";
 import { DataspaceProtocolContexts } from "../models/dataspaceProtocolContexts.js";
 import { DataspaceProtocolVersionTypes } from "../models/version/dataspaceProtocolVersionTypes.js";
 import AuthSchema from "../schemas/DataspaceProtocolAuth.json" with { type: "json" };
@@ -19,19 +20,23 @@ export class VersionDataTypes {
 		const types = [
 			{
 				type: DataspaceProtocolVersionTypes.VersionResponse,
-				schema: VersionResponseSchema
+				schema: VersionResponseSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolVersionResponse
 			},
 			{
 				type: DataspaceProtocolVersionTypes.Version,
-				schema: VersionSchema
+				schema: VersionSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolVersion
 			},
 			{
 				type: DataspaceProtocolVersionTypes.Auth,
-				schema: AuthSchema
+				schema: AuthSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolAuth
 			},
 			{
 				type: DataspaceProtocolVersionTypes.VersionBindingType,
-				schema: VersionBindingTypeSchema
+				schema: VersionBindingTypeSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolVersionBindingType
 			}
 		];
 
@@ -44,7 +49,11 @@ export class VersionDataTypes {
 		DataTypeHelper.registerTypes(
 			DataspaceProtocolContexts.JsonSchemaNamespace,
 			DataspaceProtocolContexts.JsonLdContext,
-			types.map(t => ({ type: `DataspaceProtocol${t.type}`, schema: t.schema }))
+			types.map(t => ({
+				type: `DataspaceProtocol${t.type}`,
+				schema: t.schema,
+				compiledValidator: t.compiledValidator
+			}))
 		);
 	}
 }

@@ -1,7 +1,11 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import { DataTypeHelper } from "@twin.org/data-core";
-import { JsonLdProcessor } from "@twin.org/data-json-ld";
+import { JsonLdDataTypes, JsonLdProcessor } from "@twin.org/data-json-ld";
+import { DublinCoreDataTypes } from "@twin.org/standards-dublin-core";
+import { FoafDataTypes } from "@twin.org/standards-foaf";
+import { OdrlDataTypes } from "@twin.org/standards-w3c-odrl";
+import * as CompiledValidators from "../compiled/validators.js";
 import { DcatClasses } from "../models/dcatClasses.js";
 import { DcatContexts } from "../models/dcatContexts.js";
 import CatalogSchema from "../schemas/DcatCatalog.json" with { type: "json" };
@@ -41,70 +45,92 @@ export class DcatDataTypes {
 	 * Register all the DCAT data types with their JSON schemas.
 	 */
 	public static registerTypes(): void {
+		// Register the types referenced by the schemas, which are only registered once.
+		JsonLdDataTypes.registerTypes();
+		DublinCoreDataTypes.registerTypes();
+		FoafDataTypes.registerTypes();
+		OdrlDataTypes.registerTypes();
+
 		const types = [
 			{
 				type: DcatClasses.Resource,
-				schema: ResourceSchema
+				schema: ResourceSchema,
+				compiledValidator: CompiledValidators.CompiledDcatResource
 			},
 			{
 				type: `${DcatClasses.Resource}Base`,
-				schema: ResourceBaseSchema
+				schema: ResourceBaseSchema,
+				compiledValidator: CompiledValidators.CompiledDcatResourceBase
 			},
 			{
 				type: DcatClasses.Catalog,
-				schema: CatalogSchema
+				schema: CatalogSchema,
+				compiledValidator: CompiledValidators.CompiledDcatCatalog
 			},
 			{
 				type: `${DcatClasses.Catalog}Base`,
-				schema: CatalogBaseSchema
+				schema: CatalogBaseSchema,
+				compiledValidator: CompiledValidators.CompiledDcatCatalogBase
 			},
 			{
 				type: DcatClasses.CatalogRecord,
-				schema: CatalogRecordSchema
+				schema: CatalogRecordSchema,
+				compiledValidator: CompiledValidators.CompiledDcatCatalogRecord
 			},
 			{
 				type: `${DcatClasses.CatalogRecord}Base`,
-				schema: CatalogRecordBaseSchema
+				schema: CatalogRecordBaseSchema,
+				compiledValidator: CompiledValidators.CompiledDcatCatalogRecordBase
 			},
 			{
 				type: DcatClasses.Dataset,
-				schema: DatasetSchema
+				schema: DatasetSchema,
+				compiledValidator: CompiledValidators.CompiledDcatDataset
 			},
 			{
 				type: `${DcatClasses.Dataset}Base`,
-				schema: DatasetBaseSchema
+				schema: DatasetBaseSchema,
+				compiledValidator: CompiledValidators.CompiledDcatDatasetBase
 			},
 			{
 				type: DcatClasses.Distribution,
-				schema: DistributionSchema
+				schema: DistributionSchema,
+				compiledValidator: CompiledValidators.CompiledDcatDistribution
 			},
 			{
 				type: `${DcatClasses.Distribution}Base`,
-				schema: DistributionBaseSchema
+				schema: DistributionBaseSchema,
+				compiledValidator: CompiledValidators.CompiledDcatDistributionBase
 			},
 			{
 				type: DcatClasses.DataService,
-				schema: DataServiceSchema
+				schema: DataServiceSchema,
+				compiledValidator: CompiledValidators.CompiledDcatDataService
 			},
 			{
 				type: `${DcatClasses.DataService}Base`,
-				schema: DataServiceBaseSchema
+				schema: DataServiceBaseSchema,
+				compiledValidator: CompiledValidators.CompiledDcatDataServiceBase
 			},
 			{
 				type: DcatClasses.DatasetSeries,
-				schema: DatasetSeriesSchema
+				schema: DatasetSeriesSchema,
+				compiledValidator: CompiledValidators.CompiledDcatDatasetSeries
 			},
 			{
 				type: DcatClasses.Relationship,
-				schema: RelationshipSchema
+				schema: RelationshipSchema,
+				compiledValidator: CompiledValidators.CompiledDcatRelationship
 			},
 			{
 				type: DcatClasses.Role,
-				schema: RoleSchema
+				schema: RoleSchema,
+				compiledValidator: CompiledValidators.CompiledDcatRole
 			},
 			{
 				type: "ContextType",
-				schema: ContextTypeSchema
+				schema: ContextTypeSchema,
+				compiledValidator: CompiledValidators.CompiledDcatContextType
 			}
 		];
 
@@ -115,7 +141,11 @@ export class DcatDataTypes {
 		DataTypeHelper.registerTypes(
 			DcatContexts.JsonSchemaNamespace,
 			DcatContexts.JsonLdContext,
-			types.map(t => ({ type: t.schema.title, schema: t.schema }))
+			types.map(t => ({
+				type: t.schema.title,
+				schema: t.schema,
+				compiledValidator: t.compiledValidator
+			}))
 		);
 	}
 }

@@ -1,12 +1,16 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import { DataTypeHelper } from "@twin.org/data-core";
-import { JsonLdProcessor } from "@twin.org/data-json-ld";
-import { DcatContexts } from "@twin.org/standards-w3c-dcat";
+import { JsonLdDataTypes, JsonLdProcessor } from "@twin.org/data-json-ld";
+import { DublinCoreDataTypes } from "@twin.org/standards-dublin-core";
+import { FoafDataTypes } from "@twin.org/standards-foaf";
+import { DcatContexts, DcatDataTypes } from "@twin.org/standards-w3c-dcat";
+import { OdrlDataTypes } from "@twin.org/standards-w3c-odrl";
 import { CatalogDataTypes } from "./catalogDataTypes.js";
 import { ContractNegotiationDataTypes } from "./contractNegotiationDataTypes.js";
 import { TransferProcessDataTypes } from "./transferProcessDataTypes.js";
 import { VersionDataTypes } from "./versionDataTypes.js";
+import * as CompiledValidators from "../compiled/validators.js";
 import { DataspaceProtocolContexts } from "../models/dataspaceProtocolContexts.js";
 import DsProtocolContextTypeSchema from "../schemas/DataspaceProtocolContextType.json" with { type: "json" };
 
@@ -34,7 +38,20 @@ export class DataspaceProtocolDataTypes {
 	 * Register all the data types.
 	 */
 	public static registerTypes(): void {
-		const typesDataspaceProtocol = [{ type: "ContextType", schema: DsProtocolContextTypeSchema }];
+		// Register the types referenced by the schemas, which are only registered once.
+		JsonLdDataTypes.registerTypes();
+		DublinCoreDataTypes.registerTypes();
+		FoafDataTypes.registerTypes();
+		DcatDataTypes.registerTypes();
+		OdrlDataTypes.registerTypes();
+
+		const typesDataspaceProtocol = [
+			{
+				type: "ContextType",
+				schema: DsProtocolContextTypeSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolContextType
+			}
+		];
 
 		DataTypeHelper.registerTypes(
 			DataspaceProtocolContexts.Namespace,
@@ -45,7 +62,11 @@ export class DataspaceProtocolDataTypes {
 		DataTypeHelper.registerTypes(
 			DataspaceProtocolContexts.JsonSchemaNamespace,
 			DcatContexts.JsonLdContext,
-			typesDataspaceProtocol.map(t => ({ type: `DataspaceProtocol${t.type}`, schema: t.schema }))
+			typesDataspaceProtocol.map(t => ({
+				type: `DataspaceProtocol${t.type}`,
+				schema: t.schema,
+				compiledValidator: t.compiledValidator
+			}))
 		);
 
 		ContractNegotiationDataTypes.registerTypes();

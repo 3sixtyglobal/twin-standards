@@ -1,6 +1,7 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import { DataTypeHelper } from "@twin.org/data-core";
+import * as CompiledValidators from "../compiled/validators.js";
 import { DataspaceProtocolContractNegotiationTypes } from "../models/contractNegotiation/dataspaceProtocolContractNegotiationTypes.js";
 import { DataspaceProtocolContexts } from "../models/dataspaceProtocolContexts.js";
 import ContractAgreementMessageSchema from "../schemas/DataspaceProtocolContractAgreementMessage.json" with { type: "json" };
@@ -25,43 +26,56 @@ export class ContractNegotiationDataTypes {
 		const types = [
 			{
 				type: DataspaceProtocolContractNegotiationTypes.ContractAgreementMessage,
-				schema: ContractAgreementMessageSchema
+				schema: ContractAgreementMessageSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolContractAgreementMessage
 			},
 			{
 				type: DataspaceProtocolContractNegotiationTypes.ContractAgreementVerificationMessage,
-				schema: ContractAgreementVerificationMessageSchema
+				schema: ContractAgreementVerificationMessageSchema,
+				compiledValidator:
+					CompiledValidators.CompiledDataspaceProtocolContractAgreementVerificationMessage
 			},
 			{
 				type: DataspaceProtocolContractNegotiationTypes.ContractNegotiation,
-				schema: ContractNegotiationSchema
+				schema: ContractNegotiationSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolContractNegotiation
 			},
 			{
 				type: DataspaceProtocolContractNegotiationTypes.ContractNegotiationError,
-				schema: ContractNegotiationErrorSchema
+				schema: ContractNegotiationErrorSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolContractNegotiationError
 			},
 			{
 				type: DataspaceProtocolContractNegotiationTypes.ContractNegotiationEventMessage,
-				schema: ContractNegotiationEventMessageSchema
+				schema: ContractNegotiationEventMessageSchema,
+				compiledValidator:
+					CompiledValidators.CompiledDataspaceProtocolContractNegotiationEventMessage
 			},
 			{
 				type: DataspaceProtocolContractNegotiationTypes.ContractNegotiationTerminationMessage,
-				schema: ContractNegotiationTerminationMessageSchema
+				schema: ContractNegotiationTerminationMessageSchema,
+				compiledValidator:
+					CompiledValidators.CompiledDataspaceProtocolContractNegotiationTerminationMessage
 			},
 			{
 				type: DataspaceProtocolContractNegotiationTypes.ContractOfferMessage,
-				schema: ContractOfferMessageSchema
+				schema: ContractOfferMessageSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolContractOfferMessage
 			},
 			{
 				type: DataspaceProtocolContractNegotiationTypes.ContractRequestMessage,
-				schema: ContractRequestMessageSchema
+				schema: ContractRequestMessageSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolContractRequestMessage
 			},
 			{
 				type: DataspaceProtocolContractNegotiationTypes.ContractNegotiationEventType,
-				schema: ContractNegotiationEventTypeSchema
+				schema: ContractNegotiationEventTypeSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolContractNegotiationEventType
 			},
 			{
 				type: DataspaceProtocolContractNegotiationTypes.ContractNegotiationStateType,
-				schema: ContractNegotiationStateTypeSchema
+				schema: ContractNegotiationStateTypeSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolContractNegotiationStateType
 			}
 		];
 
@@ -74,7 +88,11 @@ export class ContractNegotiationDataTypes {
 		DataTypeHelper.registerTypes(
 			DataspaceProtocolContexts.JsonSchemaNamespace,
 			DataspaceProtocolContexts.JsonLdContext,
-			types.map(t => ({ type: `DataspaceProtocol${t.type}`, schema: t.schema }))
+			types.map(t => ({
+				type: `DataspaceProtocol${t.type}`,
+				schema: t.schema,
+				compiledValidator: t.compiledValidator
+			}))
 		);
 	}
 }

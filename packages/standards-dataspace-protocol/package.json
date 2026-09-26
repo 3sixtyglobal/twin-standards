@@ -14,8 +14,8 @@
 		"node": ">=24.0.0"
 	},
 	"scripts": {
-		"clean": "rimraf dist coverage src/schemas",
-		"build:schema": "ts-to-schema ./ts-to-schema.json ./src/schemas",
+		"clean": "rimraf dist coverage src/schemas src/compiled",
+		"build:schema": "ts-to-schema ./ts-to-schema.json ./src/schemas ./src/compiled",
 		"build:compile": "tspc",
 		"build": "pnpm run build:schema && pnpm run build:compile",
 		"dev": "nodemon --watch src --ext ts --exec \"pnpm run build\"",
@@ -34,6 +34,8 @@
 		"@twin.org/data-core": "next",
 		"@twin.org/data-json-ld": "next",
 		"@twin.org/nameof": "next",
+		"@twin.org/standards-dublin-core": "0.10.1-next.0",
+		"@twin.org/standards-foaf": "0.10.1-next.0",
 		"@twin.org/standards-w3c-dcat": "0.10.1-next.0",
 		"@twin.org/standards-w3c-odrl": "0.10.1-next.0",
 		"@twin.org/web": "next"
@@ -41,8 +43,6 @@
 	"devDependencies": {
 		"@twin.org/nameof-transformer": "next",
 		"@twin.org/nameof-vitest-plugin": "next",
-		"@twin.org/standards-dublin-core": "0.10.1-next.0",
-		"@twin.org/standards-foaf": "0.10.1-next.0",
 		"@twin.org/standards-ld-contexts": "0.10.1-next.0",
 		"@twin.org/ts-to-schema": "next",
 		"@twin.org/validate-locales": "next",

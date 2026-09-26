@@ -14,3 +14,5 @@ packages/standards-unece/src/models/uneceTypes.ts
 packages/standards-unece/src/models/uneceCodeLists.ts
 packages/standards-unece/src-data/
 *.gz
+**/src/compiled/
+_tmp_*

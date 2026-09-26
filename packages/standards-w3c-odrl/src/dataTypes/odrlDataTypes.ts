@@ -1,7 +1,8 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import { DataTypeHelper } from "@twin.org/data-core";
-import { JsonLdProcessor } from "@twin.org/data-json-ld";
+import { JsonLdDataTypes, JsonLdProcessor } from "@twin.org/data-json-ld";
+import * as CompiledValidators from "../compiled/validators.js";
 import { OdrlContexts } from "../models/odrlContexts.js";
 import { OdrlTypes } from "../models/types/odrlTypes.js";
 import OdrlActionSchema from "../schemas/OdrlAction.json" with { type: "json" };
@@ -46,110 +47,139 @@ export class OdrlDataTypes {
 	 * Register all the data types.
 	 */
 	public static registerTypes(): void {
+		// Register the types referenced by the schemas, which are only registered once.
+		JsonLdDataTypes.registerTypes();
+
 		const types = [
 			{
 				type: OdrlTypes.Policy,
-				schema: OdrlPolicySchema
+				schema: OdrlPolicySchema,
+				compiledValidator: CompiledValidators.CompiledOdrlPolicy
 			},
 			{
 				type: OdrlTypes.Asset,
-				schema: OdrlAssetSchema
+				schema: OdrlAssetSchema,
+				compiledValidator: CompiledValidators.CompiledOdrlAsset
 			},
 			{
 				type: OdrlTypes.AssetCollection,
-				schema: OdrlAssetCollectionSchema
+				schema: OdrlAssetCollectionSchema,
+				compiledValidator: CompiledValidators.CompiledOdrlAssetCollection
 			},
 			{
 				type: OdrlTypes.Party,
-				schema: OdrlPartySchema
+				schema: OdrlPartySchema,
+				compiledValidator: CompiledValidators.CompiledOdrlParty
 			},
 			{
 				type: OdrlTypes.PartyCollection,
-				schema: OdrlPartyCollectionSchema
+				schema: OdrlPartyCollectionSchema,
+				compiledValidator: CompiledValidators.CompiledOdrlPartyCollection
 			},
 			{
 				type: OdrlTypes.Action,
-				schema: OdrlActionSchema
+				schema: OdrlActionSchema,
+				compiledValidator: CompiledValidators.CompiledOdrlAction
 			},
 			{
 				type: OdrlTypes.Permission,
-				schema: OdrlPermissionSchema
+				schema: OdrlPermissionSchema,
+				compiledValidator: CompiledValidators.CompiledOdrlPermission
 			},
 			{
 				type: OdrlTypes.Prohibition,
-				schema: OdrlProhibitionSchema
+				schema: OdrlProhibitionSchema,
+				compiledValidator: CompiledValidators.CompiledOdrlProhibition
 			},
 			{
 				type: OdrlTypes.Duty,
-				schema: OdrlDutySchema
+				schema: OdrlDutySchema,
+				compiledValidator: CompiledValidators.CompiledOdrlDuty
 			},
 			{
 				type: OdrlTypes.Constraint,
-				schema: OdrlConstraintSchema
+				schema: OdrlConstraintSchema,
+				compiledValidator: CompiledValidators.CompiledOdrlConstraint
 			},
 			{
 				type: OdrlTypes.LogicalConstraint,
-				schema: OdrlLogicalConstraintSchema
+				schema: OdrlLogicalConstraintSchema,
+				compiledValidator: CompiledValidators.CompiledOdrlLogicalConstraint
 			},
 			{
 				type: OdrlTypes.LogicalConstraintOperand,
-				schema: OdrlLogicalConstraintOperandSchema
+				schema: OdrlLogicalConstraintOperandSchema,
+				compiledValidator: CompiledValidators.CompiledOdrlLogicalConstraintOperand
 			},
 			{
 				type: OdrlTypes.Set,
-				schema: OdrlSetSchema
+				schema: OdrlSetSchema,
+				compiledValidator: CompiledValidators.CompiledOdrlSet
 			},
 			{
 				type: OdrlTypes.Offer,
-				schema: OdrlOfferSchema
+				schema: OdrlOfferSchema,
+				compiledValidator: CompiledValidators.CompiledOdrlOffer
 			},
 			{
 				type: OdrlTypes.Agreement,
-				schema: OdrlAgreementSchema
+				schema: OdrlAgreementSchema,
+				compiledValidator: CompiledValidators.CompiledOdrlAgreement
 			},
 			{
 				type: OdrlTypes.Rule,
-				schema: OdrlRuleSchema
+				schema: OdrlRuleSchema,
+				compiledValidator: CompiledValidators.CompiledOdrlRule
 			},
 			{
 				type: OdrlTypes.ContextType,
-				schema: ContextTypeSchema
+				schema: ContextTypeSchema,
+				compiledValidator: CompiledValidators.CompiledOdrlContextType
 			},
 			{
 				type: OdrlTypes.ActionType,
-				schema: OdrlActionTypeSchema
+				schema: OdrlActionTypeSchema,
+				compiledValidator: CompiledValidators.CompiledOdrlActionType
 			},
 			{
 				type: OdrlTypes.ConflictStrategyType,
-				schema: OdrlConflictStrategyTypeSchema
+				schema: OdrlConflictStrategyTypeSchema,
+				compiledValidator: CompiledValidators.CompiledOdrlConflictStrategyType
 			},
 			{
 				type: OdrlTypes.LeftOperandType,
-				schema: OdrlLeftOperandTypeSchema
+				schema: OdrlLeftOperandTypeSchema,
+				compiledValidator: CompiledValidators.CompiledOdrlLeftOperandType
 			},
 			{
 				type: OdrlTypes.LogicalConstraintType,
-				schema: OdrlLogicalConstraintTypeSchema
+				schema: OdrlLogicalConstraintTypeSchema,
+				compiledValidator: CompiledValidators.CompiledOdrlLogicalConstraintType
 			},
 			{
 				type: OdrlTypes.OperatorType,
-				schema: OdrlOperatorTypeSchema
+				schema: OdrlOperatorTypeSchema,
+				compiledValidator: CompiledValidators.CompiledOdrlOperatorType
 			},
 			{
 				type: OdrlTypes.PolicyType,
-				schema: OdrlPolicyTypeSchema
+				schema: OdrlPolicyTypeSchema,
+				compiledValidator: CompiledValidators.CompiledOdrlPolicyType
 			},
 			{
 				type: OdrlTypes.RightOperandType,
-				schema: OdrlRightOperandTypeSchema
+				schema: OdrlRightOperandTypeSchema,
+				compiledValidator: CompiledValidators.CompiledOdrlRightOperandType
 			},
 			{
 				type: OdrlTypes.RuleType,
-				schema: OdrlRuleTypeSchema
+				schema: OdrlRuleTypeSchema,
+				compiledValidator: CompiledValidators.CompiledOdrlRuleType
 			},
 			{
 				type: OdrlTypes.StatusType,
-				schema: OdrlStatusTypeSchema
+				schema: OdrlStatusTypeSchema,
+				compiledValidator: CompiledValidators.CompiledOdrlStatusType
 			}
 		];
 
@@ -157,7 +187,11 @@ export class OdrlDataTypes {
 		DataTypeHelper.registerTypes(
 			OdrlContexts.JsonSchemaNamespace,
 			OdrlContexts.JsonLdContext,
-			types.map(t => ({ type: `Odrl${t.type}`, schema: t.schema }))
+			types.map(t => ({
+				type: `Odrl${t.type}`,
+				schema: t.schema,
+				compiledValidator: t.compiledValidator
+			}))
 		);
 	}
 }
