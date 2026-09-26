@@ -257,16 +257,16 @@ importers:
         specifier: next
         version: 0.10.1-next.12
       '@twin.org/standards-dublin-core':
-        specifier: 0.10.1-next.0
+        specifier: 0.10.1-next.1
         version: link:../standards-dublin-core
       '@twin.org/standards-foaf':
-        specifier: 0.10.1-next.0
+        specifier: 0.10.1-next.1
         version: link:../standards-foaf
       '@twin.org/standards-w3c-dcat':
-        specifier: 0.10.1-next.0
+        specifier: 0.10.1-next.1
         version: link:../standards-w3c-dcat
       '@twin.org/standards-w3c-odrl':
-        specifier: 0.10.1-next.0
+        specifier: 0.10.1-next.1
         version: link:../standards-w3c-odrl
       '@twin.org/web':
         specifier: next
@@ -279,7 +279,7 @@ importers:
         specifier: next
         version: 0.10.1-next.12(@types/node@26.6.2)(@vitest/coverage-v8@5.0.1)(vite@8.3.0(@types/node@26.6.2)(jiti@2.6.1))
       '@twin.org/standards-ld-contexts':
-        specifier: 0.10.1-next.0
+        specifier: 0.10.1-next.1
         version: link:../standards-ld-contexts
       '@twin.org/ts-to-schema':
         specifier: next
@@ -864,13 +864,13 @@ importers:
         specifier: next
         version: 0.10.1-next.2
       '@twin.org/standards-dublin-core':
-        specifier: 0.10.1-next.0
+        specifier: 0.10.1-next.1
         version: link:../standards-dublin-core
       '@twin.org/standards-foaf':
-        specifier: 0.10.1-next.0
+        specifier: 0.10.1-next.1
         version: link:../standards-foaf
       '@twin.org/standards-w3c-odrl':
-        specifier: 0.10.1-next.0
+        specifier: 0.10.1-next.1
         version: link:../standards-w3c-odrl
       '@twin.org/web':
         specifier: next
@@ -883,10 +883,10 @@ importers:
         specifier: next
         version: 0.10.1-next.12(@types/node@26.6.2)(@vitest/coverage-v8@5.0.1)(vite@8.3.0(@types/node@26.6.2)(jiti@2.6.1))
       '@twin.org/standards-ld-contexts':
-        specifier: 0.10.1-next.0
+        specifier: 0.10.1-next.1
         version: link:../standards-ld-contexts
       '@twin.org/standards-w3c-vcard':
-        specifier: 0.10.1-next.0
+        specifier: 0.10.1-next.1
         version: link:../standards-w3c-vcard
       '@twin.org/ts-to-schema':
         specifier: next
@@ -956,7 +956,7 @@ importers:
         specifier: next
         version: 0.10.1-next.12(@types/node@26.6.2)(@vitest/coverage-v8@5.0.1)(vite@8.3.0(@types/node@26.6.2)(jiti@2.6.1))
       '@twin.org/standards-ld-contexts':
-        specifier: 0.10.1-next.0
+        specifier: 0.10.1-next.1
         version: link:../standards-ld-contexts
       '@twin.org/ts-to-schema':
         specifier: next
@@ -1020,10 +1020,10 @@ importers:
         specifier: next
         version: 0.10.1-next.12(@types/node@26.6.2)(@vitest/coverage-v8@5.0.1)(vite@8.3.0(@types/node@26.6.2)(jiti@2.6.1))
       '@twin.org/standards-dublin-core':
-        specifier: 0.10.1-next.0
+        specifier: 0.10.1-next.1
         version: link:../standards-dublin-core
       '@twin.org/standards-w3c-vcard':
-        specifier: 0.10.1-next.0
+        specifier: 0.10.1-next.1
         version: link:../standards-w3c-vcard
       '@twin.org/ts-to-schema':
         specifier: next
