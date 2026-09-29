@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 import { DataTypeHelper } from "@twin.org/data-core";
 import { DcatContexts } from "@twin.org/standards-w3c-dcat";
+import * as CompiledValidators from "../compiled/validators.js";
 import { DataspaceProtocolCatalogTypes } from "../models/catalog/dataspaceProtocolCatalogTypes.js";
 import { DataspaceProtocolContexts } from "../models/dataspaceProtocolContexts.js";
 import DsProtocolAgreementSchema from "../schemas/DataspaceProtocolAgreement.json" with { type: "json" };
@@ -32,15 +33,18 @@ export class CatalogDataTypes {
 		const types = [
 			{
 				type: DataspaceProtocolCatalogTypes.CatalogRequestMessage,
-				schema: CatalogRequestMessageSchema
+				schema: CatalogRequestMessageSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolCatalogRequestMessage
 			},
 			{
 				type: DataspaceProtocolCatalogTypes.DatasetRequestMessage,
-				schema: DatasetRequestMessageSchema
+				schema: DatasetRequestMessageSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolDatasetRequestMessage
 			},
 			{
 				type: DataspaceProtocolCatalogTypes.CatalogError,
-				schema: CatalogErrorSchema
+				schema: CatalogErrorSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolCatalogError
 			}
 		];
 
@@ -53,37 +57,55 @@ export class CatalogDataTypes {
 		DataTypeHelper.registerTypes(
 			DataspaceProtocolContexts.JsonSchemaNamespace,
 			DataspaceProtocolContexts.JsonLdContext,
-			types.map(t => ({ type: `DataspaceProtocol${t.type}`, schema: t.schema }))
+			types.map(t => ({
+				type: `DataspaceProtocol${t.type}`,
+				schema: t.schema,
+				compiledValidator: t.compiledValidator
+			}))
 		);
 
 		// These are the custom version of the DCAT3 classes with DS Protocol constraints
 		const typesDcat3 = [
 			{
 				type: DataspaceProtocolCatalogTypes.Dataset,
-				schema: DsProtocolDatasetSchema
+				schema: DsProtocolDatasetSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolDataset
 			},
 			{
 				type: DataspaceProtocolCatalogTypes.Catalog,
-				schema: DsProtocolCatalogSchema
+				schema: DsProtocolCatalogSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolCatalog
 			},
 			{
 				type: DataspaceProtocolCatalogTypes.Distribution,
-				schema: DsProtocolDistributionSchema
+				schema: DsProtocolDistributionSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolDistribution
 			},
 			{
 				type: DataspaceProtocolCatalogTypes.DataService,
-				schema: DsProtocolDataServiceSchema
+				schema: DsProtocolDataServiceSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolDataService
 			},
-			{ type: `${DataspaceProtocolCatalogTypes.Dataset}Base`, schema: DsProtocolDatasetBaseSchema },
+			{
+				type: `${DataspaceProtocolCatalogTypes.Dataset}Base`,
+				schema: DsProtocolDatasetBaseSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolDatasetBase
+			},
 			{
 				type: `${DataspaceProtocolCatalogTypes.Distribution}Base`,
-				schema: DsProtocolDistributionBaseSchema
+				schema: DsProtocolDistributionBaseSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolDistributionBase
 			},
 			{
 				type: `${DataspaceProtocolCatalogTypes.DataService}Base`,
-				schema: DsProtocolDataServiceBaseSchema
+				schema: DsProtocolDataServiceBaseSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolDataServiceBase
 			},
-			{ type: `${DataspaceProtocolCatalogTypes.Catalog}Base`, schema: DsProtocolCatalogBaseSchema }
+			{
+				type: `${DataspaceProtocolCatalogTypes.Catalog}Base`,
+				schema: DsProtocolCatalogBaseSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolCatalogBase
+			}
 		];
 
 		DataTypeHelper.registerTypes(
@@ -95,30 +117,39 @@ export class CatalogDataTypes {
 		DataTypeHelper.registerTypes(
 			DataspaceProtocolContexts.JsonSchemaNamespace,
 			DcatContexts.JsonLdContext,
-			typesDcat3.map(t => ({ type: `DataspaceProtocol${t.type}`, schema: t.schema }))
+			typesDcat3.map(t => ({
+				type: `DataspaceProtocol${t.type}`,
+				schema: t.schema,
+				compiledValidator: t.compiledValidator
+			}))
 		);
 
 		// These are the custom version of the odrl classes with DS Protocol constraints
 		const typesOdrl = [
 			{
 				type: DataspaceProtocolCatalogTypes.Policy,
-				schema: DsProtocolPolicySchema
+				schema: DsProtocolPolicySchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolPolicy
 			},
 			{
 				type: DataspaceProtocolCatalogTypes.Offer,
-				schema: DsProtocolOfferSchema
+				schema: DsProtocolOfferSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolOffer
 			},
 			{
 				type: `${DataspaceProtocolCatalogTypes.Offer}Base`,
-				schema: DsProtocolOfferBaseSchema
+				schema: DsProtocolOfferBaseSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolOfferBase
 			},
 			{
 				type: DataspaceProtocolCatalogTypes.Agreement,
-				schema: DsProtocolAgreementSchema
+				schema: DsProtocolAgreementSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolAgreement
 			},
 			{
 				type: DataspaceProtocolCatalogTypes.Set,
-				schema: DsProtocolSetSchema
+				schema: DsProtocolSetSchema,
+				compiledValidator: CompiledValidators.CompiledDataspaceProtocolSet
 			}
 		];
 
@@ -131,7 +162,11 @@ export class CatalogDataTypes {
 		DataTypeHelper.registerTypes(
 			DataspaceProtocolContexts.JsonSchemaNamespace,
 			DcatContexts.JsonLdContext,
-			typesOdrl.map(t => ({ type: `DataspaceProtocol${t.type}`, schema: t.schema }))
+			typesOdrl.map(t => ({
+				type: `DataspaceProtocol${t.type}`,
+				schema: t.schema,
+				compiledValidator: t.compiledValidator
+			}))
 		);
 	}
 }

@@ -1,7 +1,8 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import { DataTypeHelper } from "@twin.org/data-core";
-import { JsonLdProcessor } from "@twin.org/data-json-ld";
+import { JsonLdDataTypes, JsonLdProcessor } from "@twin.org/data-json-ld";
+import * as CompiledValidators from "../compiled/validators.js";
 import { EpcisContexts } from "../models/epcis20/epcisContexts.js";
 import { EpcisTypes } from "../models/epcis20/epcisTypes.js";
 import EpcisActionTypesSchema from "../schemas/EpcisActionTypes.json" with { type: "json" };
@@ -61,162 +62,204 @@ export class EpcisDataTypes {
 	 * Register all the data types.
 	 */
 	public static registerTypes(): void {
+		// Register the types referenced by the schemas, which are only registered once.
+		JsonLdDataTypes.registerTypes();
+
 		const types = [
 			{
 				type: EpcisTypes.ActionTypes,
-				schema: EpcisActionTypesSchema
+				schema: EpcisActionTypesSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisActionTypes
 			},
 			{
 				type: EpcisTypes.AggregationEvent,
-				schema: EpcisAggregationEventSchema
+				schema: EpcisAggregationEventSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisAggregationEvent
 			},
 			{
 				type: EpcisTypes.AssociationEvent,
-				schema: EpcisAssociationEventSchema
+				schema: EpcisAssociationEventSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisAssociationEvent
 			},
 			{
 				type: EpcisTypes.Attribute,
-				schema: EpcisAttributeSchema
+				schema: EpcisAttributeSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisAttribute
 			},
 			{
 				type: EpcisTypes.BizStepTypes,
-				schema: EpcisBizStepTypesSchema
+				schema: EpcisBizStepTypesSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisBizStepTypes
 			},
 			{
 				type: EpcisTypes.BizTransaction,
-				schema: EpcisBizTransactionSchema
+				schema: EpcisBizTransactionSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisBizTransaction
 			},
 			{
 				type: EpcisTypes.BizTransactionTypes,
-				schema: EpcisBizTransactionTypesSchema
+				schema: EpcisBizTransactionTypesSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisBizTransactionTypes
 			},
 			{
 				type: EpcisTypes.ComponentTypes,
-				schema: EpcisComponentTypesSchema
+				schema: EpcisComponentTypesSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisComponentTypes
 			},
 			{
 				type: EpcisTypes.ContextType,
-				schema: EpcisContextTypeSchema
+				schema: EpcisContextTypeSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisContextType
 			},
 			{
 				type: EpcisTypes.Destination,
-				schema: EpcisDestinationSchema
+				schema: EpcisDestinationSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisDestination
 			},
 			{
 				type: EpcisTypes.DispositionTypes,
-				schema: EpcisDispositionTypesSchema
+				schema: EpcisDispositionTypesSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisDispositionTypes
 			},
 			{
 				type: EpcisTypes.EPCISDocument,
-				schema: EpcisDocumentSchema
+				schema: EpcisDocumentSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisDocument
 			},
 			{
 				type: EpcisTypes.ErrorDeclaration,
-				schema: EpcisErrorDeclarationSchema
+				schema: EpcisErrorDeclarationSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisErrorDeclaration
 			},
 			{
 				type: EpcisTypes.ErrorReasonTypes,
-				schema: EpcisErrorReasonTypesSchema
+				schema: EpcisErrorReasonTypesSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisErrorReasonTypes
 			},
 			{
 				type: EpcisTypes.Event,
-				schema: EpcisEventSchema
+				schema: EpcisEventSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisEvent
 			},
 			{
 				type: EpcisTypes.Events,
-				schema: EpcisEventsSchema
+				schema: EpcisEventsSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisEvents
 			},
 			{
 				type: EpcisTypes.EventTypes,
-				schema: EpcisEventTypesSchema
+				schema: EpcisEventTypesSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisEventTypes
 			},
 			{
 				type: EpcisTypes.Header,
-				schema: EpcisHeaderSchema
+				schema: EpcisHeaderSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisHeader
 			},
 			{
 				type: EpcisTypes.Ilmd,
-				schema: EpcisIlmdSchema
+				schema: EpcisIlmdSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisIlmd
 			},
 			{
 				type: EpcisTypes.Location,
-				schema: EpcisLocationSchema
+				schema: EpcisLocationSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisLocation
 			},
 			{
 				type: EpcisTypes.MeasurementTypes,
-				schema: EpcisMeasurementTypesSchema
+				schema: EpcisMeasurementTypesSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisMeasurementTypes
 			},
 			{
 				type: EpcisTypes.ObjectEvent,
-				schema: EpcisObjectEventSchema
+				schema: EpcisObjectEventSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisObjectEvent
 			},
 			{
 				type: EpcisTypes.PersistentDisposition,
-				schema: EpcisPersistentDispositionSchema
+				schema: EpcisPersistentDispositionSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisPersistentDisposition
 			},
 			{
 				type: EpcisTypes.Quantity,
-				schema: EpcisQuantitySchema
+				schema: EpcisQuantitySchema,
+				compiledValidator: CompiledValidators.CompiledEpcisQuantity
 			},
 			{
 				type: EpcisTypes.Query,
-				schema: EpcisQuerySchema
+				schema: EpcisQuerySchema,
+				compiledValidator: CompiledValidators.CompiledEpcisQuery
 			},
 			{
 				type: EpcisTypes.EPCISQueryDocument,
-				schema: EpcisQueryDocumentSchema
+				schema: EpcisQueryDocumentSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisQueryDocument
 			},
 			{
 				type: EpcisTypes.QueryDocumentBody,
-				schema: EpcisQueryDocumentBodySchema
+				schema: EpcisQueryDocumentBodySchema,
+				compiledValidator: CompiledValidators.CompiledEpcisQueryDocumentBody
 			},
 			{
 				type: EpcisTypes.QueryResults,
-				schema: EpcisQueryResultsSchema
+				schema: EpcisQueryResultsSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisQueryResults
 			},
 			{
 				type: EpcisTypes.QueryResultsBody,
-				schema: EpcisQueryResultsBodySchema
+				schema: EpcisQueryResultsBodySchema,
+				compiledValidator: CompiledValidators.CompiledEpcisQueryResultsBody
 			},
 			{
 				type: EpcisTypes.SensorAlertTypes,
-				schema: EpcisSensorAlertTypesSchema
+				schema: EpcisSensorAlertTypesSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisSensorAlertTypes
 			},
 			{
 				type: EpcisTypes.SensorElement,
-				schema: EpcisSensorElementSchema
+				schema: EpcisSensorElementSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisSensorElement
 			},
 			{
 				type: EpcisTypes.SensorMetadata,
-				schema: EpcisSensorMetadataSchema
+				schema: EpcisSensorMetadataSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisSensorMetadata
 			},
 			{
 				type: EpcisTypes.SensorReport,
-				schema: EpcisSensorReportSchema
+				schema: EpcisSensorReportSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisSensorReport
 			},
 			{
 				type: EpcisTypes.Source,
-				schema: EpcisSourceSchema
+				schema: EpcisSourceSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisSource
 			},
 			{
 				type: EpcisTypes.SourceDestTypes,
-				schema: EpcisSourceDestTypesSchema
+				schema: EpcisSourceDestTypesSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisSourceDestTypes
 			},
 			{
 				type: EpcisTypes.TransactionEvent,
-				schema: EpcisTransactionEventSchema
+				schema: EpcisTransactionEventSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisTransactionEvent
 			},
 			{
 				type: EpcisTypes.TransformationEvent,
-				schema: EpcisTransformationEventSchema
+				schema: EpcisTransformationEventSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisTransformationEvent
 			},
 			{
 				type: EpcisTypes.Vocabulary,
-				schema: EpcisVocabularySchema
+				schema: EpcisVocabularySchema,
+				compiledValidator: CompiledValidators.CompiledEpcisVocabulary
 			},
 			{
 				type: EpcisTypes.VocabularyElement,
-				schema: EpcisVocabularyElementSchema
+				schema: EpcisVocabularyElementSchema,
+				compiledValidator: CompiledValidators.CompiledEpcisVocabularyElement
 			}
 		];
 
@@ -227,7 +270,11 @@ export class EpcisDataTypes {
 		DataTypeHelper.registerTypes(
 			EpcisContexts.JsonSchemaNamespace,
 			EpcisContexts.JsonLdContext,
-			types.map(t => ({ type: t.schema.title, schema: t.schema }))
+			types.map(t => ({
+				type: t.schema.title,
+				schema: t.schema,
+				compiledValidator: t.compiledValidator
+			}))
 		);
 	}
 }

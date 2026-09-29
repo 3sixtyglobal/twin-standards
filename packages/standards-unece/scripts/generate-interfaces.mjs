@@ -646,7 +646,8 @@ async function generateUneceDataTypes(generatedTypes) {
 	const lines = fileHeaderLines();
 
 	lines.push('import { DataTypeHelper } from "@twin.org/data-core";');
-	lines.push('import { JsonLdProcessor } from "@twin.org/data-json-ld";');
+	lines.push('import { JsonLdDataTypes, JsonLdProcessor } from "@twin.org/data-json-ld";');
+	lines.push('import * as CompiledValidators from "../compiled/validators.js";');
 	lines.push('import { UneceContexts } from "../models/uneceContexts.js";');
 	lines.push('import { UneceTypes } from "../models/uneceTypes.js";');
 
@@ -675,6 +676,11 @@ async function generateUneceDataTypes(generatedTypes) {
 	lines.push('\t * Register all the data types.');
 	lines.push('\t */');
 	lines.push('\tpublic static registerTypes(): void {');
+	lines.push(
+		'\t\t// Register the types referenced by the schemas, which are only registered once.'
+	);
+	lines.push('\t\tJsonLdDataTypes.registerTypes();');
+	lines.push('');
 	lines.push('\t\tconst types = [');
 
 	for (let i = 0; i < sortedTypes.length; i++) {
@@ -685,13 +691,15 @@ async function generateUneceDataTypes(generatedTypes) {
 		} else {
 			lines.push('\t\t\t\ttype: "UneceContextType",');
 		}
-		lines.push(`\t\t\t\tschema: Unece${t.typeName}Schema`);
+		lines.push(`\t\t\t\tschema: Unece${t.typeName}Schema,`);
+		lines.push(`\t\t\t\tcompiledValidator: CompiledValidators.CompiledUnece${t.typeName}`);
 		lines.push('\t\t\t},');
 	}
 
 	lines.push('\t\t\t{');
 	lines.push('\t\t\t\ttype: "ContextType",');
-	lines.push('\t\t\t\tschema: UneceContextTypeSchema');
+	lines.push('\t\t\t\tschema: UneceContextTypeSchema,');
+	lines.push('\t\t\t\tcompiledValidator: CompiledValidators.CompiledUneceContextType');
 	lines.push('\t\t\t}');
 
 	lines.push('\t\t];');
@@ -702,9 +710,11 @@ async function generateUneceDataTypes(generatedTypes) {
 	lines.push('\t\tDataTypeHelper.registerTypes(');
 	lines.push('\t\t\tUneceContexts.JsonSchemaNamespace,');
 	lines.push('\t\t\tUneceContexts.JsonLdContext,');
-	// False positive
-	// eslint-disable-next-line no-template-curly-in-string
-	lines.push('\t\t\ttypes.map(t => ({ type: `Unece${t.type}`, schema: t.schema }))');
+	lines.push(
+		// False positive
+		// eslint-disable-next-line no-template-curly-in-string
+		'\t\t\ttypes.map(t => ({ type: `Unece${t.type}`, schema: t.schema, compiledValidator: t.compiledValidator }))'
+	);
 	lines.push('\t\t);');
 	lines.push('\t}');
 	lines.push('}');

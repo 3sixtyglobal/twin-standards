@@ -31,6 +31,22 @@
 
 ## Variables
 
+- [CompiledDcatContextType](variables/CompiledDcatContextType.md)
+- [CompiledDcatResourceBase](variables/CompiledDcatResourceBase.md)
+- [CompiledDcatResource](variables/CompiledDcatResource.md)
+- [CompiledDcatDistributionBase](variables/CompiledDcatDistributionBase.md)
+- [CompiledDcatDistribution](variables/CompiledDcatDistribution.md)
+- [CompiledDcatDatasetBase](variables/CompiledDcatDatasetBase.md)
+- [CompiledDcatDataset](variables/CompiledDcatDataset.md)
+- [CompiledDcatDataServiceBase](variables/CompiledDcatDataServiceBase.md)
+- [CompiledDcatDataService](variables/CompiledDcatDataService.md)
+- [CompiledDcatDatasetSeries](variables/CompiledDcatDatasetSeries.md)
+- [CompiledDcatCatalogRecordBase](variables/CompiledDcatCatalogRecordBase.md)
+- [CompiledDcatCatalogRecord](variables/CompiledDcatCatalogRecord.md)
+- [CompiledDcatCatalogBase](variables/CompiledDcatCatalogBase.md)
+- [CompiledDcatCatalog](variables/CompiledDcatCatalog.md)
+- [CompiledDcatRelationship](variables/CompiledDcatRelationship.md)
+- [CompiledDcatRole](variables/CompiledDcatRole.md)
 - [DcatClasses](variables/DcatClasses.md)
 - [DcatContexts](variables/DcatContexts.md)
 - [DcatRelationshipType](variables/DcatRelationshipType.md)

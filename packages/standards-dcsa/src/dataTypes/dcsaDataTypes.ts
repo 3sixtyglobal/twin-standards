@@ -1,6 +1,7 @@
 // Copyright 2026 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import { DataTypeHelper } from "@twin.org/data-core";
+import * as CompiledValidators from "../compiled/validators.js";
 import { DcsaContexts } from "../models/dcsaContexts.js";
 import { DcsaTypes } from "../models/dcsaTypes.js";
 import BargeSchema from "../schemas/DcsaBarge.json" with { type: "json" };
@@ -83,262 +84,329 @@ export abstract class DcsaDataTypes {
 		const types = [
 			{
 				type: DcsaTypes.Barge,
-				schema: BargeSchema
+				schema: BargeSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaBarge
 			},
 			{
 				type: DcsaTypes.BargeTransportCall,
-				schema: BargeTransportCallSchema
+				schema: BargeTransportCallSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaBargeTransportCall
 			},
 			{
 				type: DcsaTypes.BaseEquipmentEvent,
-				schema: BaseEquipmentEventSchema
+				schema: BaseEquipmentEventSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaBaseEquipmentEvent
 			},
 			{
 				type: DcsaTypes.BaseEvent,
-				schema: BaseEventSchema
+				schema: BaseEventSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaBaseEvent
 			},
 			{
 				type: DcsaTypes.BaseIoTEvent,
-				schema: BaseIoTEventSchema
+				schema: BaseIoTEventSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaBaseIoTEvent
 			},
 			{
 				type: DcsaTypes.BaseReeferEvent,
-				schema: BaseReeferEventSchema
+				schema: BaseReeferEventSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaBaseReeferEvent
 			},
 			{
 				type: DcsaTypes.BaseShipmentEvent,
-				schema: BaseShipmentEventSchema
+				schema: BaseShipmentEventSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaBaseShipmentEvent
 			},
 			{
 				type: DcsaTypes.BaseTransportEvent,
-				schema: BaseTransportEventSchema
+				schema: BaseTransportEventSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaBaseTransportEvent
 			},
 			{
 				type: DcsaTypes.DocumentTypeCodes,
-				schema: DocumentTypeCodesSchema
+				schema: DocumentTypeCodesSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaDocumentTypeCodes
 			},
 			{
 				type: DcsaTypes.EquipmentEvent,
-				schema: EquipmentEventSchema
+				schema: EquipmentEventSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaEquipmentEvent
 			},
 			{
 				type: DcsaTypes.EquipmentEventTypeCodes,
-				schema: EquipmentEventTypeCodesSchema
+				schema: EquipmentEventTypeCodesSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaEquipmentEventTypeCodes
 			},
 			{
 				type: DcsaTypes.EquipmentPayload,
-				schema: EquipmentPayloadSchema
+				schema: EquipmentPayloadSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaEquipmentPayload
 			},
 			{
 				type: DcsaTypes.EquipmentSubscriptionBody,
-				schema: EquipmentSubscriptionBodySchema
+				schema: EquipmentSubscriptionBodySchema,
+				compiledValidator: CompiledValidators.CompiledDcsaEquipmentSubscriptionBody
 			},
 			{
 				type: DcsaTypes.Event,
-				schema: EventSchema
+				schema: EventSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaEvent
 			},
 			{
 				type: DcsaTypes.EventClassifierCode,
-				schema: EventClassifierCodeSchema
+				schema: EventClassifierCodeSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaEventClassifierCode
 			},
 			{
 				type: DcsaTypes.EventClassifierCodeNoReq,
-				schema: EventClassifierCodeNoReqSchema
+				schema: EventClassifierCodeNoReqSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaEventClassifierCodeNoReq
 			},
 			{
 				type: DcsaTypes.EventMetadataActive,
-				schema: EventMetadataActiveSchema
+				schema: EventMetadataActiveSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaEventMetadataActive
 			},
 			{
 				type: DcsaTypes.EventMetadataBase,
-				schema: EventMetadataBaseSchema
+				schema: EventMetadataBaseSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaEventMetadataBase
 			},
 			{
 				type: DcsaTypes.EventMetadataRetraction,
-				schema: EventMetadataRetractionSchema
+				schema: EventMetadataRetractionSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaEventMetadataRetraction
 			},
 			{
 				type: DcsaTypes.EventPayload,
-				schema: EventPayloadSchema
+				schema: EventPayloadSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaEventPayload
 			},
 			{
 				type: DcsaTypes.EventRetraction,
-				schema: EventRetractionSchema
+				schema: EventRetractionSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaEventRetraction
 			},
 			{
 				type: DcsaTypes.EventWithPayload,
-				schema: EventWithPayloadSchema
+				schema: EventWithPayloadSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaEventWithPayload
 			},
 			{
 				type: DcsaTypes.EventTypes,
-				schema: EventTypesSchema
+				schema: EventTypesSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaEventTypes
 			},
 			{
 				type: DcsaTypes.IotEvent,
-				schema: IotEventSchema
+				schema: IotEventSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaIotEvent
 			},
 			{
 				type: DcsaTypes.IotEventCode,
-				schema: IotEventCodeSchema
+				schema: IotEventCodeSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaIotEventCode
 			},
 			{
 				type: DcsaTypes.IotEventMetadataActive,
-				schema: IotEventMetadataActiveSchema
+				schema: IotEventMetadataActiveSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaIotEventMetadataActive
 			},
 			{
 				type: DcsaTypes.IotEventMetadataRetraction,
-				schema: IotEventMetadataRetractionSchema
+				schema: IotEventMetadataRetractionSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaIotEventMetadataRetraction
 			},
 			{
 				type: DcsaTypes.IotEventTypeCodes,
-				schema: IotEventTypeCodesSchema
+				schema: IotEventTypeCodesSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaIotEventTypeCodes
 			},
 			{
 				type: DcsaTypes.IotPayload,
-				schema: IotPayloadSchema
+				schema: IotPayloadSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaIotPayload
 			},
 			{
 				type: DcsaTypes.IotSubscriptionBody,
-				schema: IotSubscriptionBodySchema
+				schema: IotSubscriptionBodySchema,
+				compiledValidator: CompiledValidators.CompiledDcsaIotSubscriptionBody
 			},
 			{
 				type: DcsaTypes.ModeOfTransport,
-				schema: ModeOfTransportSchema
+				schema: ModeOfTransportSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaModeOfTransport
 			},
 			{
 				type: DcsaTypes.OperationsEventTypeCodes,
-				schema: OperationsEventTypeCodesSchema
+				schema: OperationsEventTypeCodesSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaOperationsEventTypeCodes
 			},
 			{
 				type: DcsaTypes.PortCallPhaseTypeCodes,
-				schema: PortCallPhaseTypeCodesSchema
+				schema: PortCallPhaseTypeCodesSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaPortCallPhaseTypeCodes
 			},
 			{
 				type: DcsaTypes.PortCallServiceTypeCodes,
-				schema: PortCallServiceTypeCodesSchema
+				schema: PortCallServiceTypeCodesSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaPortCallServiceTypeCodes
 			},
 			{
 				type: DcsaTypes.Publisher,
-				schema: PublisherSchema
+				schema: PublisherSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaPublisher
 			},
 			{
 				type: DcsaTypes.PublisherRole,
-				schema: PublisherRoleSchema
+				schema: PublisherRoleSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaPublisherRole
 			},
 			{
 				type: DcsaTypes.RailTransportCall,
-				schema: RailTransportCallSchema
+				schema: RailTransportCallSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaRailTransportCall
 			},
 			{
 				type: DcsaTypes.ReeferEvent,
-				schema: ReeferEventSchema
+				schema: ReeferEventSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaReeferEvent
 			},
 			{
 				type: DcsaTypes.ReeferEventMetadataActive,
-				schema: ReeferEventMetadataActiveSchema
+				schema: ReeferEventMetadataActiveSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaReeferEventMetadataActive
 			},
 			{
 				type: DcsaTypes.ReeferEventMetadataRetraction,
-				schema: ReeferEventMetadataRetractionSchema
+				schema: ReeferEventMetadataRetractionSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaReeferEventMetadataRetraction
 			},
 			{
 				type: DcsaTypes.ReeferEventTypeCodes,
-				schema: ReeferEventTypeCodesSchema
+				schema: ReeferEventTypeCodesSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaReeferEventTypeCodes
 			},
 			{
 				type: DcsaTypes.ReeferMeasurements,
-				schema: ReeferMeasurementsSchema
+				schema: ReeferMeasurementsSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaReeferMeasurements
 			},
 			{
 				type: DcsaTypes.ReeferPayload,
-				schema: ReeferPayloadSchema
+				schema: ReeferPayloadSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaReeferPayload
 			},
 			{
 				type: DcsaTypes.ReeferSetpoint,
-				schema: ReeferSetpointSchema
+				schema: ReeferSetpointSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaReeferSetpoint
 			},
 			{
 				type: DcsaTypes.ReeferSubscriptionBody,
-				schema: ReeferSubscriptionBodySchema
+				schema: ReeferSubscriptionBodySchema,
+				compiledValidator: CompiledValidators.CompiledDcsaReeferSubscriptionBody
 			},
 			{
 				type: DcsaTypes.Reference,
-				schema: ReferenceSchema
+				schema: ReferenceSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaReference
 			},
 			{
 				type: DcsaTypes.RelatedDocumentReference,
-				schema: RelatedDocumentReferenceSchema
+				schema: RelatedDocumentReferenceSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaRelatedDocumentReference
 			},
 			{
 				type: DcsaTypes.ShipmentEvent,
-				schema: ShipmentEventSchema
+				schema: ShipmentEventSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaShipmentEvent
 			},
 			{
 				type: DcsaTypes.ShipmentEventTypeCodes,
-				schema: ShipmentEventTypeCodesSchema
+				schema: ShipmentEventTypeCodesSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaShipmentEventTypeCodes
 			},
 			{
 				type: DcsaTypes.ShipmentPayload,
-				schema: ShipmentPayloadSchema
+				schema: ShipmentPayloadSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaShipmentPayload
 			},
 			{
 				type: DcsaTypes.ShipmentSubscriptionBody,
-				schema: ShipmentSubscriptionBodySchema
+				schema: ShipmentSubscriptionBodySchema,
+				compiledValidator: CompiledValidators.CompiledDcsaShipmentSubscriptionBody
 			},
 			{
 				type: DcsaTypes.TntPublisherRole,
-				schema: TntPublisherRoleSchema
+				schema: TntPublisherRoleSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaTntPublisherRole
 			},
 			{
 				type: DcsaTypes.TransportCall,
-				schema: TransportCallSchema
+				schema: TransportCallSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaTransportCall
 			},
 			{
 				type: DcsaTypes.TransportCallBase,
-				schema: TransportCallBaseSchema
+				schema: TransportCallBaseSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaTransportCallBase
 			},
 			{
 				type: DcsaTypes.TransportCallFacilityTypeCodes,
-				schema: TransportCallFacilityTypeCodesSchema
+				schema: TransportCallFacilityTypeCodesSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaTransportCallFacilityTypeCodes
 			},
 			{
 				type: DcsaTypes.TransportCallSubscriptionBody,
-				schema: TransportCallSubscriptionBodySchema
+				schema: TransportCallSubscriptionBodySchema,
+				compiledValidator: CompiledValidators.CompiledDcsaTransportCallSubscriptionBody
 			},
 			{
 				type: DcsaTypes.TransportEvent,
-				schema: TransportEventSchema
+				schema: TransportEventSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaTransportEvent
 			},
 			{
 				type: DcsaTypes.TransportEventTypeCodes,
-				schema: TransportEventTypeCodesSchema
+				schema: TransportEventTypeCodesSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaTransportEventTypeCodes
 			},
 			{
 				type: DcsaTypes.TransportPayload,
-				schema: TransportPayloadSchema
+				schema: TransportPayloadSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaTransportPayload
 			},
 			{
 				type: DcsaTypes.TransportSubscriptionBody,
-				schema: TransportSubscriptionBodySchema
+				schema: TransportSubscriptionBodySchema,
+				compiledValidator: CompiledValidators.CompiledDcsaTransportSubscriptionBody
 			},
 			{
 				type: DcsaTypes.TruckTransportCall,
-				schema: TruckTransportCallSchema
+				schema: TruckTransportCallSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaTruckTransportCall
 			},
 			{
 				type: DcsaTypes.Vessel,
-				schema: VesselSchema
+				schema: VesselSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaVessel
 			},
 			{
 				type: DcsaTypes.VesselTransportCall,
-				schema: VesselTransportCallSchema
+				schema: VesselTransportCallSchema,
+				compiledValidator: CompiledValidators.CompiledDcsaVesselTransportCall
 			}
 		];
 		DataTypeHelper.registerTypes(DcsaContexts.Namespace, undefined, types);
 		DataTypeHelper.registerTypes(
 			DcsaContexts.JsonSchemaNamespace,
 			undefined,
-			types.map(t => ({ type: `Dcsa${t.type}`, schema: t.schema }))
+			types.map(t => ({
+				type: `Dcsa${t.type}`,
+				schema: t.schema,
+				compiledValidator: t.compiledValidator
+			}))
 		);
 	}
 }

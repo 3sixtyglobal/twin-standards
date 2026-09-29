@@ -1,7 +1,8 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import { DataTypeHelper } from "@twin.org/data-core";
-import { JsonLdProcessor } from "@twin.org/data-json-ld";
+import { JsonLdDataTypes, JsonLdProcessor } from "@twin.org/data-json-ld";
+import * as CompiledValidators from "../compiled/validators.js";
 import { FoafContexts } from "../models/foafContexts.js";
 import { FoafTypes } from "../models/foafTypes.js";
 import AgentSchema from "../schemas/FoafAgent.json" with { type: "json" };
@@ -28,38 +29,49 @@ export abstract class FoafDataTypes {
 	 * Register all the data types.
 	 */
 	public static registerTypes(): void {
+		// Register the types referenced by the schemas, which are only registered once.
+		JsonLdDataTypes.registerTypes();
+
 		const types = [
 			{
 				type: FoafTypes.Agent,
-				schema: AgentSchema
+				schema: AgentSchema,
+				compiledValidator: CompiledValidators.CompiledFoafAgent
 			},
 			{
 				type: FoafTypes.Document,
-				schema: DocumentSchema
+				schema: DocumentSchema,
+				compiledValidator: CompiledValidators.CompiledFoafDocument
 			},
 			{
 				type: FoafTypes.Group,
-				schema: GroupSchema
+				schema: GroupSchema,
+				compiledValidator: CompiledValidators.CompiledFoafGroup
 			},
 			{
 				type: FoafTypes.Image,
-				schema: ImageSchema
+				schema: ImageSchema,
+				compiledValidator: CompiledValidators.CompiledFoafImage
 			},
 			{
 				type: FoafTypes.Organization,
-				schema: OrganizationSchema
+				schema: OrganizationSchema,
+				compiledValidator: CompiledValidators.CompiledFoafOrganization
 			},
 			{
 				type: FoafTypes.Person,
-				schema: PersonSchema
+				schema: PersonSchema,
+				compiledValidator: CompiledValidators.CompiledFoafPerson
 			},
 			{
 				type: "BaseObject",
-				schema: BaseObjectSchema
+				schema: BaseObjectSchema,
+				compiledValidator: CompiledValidators.CompiledFoafBaseObject
 			},
 			{
 				type: "ContextType",
-				schema: ContextTypeSchema
+				schema: ContextTypeSchema,
+				compiledValidator: CompiledValidators.CompiledFoafContextType
 			}
 		];
 
@@ -67,7 +79,11 @@ export abstract class FoafDataTypes {
 		DataTypeHelper.registerTypes(
 			FoafContexts.JsonSchemaNamespace,
 			FoafContexts.JsonLdContext,
-			types.map(t => ({ type: `Foaf${t.type}`, schema: t.schema }))
+			types.map(t => ({
+				type: `Foaf${t.type}`,
+				schema: t.schema,
+				compiledValidator: t.compiledValidator
+			}))
 		);
 	}
 }

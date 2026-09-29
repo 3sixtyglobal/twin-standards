@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 import { DataTypeHelper } from "@twin.org/data-core";
 import { JsonLdProcessor } from "@twin.org/data-json-ld";
+import * as CompiledValidators from "../compiled/validators.js";
 import { DublinCoreClasses } from "../models/dublinCoreClasses.js";
 import { DublinCoreContexts } from "../models/dublinCoreContexts.js";
 import PeriodOfTimeSchema from "../schemas/DublinCorePeriodOfTime.json" with { type: "json" };
@@ -31,7 +32,8 @@ export class DublinCoreDataTypes {
 		const types = [
 			{
 				type: DublinCoreClasses.PeriodOfTime,
-				schema: PeriodOfTimeSchema
+				schema: PeriodOfTimeSchema,
+				compiledValidator: CompiledValidators.CompiledDublinCorePeriodOfTime
 			}
 		];
 
@@ -44,7 +46,11 @@ export class DublinCoreDataTypes {
 		DataTypeHelper.registerTypes(
 			DublinCoreContexts.JsonSchemaNamespace,
 			DublinCoreContexts.JsonLdContextTerms,
-			types.map(t => ({ type: `DublinCore${t.type}`, schema: t.schema }))
+			types.map(t => ({
+				type: `DublinCore${t.type}`,
+				schema: t.schema,
+				compiledValidator: t.compiledValidator
+			}))
 		);
 	}
 }

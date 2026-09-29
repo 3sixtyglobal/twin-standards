@@ -1,6 +1,8 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import { DataTypeHelper } from "@twin.org/data-core";
+import { JsonLdDataTypes } from "@twin.org/data-json-ld";
+import * as CompiledValidators from "../compiled/validators.js";
 import { DidContexts } from "../models/didContexts.js";
 import { DidTypes } from "../models/didTypes.js";
 import DataIntegrityProofSchema from "../schemas/DataIntegrityProof.json" with { type: "json" };
@@ -35,98 +37,124 @@ export abstract class DidDataTypes {
 	 * Register all the data types.
 	 */
 	public static registerTypes(): void {
+		// Register the types referenced by the schemas, which are only registered once.
+		JsonLdDataTypes.registerTypes();
+
 		const types = [
 			{
 				type: DidTypes.DataIntegrityProof,
-				schema: DataIntegrityProofSchema
+				schema: DataIntegrityProofSchema,
+				compiledValidator: CompiledValidators.CompiledDataIntegrityProof
 			},
 			{
 				type: DidTypes.CredentialSchema,
-				schema: DidCredentialSchemaSchema
+				schema: DidCredentialSchemaSchema,
+				compiledValidator: CompiledValidators.CompiledDidCredentialSchema
 			},
 			{
 				type: DidTypes.CredentialStatus,
-				schema: DidCredentialStatusSchema
+				schema: DidCredentialStatusSchema,
+				compiledValidator: CompiledValidators.CompiledDidCredentialStatus
 			},
 			{
 				type: DidTypes.CryptoSuites,
-				schema: DidCryptoSuitesSchema
+				schema: DidCryptoSuitesSchema,
+				compiledValidator: CompiledValidators.CompiledDidCryptoSuites
 			},
 			{
 				type: DidTypes.Document,
-				schema: DidDocumentSchema
+				schema: DidDocumentSchema,
+				compiledValidator: CompiledValidators.CompiledDidDocument
 			},
 			{
 				type: DidTypes.DocumentVerificationMethod,
-				schema: DidDocumentVerificationMethodSchema
+				schema: DidDocumentVerificationMethodSchema,
+				compiledValidator: CompiledValidators.CompiledDidDocumentVerificationMethod
 			},
 			{
 				type: DidTypes.Label,
-				schema: DidLabelSchema
+				schema: DidLabelSchema,
+				compiledValidator: CompiledValidators.CompiledDidLabel
 			},
 			{
 				type: DidTypes.PresentationVerification,
-				schema: DidPresentationVerificationSchema
+				schema: DidPresentationVerificationSchema,
+				compiledValidator: CompiledValidators.CompiledDidPresentationVerification
 			},
 			{
 				type: DidTypes.Service,
-				schema: DidServiceSchema
+				schema: DidServiceSchema,
+				compiledValidator: CompiledValidators.CompiledDidService
 			},
 			{
 				type: DidTypes.Types,
-				schema: DidTypesSchema
+				schema: DidTypesSchema,
+				compiledValidator: CompiledValidators.CompiledDidTypes
 			},
 			{
 				type: DidTypes.VerifiableCredential,
-				schema: DidVerifiableCredentialSchema
+				schema: DidVerifiableCredentialSchema,
+				compiledValidator: CompiledValidators.CompiledDidVerifiableCredential
 			},
 			{
 				type: DidTypes.VerifiableCredentialCommon,
-				schema: DidVerifiableCredentialCommonSchema
+				schema: DidVerifiableCredentialCommonSchema,
+				compiledValidator: CompiledValidators.CompiledDidVerifiableCredentialCommon
 			},
 			{
 				type: DidTypes.VerifiableCredentialV1,
-				schema: DidVerifiableCredentialV1Schema
+				schema: DidVerifiableCredentialV1Schema,
+				compiledValidator: CompiledValidators.CompiledDidVerifiableCredentialV1
 			},
 			{
 				type: DidTypes.VerifiableCredentialV2,
-				schema: DidVerifiableCredentialV2Schema
+				schema: DidVerifiableCredentialV2Schema,
+				compiledValidator: CompiledValidators.CompiledDidVerifiableCredentialV2
 			},
 			{
 				type: DidTypes.VerifiablePresentation,
-				schema: DidVerifiablePresentationSchema
+				schema: DidVerifiablePresentationSchema,
+				compiledValidator: CompiledValidators.CompiledDidVerifiablePresentation
 			},
 			{
 				type: DidTypes.VerifiablePresentationCommon,
-				schema: DidVerifiablePresentationCommonSchema
+				schema: DidVerifiablePresentationCommonSchema,
+				compiledValidator: CompiledValidators.CompiledDidVerifiablePresentationCommon
 			},
 			{
 				type: DidTypes.VerifiablePresentationV1,
-				schema: DidVerifiablePresentationV1Schema
+				schema: DidVerifiablePresentationV1Schema,
+				compiledValidator: CompiledValidators.CompiledDidVerifiablePresentationV1
 			},
 			{
 				type: DidTypes.VerifiablePresentationV2,
-				schema: DidVerifiablePresentationV2Schema
+				schema: DidVerifiablePresentationV2Schema,
+				compiledValidator: CompiledValidators.CompiledDidVerifiablePresentationV2
 			},
 			{
 				type: DidTypes.VerificationMethodType,
-				schema: DidVerificationMethodTypeSchema
+				schema: DidVerificationMethodTypeSchema,
+				compiledValidator: CompiledValidators.CompiledDidVerificationMethodType
 			},
 			{
 				type: DidTypes.JsonWebSignature2020Proof,
-				schema: JsonWebSignature2020ProofSchema
+				schema: JsonWebSignature2020ProofSchema,
+				compiledValidator: CompiledValidators.CompiledJsonWebSignature2020Proof
 			},
 			{
 				type: DidTypes.Multikey,
-				schema: MultikeySchema
+				schema: MultikeySchema,
+				compiledValidator: CompiledValidators.CompiledMultikey
 			},
 			{
 				type: DidTypes.Proof,
-				schema: ProofSchema
+				schema: ProofSchema,
+				compiledValidator: CompiledValidators.CompiledProof
 			},
 			{
 				type: DidTypes.ProofTypes,
-				schema: ProofTypesSchema
+				schema: ProofTypesSchema,
+				compiledValidator: CompiledValidators.CompiledProofTypes
 			}
 		];
 
@@ -137,17 +165,19 @@ export abstract class DidDataTypes {
 		DataTypeHelper.registerTypes(
 			DidContexts.JsonSchemaNamespace,
 			undefined,
-			types.map(t => ({ type: t.schema.title, schema: t.schema }))
+			types.map(t => ({ ...t, type: t.schema.title }))
 		);
 
 		const typesCredentials = [
 			{
 				type: DidTypes.VerifiableCredential,
-				schema: DidVerifiableCredentialSchema
+				schema: DidVerifiableCredentialSchema,
+				compiledValidator: CompiledValidators.CompiledDidVerifiableCredential
 			},
 			{
 				type: DidTypes.VerifiablePresentation,
-				schema: DidVerifiablePresentationSchema
+				schema: DidVerifiablePresentationSchema,
+				compiledValidator: CompiledValidators.CompiledDidVerifiablePresentation
 			}
 		];
 
