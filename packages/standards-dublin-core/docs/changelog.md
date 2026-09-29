@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.11.0](https://github.com/iotaledger/twin-standards/compare/standards-dublin-core-v0.11.0...standards-dublin-core-v0.11.0) (2026-09-29)
+
+
+### Features
+
+* release to production ([2ae4125](https://github.com/iotaledger/twin-standards/commit/2ae4125f305d4714b50036eb8a0bd47e4100a7be))
+* release to production ([#246](https://github.com/iotaledger/twin-standards/issues/246)) ([6e6796b](https://github.com/iotaledger/twin-standards/commit/6e6796bd76aa70a9215eeb300ff479cde79368b8))
+* release to production ([#265](https://github.com/iotaledger/twin-standards/issues/265)) ([b7b7b00](https://github.com/iotaledger/twin-standards/commit/b7b7b002b37fb737129967b582e2aa7a2b6d1f86))
+* release to production ([#271](https://github.com/iotaledger/twin-standards/issues/271)) ([eea52d7](https://github.com/iotaledger/twin-standards/commit/eea52d788fd515cd2891a952edbeb7f390ffc4c9))
+* release to production [skip ci] ([#283](https://github.com/iotaledger/twin-standards/issues/283)) ([1816ae8](https://github.com/iotaledger/twin-standards/commit/1816ae85543eb31a62994567745d73d5c83fe377))
+* release to production [skip ci] ([#290](https://github.com/iotaledger/twin-standards/issues/290)) ([c392117](https://github.com/iotaledger/twin-standards/commit/c392117ba850759ee0019b74dce816932f0b70bb))
+
 ## [0.10.1-next.1](https://github.com/iotaledger/twin-standards/compare/standards-dublin-core-v0.10.1-next.0...standards-dublin-core-v0.10.1-next.1) (2026-09-26)
 
 

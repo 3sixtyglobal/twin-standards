@@ -1,6 +1,6 @@
 {
 	"name": "@twin.org/standards-ld-contexts",
-	"version": "0.10.1-next.1",
+	"version": "0.11.1-next.0",
 	"description": "Local JSON-LD contexts for offline and controlled use.",
 	"repository": {
 		"type": "git",
