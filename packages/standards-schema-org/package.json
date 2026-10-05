@@ -4,7 +4,7 @@
 	"description": "Data models for Schema.org vocabularies.",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/iotaledger/twin-standards.git",
+		"url": "git+https://github.com/3sixtyglobal/twin-standards.git",
 		"directory": "packages/standards-schema-org"
 	},
 	"author": "martyn.janes@iota.org",
@@ -81,7 +81,7 @@
 		"seo"
 	],
 	"bugs": {
-		"url": "git+https://github.com/iotaledger/twin-standards/issues"
+		"url": "git+https://github.com/3sixtyglobal/twin-standards/issues"
 	},
 	"homepage": "https://twindev.org"
 }

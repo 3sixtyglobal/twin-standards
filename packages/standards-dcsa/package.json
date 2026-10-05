@@ -4,7 +4,7 @@
 	"description": "Data models for DCSA Track and Trace semantics.",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/iotaledger/twin-standards.git",
+		"url": "git+https://github.com/3sixtyglobal/twin-standards.git",
 		"directory": "packages/standards-dcsa"
 	},
 	"author": "martyn.janes@iota.org",
@@ -78,7 +78,7 @@
 		"dcsa"
 	],
 	"bugs": {
-		"url": "git+https://github.com/iotaledger/twin-standards/issues"
+		"url": "git+https://github.com/3sixtyglobal/twin-standards/issues"
 	},
 	"homepage": "https://twindev.org"
 }

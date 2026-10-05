@@ -4,7 +4,7 @@
 	"description": "Data models for the W3C ODRL information model.",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/iotaledger/twin-standards.git",
+		"url": "git+https://github.com/3sixtyglobal/twin-standards.git",
 		"directory": "packages/standards-w3c-odrl"
 	},
 	"author": "cornel.filip@iota.org",
@@ -81,7 +81,7 @@
 		"specification"
 	],
 	"bugs": {
-		"url": "git+https://github.com/iotaledger/twin-standards/issues"
+		"url": "git+https://github.com/3sixtyglobal/twin-standards/issues"
 	},
 	"homepage": "https://twindev.org"
 }

@@ -24,3 +24,7 @@ Each package focuses on a recognised specification or vocabulary and provides a 
 ## Contributing
 
 To contribute to this package see the guidelines for building and publishing in [CONTRIBUTING](./CONTRIBUTING.md)
+
+## Origin
+
+This repository is derived from the original [iotaledger/twin-standards](https://github.com/iotaledger/twin-standards) repository.

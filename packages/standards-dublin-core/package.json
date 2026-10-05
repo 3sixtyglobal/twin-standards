@@ -4,7 +4,7 @@
 	"description": "Data models for Dublin Core metadata terms.",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/iotaledger/twin-standards.git",
+		"url": "git+https://github.com/3sixtyglobal/twin-standards.git",
 		"directory": "packages/standards-dublin-core"
 	},
 	"author": "cornel.filip@iota.org",
@@ -82,7 +82,7 @@
 		"utilities"
 	],
 	"bugs": {
-		"url": "git+https://github.com/iotaledger/twin-standards/issues"
+		"url": "git+https://github.com/3sixtyglobal/twin-standards/issues"
 	},
 	"homepage": "https://twindev.org"
 }
