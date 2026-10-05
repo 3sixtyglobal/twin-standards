@@ -12,19 +12,11 @@ TWIN Data Space Protocol Profile endpoint type identifiers.
 
 HTTPS query endpoint for PULL transfers via the TWIN Data Space Connector Query interface.
 
-#### See
-
-https://github.com/iotaledger/twin-rfcs/blob/main/rfcs/data-space-protocol/006-data-space-protocol-profile.md#data-transfer-profile-vocabulary
-
 ### HttpsActivityStreamEndpoint {#httpsactivitystreamendpoint}
 
 > `readonly` **HttpsActivityStreamEndpoint**: `"https://schema.twindev.org/dspace/v1/Https-Activity-Stream-Endpoint"` = `"https://schema.twindev.org/dspace/v1/Https-Activity-Stream-Endpoint"`
 
 HTTPS Activity Stream endpoint for PUSH transfers via the Activity Streams 2.0 protocol.
-
-#### See
-
-https://github.com/iotaledger/twin-rfcs/blob/main/rfcs/data-space-protocol/006-data-space-protocol-profile.md#data-transfer-profile-vocabulary
 
 ### HTTP {#http}
 
@@ -46,6 +38,3 @@ HTTPS endpoint identifier from the IDSA W3ID v4.1 namespace.
 
 https://w3id.org/idsa/v4.1/HTTPS
 
-## See
-
-https://github.com/iotaledger/twin-rfcs/blob/main/rfcs/data-space-protocol/006-data-space-protocol-profile.md
