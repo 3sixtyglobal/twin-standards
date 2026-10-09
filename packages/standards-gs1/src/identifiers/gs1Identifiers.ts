@@ -1,6 +1,6 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import { IdentifierHandlerFactory } from "@twin.org/data-core";
+import { IdentifierHandlerFactory } from "@3sixty/data-core";
 import { Gs1IdentifierTypes } from "../models/gs1/gs1IdentifierTypes.js";
 import { Gs1IdentifiersValidation } from "../utils/gs1IdentifiersValidation.js";
 

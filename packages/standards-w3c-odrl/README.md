@@ -1,11 +1,11 @@
-# TWIN Standards W3C ODRL
+# 3Sixty Standards W3C ODRL
 
 This package provides data models for the [W3C ODRL information model](https://www.w3.org/TR/odrl-model/), enabling clear representation of permissions, duties, and prohibitions in policy workflows.
 
 ## Installation
 
 ```shell
-npm install @twin.org/standards-w3c-odrl
+npm install @3sixty/standards-w3c-odrl
 ```
 
 ## Examples

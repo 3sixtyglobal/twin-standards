@@ -1,6 +1,6 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import { DataTypeHelper } from "@twin.org/data-core";
+import { DataTypeHelper } from "@3sixty/data-core";
 import * as CompiledValidators from "../compiled/validators.js";
 import { DataspaceProtocolContractNegotiationTypes } from "../models/contractNegotiation/dataspaceProtocolContractNegotiationTypes.js";
 import { DataspaceProtocolContexts } from "../models/dataspaceProtocolContexts.js";

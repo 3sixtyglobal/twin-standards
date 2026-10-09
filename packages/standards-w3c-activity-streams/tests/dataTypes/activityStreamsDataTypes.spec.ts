@@ -2,9 +2,9 @@
 // SPDX-License-Identifier: Apache-2.0.
 import fs from "node:fs/promises";
 import path from "node:path";
-import { Is, type IValidationFailure } from "@twin.org/core";
-import { DataTypeHandlerFactory, DataTypeHelper } from "@twin.org/data-core";
-import { JsonLdDataTypes } from "@twin.org/data-json-ld";
+import { Is, type IValidationFailure } from "@3sixty/core";
+import { DataTypeHandlerFactory, DataTypeHelper } from "@3sixty/data-core";
+import { JsonLdDataTypes } from "@3sixty/data-json-ld";
 import { ActivityStreamsDataTypes } from "../../src/dataTypes/activityStreamsDataTypes.js";
 import { ActivityStreamsContexts } from "../../src/models/activityStreamsContexts.js";
 import { ActivityStreamsTypes } from "../../src/models/activityStreamsTypes.js";

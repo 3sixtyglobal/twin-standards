@@ -24,7 +24,7 @@ export const DataspaceProtocolContexts = {
 	/**
 	 * The namespace location of the hosted version of the JSON Schema.
 	 */
-	JsonSchemaNamespace: "https://schema.twindev.org/dataspace-protocol/"
+	JsonSchemaNamespace: "https://schema.3sixty.global/dataspace-protocol/"
 } as const;
 
 /**

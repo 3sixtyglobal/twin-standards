@@ -9,7 +9,7 @@ import {
   DidContexts,
   VerifiableCredentialHelper,
   type IDidVerifiableCredential
-} from '@twin.org/standards-w3c-did';
+} from '@3sixty/standards-w3c-did';
 
 const credential: IDidVerifiableCredential = {
   '@context': [DidContexts.ContextVCv2],
@@ -31,8 +31,8 @@ console.log(until); // 2026-12-31T23:59:59Z
 ## ProofHelper
 
 ```typescript
-import type { IJsonLdNodeObject } from '@twin.org/data-json-ld';
-import { ProofHelper, ProofTypes } from '@twin.org/standards-w3c-did';
+import type { IJsonLdNodeObject } from '@3sixty/data-json-ld';
+import { ProofHelper, ProofTypes } from '@3sixty/standards-w3c-did';
 
 const doc: IJsonLdNodeObject = {
   '@context': ['https://www.w3.org/ns/credentials/v2'],
@@ -55,8 +55,8 @@ console.log(typeof signed.proofValue === 'string'); // true
 ## MultikeyHelper
 
 ```typescript
-import type { IJwk } from '@twin.org/web';
-import { MultikeyHelper } from '@twin.org/standards-w3c-did';
+import type { IJwk } from '@3sixty/web';
+import { MultikeyHelper } from '@3sixty/standards-w3c-did';
 
 const jwk: IJwk = {
   kty: 'OKP',
@@ -76,7 +76,7 @@ console.log(roundTrip.crv); // Ed25519
 ## DidDataTypes
 
 ```typescript
-import { DidDataTypes } from '@twin.org/standards-w3c-did';
+import { DidDataTypes } from '@3sixty/standards-w3c-did';
 
 DidDataTypes.registerTypes();
 

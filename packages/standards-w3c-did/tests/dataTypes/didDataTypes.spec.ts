@@ -2,16 +2,16 @@
 // SPDX-License-Identifier: Apache-2.0.
 import fs from "node:fs/promises";
 import path from "node:path";
-import { Is } from "@twin.org/core";
-import { DataTypeHandlerFactory } from "@twin.org/data-core";
-import { JsonLdDataTypes } from "@twin.org/data-json-ld";
+import { Is } from "@3sixty/core";
+import { DataTypeHandlerFactory } from "@3sixty/data-core";
+import { JsonLdDataTypes } from "@3sixty/data-json-ld";
 import { DidDataTypes } from "../../src/dataTypes/didDataTypes.js";
 
 const SCHEMAS_DIRECTORY = path.join(import.meta.dirname, "..", "..", "src", "schemas");
 
 // No TWIN package publishes a schema for the JWK used by verification methods,
 // so it cannot be registered here.
-const UNOWNED_NAMESPACE = "https://schema.twindev.org/framework/";
+const UNOWNED_NAMESPACE = "https://schema.3sixty.global/framework/";
 
 /**
  * Collect all the absolute $refs from a schema.

@@ -1,6 +1,6 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IJwk } from "@twin.org/web";
+import type { IJwk } from "@3sixty/web";
 import type { IMultikey } from "../../src/models/IMultikey.js";
 import { MultikeyHelper } from "../../src/utils/multikeyHelper.js";
 

@@ -19,7 +19,7 @@ export const DidContexts = {
 	/**
 	 * The namespace location of the hosted version of the JSON Schema.
 	 */
-	JsonSchemaNamespace: "https://schema.twindev.org/w3c-did/",
+	JsonSchemaNamespace: "https://schema.3sixty.global/w3c-did/",
 
 	/**
 	 * The canonical RDF namespace URI for DID VC v1.

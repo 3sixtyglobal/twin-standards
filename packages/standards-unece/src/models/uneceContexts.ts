@@ -24,7 +24,7 @@ export const UneceContexts = {
 	/**
 	 * The namespace location of the hosted version of the JSON Schema.
 	 */
-	JsonSchemaNamespace: "https://schema.twindev.org/unece/"
+	JsonSchemaNamespace: "https://schema.3sixty.global/unece/"
 } as const;
 
 /**

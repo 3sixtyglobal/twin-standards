@@ -1,4 +1,4 @@
-# @twin.org/standards-w3c-odrl
+# @3sixty/standards-w3c-odrl
 
 ## Classes
 

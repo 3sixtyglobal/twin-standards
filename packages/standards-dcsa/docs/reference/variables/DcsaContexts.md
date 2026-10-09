@@ -14,6 +14,6 @@ The canonical RDF namespace URI.
 
 ### JsonSchemaNamespace {#jsonschemanamespace}
 
-> `readonly` **JsonSchemaNamespace**: `"https://schema.twindev.org/dcsa/"` = `"https://schema.twindev.org/dcsa/"`
+> `readonly` **JsonSchemaNamespace**: `"https://schema.3sixty.global/dcsa/"` = `"https://schema.3sixty.global/dcsa/"`
 
 The namespace location of the hosted version of the JSON Schema.

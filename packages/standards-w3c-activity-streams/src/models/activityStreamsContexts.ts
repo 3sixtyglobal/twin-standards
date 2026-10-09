@@ -26,7 +26,7 @@ export const ActivityStreamsContexts = {
 	/**
 	 * The namespace location of the hosted version of the JSON Schema.
 	 */
-	JsonSchemaNamespace: "https://schema.twindev.org/w3c-activity-streams/"
+	JsonSchemaNamespace: "https://schema.3sixty.global/w3c-activity-streams/"
 } as const;
 
 /**

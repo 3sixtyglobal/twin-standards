@@ -10,6 +10,7 @@
 	"versioning": "prerelease",
 	"prerelease": true,
 	"prerelease-type": "next",
+	"last-release-sha": "68299307fba331d4a0ec4fc788bcf87ff1f3fab1",
 	"packages": {
 		"packages/standards-ld-contexts": {
 			"package-name": "standards-ld-contexts",

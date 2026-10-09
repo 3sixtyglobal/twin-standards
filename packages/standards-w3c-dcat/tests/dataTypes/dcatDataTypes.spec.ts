@@ -2,12 +2,12 @@
 // SPDX-License-Identifier: Apache-2.0.
 import fs from "node:fs/promises";
 import path from "node:path";
-import { Is } from "@twin.org/core";
-import { DataTypeHandlerFactory } from "@twin.org/data-core";
-import { JsonLdDataTypes } from "@twin.org/data-json-ld";
-import { DublinCoreDataTypes } from "@twin.org/standards-dublin-core";
-import { FoafDataTypes } from "@twin.org/standards-foaf";
-import { OdrlDataTypes } from "@twin.org/standards-w3c-odrl";
+import { Is } from "@3sixty/core";
+import { DataTypeHandlerFactory } from "@3sixty/data-core";
+import { JsonLdDataTypes } from "@3sixty/data-json-ld";
+import { DublinCoreDataTypes } from "@3sixty/standards-dublin-core";
+import { FoafDataTypes } from "@3sixty/standards-foaf";
+import { OdrlDataTypes } from "@3sixty/standards-w3c-odrl";
 import { DcatDataTypes } from "../../src/dataTypes/dcatDataTypes.js";
 
 const SCHEMAS_DIRECTORY = path.join(import.meta.dirname, "..", "..", "src", "schemas");

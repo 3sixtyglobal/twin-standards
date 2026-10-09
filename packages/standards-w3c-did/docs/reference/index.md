@@ -1,4 +1,4 @@
-# @twin.org/standards-w3c-did
+# @3sixty/standards-w3c-did
 
 ## Classes
 

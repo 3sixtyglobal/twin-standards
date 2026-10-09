@@ -1,7 +1,7 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import { DataTypeHandlerFactory } from "@twin.org/data-core";
-import { JsonSchemaHelper, type IJsonSchema } from "@twin.org/data-core";
+import { DataTypeHandlerFactory } from "@3sixty/data-core";
+import { JsonSchemaHelper, type IJsonSchema } from "@3sixty/data-core";
 import { UneceDataTypes } from "../src/dataTypes/uneceDataTypes.js";
 
 describe("standards-unece", () => {
@@ -14,7 +14,9 @@ describe("standards-unece", () => {
 			DataTypeHandlerFactory.hasName("https://vocabulary.uncefact.org/AcademicQualification")
 		).toBe(true);
 		expect(
-			DataTypeHandlerFactory.hasName("https://schema.twindev.org/unece/UneceAcademicQualification")
+			DataTypeHandlerFactory.hasName(
+				"https://schema.3sixty.global/unece/UneceAcademicQualification"
+			)
 		).toBe(true);
 	});
 
@@ -22,7 +24,7 @@ describe("standards-unece", () => {
 		UneceDataTypes.registerTypes();
 
 		const handler = DataTypeHandlerFactory.get(
-			"https://schema.twindev.org/unece/UneceUnitMeasureCode"
+			"https://schema.3sixty.global/unece/UneceUnitMeasureCode"
 		);
 
 		expect(handler).toBeDefined();

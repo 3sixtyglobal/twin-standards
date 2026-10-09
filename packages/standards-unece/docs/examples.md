@@ -5,7 +5,7 @@ These snippets use location and code list helpers, then register UNECE data type
 ## UnLocodes
 
 ```typescript
-import { UnLocodes } from '@twin.org/standards-unece';
+import { UnLocodes } from '@3sixty/standards-unece';
 
 const countries = await UnLocodes.getCountries();
 const functions = await UnLocodes.getFunctions();
@@ -21,7 +21,7 @@ console.log(subdivision?.code); // ZH
 ## UnCodeLists
 
 ```typescript
-import { UnCodeLists } from '@twin.org/standards-unece';
+import { UnCodeLists } from '@3sixty/standards-unece';
 
 const descriptions = await UnCodeLists.getDescriptions('unece:transportModeCodeList', 'en');
 const roadDescription = await UnCodeLists.getDescription('unece:transportModeCodeList', '3', 'en');
@@ -35,7 +35,7 @@ console.log(typeof roadLabel === 'string'); // true
 ## UneceDataTypes
 
 ```typescript
-import { UneceDataTypes } from '@twin.org/standards-unece';
+import { UneceDataTypes } from '@3sixty/standards-unece';
 
 UneceDataTypes.registerRedirects();
 UneceDataTypes.registerTypes();

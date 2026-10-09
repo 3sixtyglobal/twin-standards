@@ -14,7 +14,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { DataTypeHandlerFactory } from '@twin.org/data-core';
+import { DataTypeHandlerFactory } from '@3sixty/data-core';
 import { directoryExists, fileExists, loadJson, loadWorkspaceDirs } from './common.mjs';
 
 /**
@@ -113,7 +113,7 @@ async function registerWorkspaceTypes(workspace) {
 	const workspacePackageJson = await loadJson(path.join(workspace, 'package.json'));
 
 	for (const dependency of Object.keys(workspacePackageJson.dependencies ?? {})) {
-		if (dependency.startsWith('@twin.org/')) {
+		if (dependency.startsWith('@3sixty/')) {
 			const dependencyDirectory = await resolveDependencyDirectory(workspace, dependency);
 
 			await registerModuleTypes(

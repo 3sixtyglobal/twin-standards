@@ -1,11 +1,11 @@
-# TWIN Standards Schema.org
+# 3Sixty Standards Schema.org
 
 This package provides data models for [Schema.org vocabularies](https://schema.org/), supporting a common semantic layer for entities, events, and relationships across domains.
 
 ## Installation
 
 ```shell
-npm install @twin.org/standards-schema-org
+npm install @3sixty/standards-schema-org
 ```
 
 ## Examples

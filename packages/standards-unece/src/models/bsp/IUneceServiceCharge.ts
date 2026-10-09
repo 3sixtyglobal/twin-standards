@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
+import type { IJsonLdValueObject } from "@3sixty/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceLinearUnitMeasureType } from "./IUneceLinearUnitMeasureType.js";
 import type { IUneceLogisticsLocation } from "./IUneceLogisticsLocation.js";
@@ -168,7 +168,8 @@ export interface IUneceServiceCharge {
 	 * The code specifying a basis on which this logistics service charge is to be calculated, such as by volume or per unit.
 	 * @see https://vocabulary.uncefact.org/logisticsChargeCalculationBasisCalculationBasisCode
 	 */
-	logisticsChargeCalculationBasisCalculationBasisCode?: UneceLogisticsChargeCalculationBasisCodeList | string;
+	logisticsChargeCalculationBasisCalculationBasisCode?:
+		UneceLogisticsChargeCalculationBasisCodeList | string;
 
 	/**
 	 * The code specifying the transport payment method for this logistics service charge.

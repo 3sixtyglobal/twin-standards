@@ -9,13 +9,13 @@ export const DataspaceProtocolEndpointType = {
 	/**
 	 * HTTPS query endpoint for PULL transfers via the TWIN Data Space Connector Query interface.
 	 */
-	HttpsQueryEndpoint: "https://schema.twindev.org/dspace/v1/Https-Query-Endpoint",
+	HttpsQueryEndpoint: "https://schema.3sixty.global/dspace/v1/Https-Query-Endpoint",
 
 	/**
 	 * HTTPS Activity Stream endpoint for PUSH transfers via the Activity Streams 2.0 protocol.
 	 */
 	HttpsActivityStreamEndpoint:
-		"https://schema.twindev.org/dspace/v1/Https-Activity-Stream-Endpoint",
+		"https://schema.3sixty.global/dspace/v1/Https-Activity-Stream-Endpoint",
 
 	/**
 	 * HTTP endpoint identifier from the IDSA W3ID v4.1 namespace.

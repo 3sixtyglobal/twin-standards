@@ -1,4 +1,4 @@
-# @twin.org/standards-foaf
+# @3sixty/standards-foaf
 
 ## Classes
 

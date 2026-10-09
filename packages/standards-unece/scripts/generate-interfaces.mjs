@@ -352,7 +352,7 @@ async function processClass(jsonLdMapping, csvMapping, id, item, generatedTypes)
 					: `${propType} | string | IJsonLdValueObject`;
 			imports.push({
 				type: 'IJsonLdValueObject',
-				package: '@twin.org/data-json-ld'
+				package: '@3sixty/data-json-ld'
 			});
 		}
 
@@ -645,8 +645,8 @@ async function generateUneceDataTypes(generatedTypes) {
 
 	const lines = fileHeaderLines();
 
-	lines.push('import { DataTypeHelper } from "@twin.org/data-core";');
-	lines.push('import { JsonLdDataTypes, JsonLdProcessor } from "@twin.org/data-json-ld";');
+	lines.push('import { DataTypeHelper } from "@3sixty/data-core";');
+	lines.push('import { JsonLdDataTypes, JsonLdProcessor } from "@3sixty/data-json-ld";');
 	lines.push('import * as CompiledValidators from "../compiled/validators.js";');
 	lines.push('import { UneceContexts } from "../models/uneceContexts.js";');
 	lines.push('import { UneceTypes } from "../models/uneceTypes.js";');
@@ -770,10 +770,10 @@ async function generateTsToSchemaJson(generatedTypes) {
 		.map(t => `./src/models/${t.outputDir}/${t.fileName}.ts`)
 		.sort((a, b) => a.localeCompare(b, 'en', { sensitivity: 'case' }));
 
-	existingContent.baseUrl = 'https://schema.twindev.org/unece/';
+	existingContent.baseUrl = 'https://schema.3sixty.global/unece/';
 	existingContent.types = ['./src/models/uneceContextType.ts', ...types];
 	existingContent.externalReferences = {
-		'IJsonLd(.*)': 'https://schema.twindev.org/json-ld/JsonLd$1'
+		'IJsonLd(.*)': 'https://schema.3sixty.global/json-ld/JsonLd$1'
 	};
 	existingContent.autoExpandTypes = ['UneceContextType'];
 

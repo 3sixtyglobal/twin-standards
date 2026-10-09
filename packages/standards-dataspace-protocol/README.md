@@ -1,11 +1,11 @@
-# TWIN Standards Dataspace Protocol
+# 3Sixty Standards Dataspace Protocol
 
 This package provides data models for the [Dataspace Protocol specification](https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/), helping participants exchange catalogue and agreement information consistently.
 
 ## Installation
 
 ```shell
-npm install @twin.org/standards-dataspace-protocol
+npm install @3sixty/standards-dataspace-protocol
 ```
 
 ## Examples

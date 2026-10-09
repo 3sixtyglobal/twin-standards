@@ -1,10 +1,10 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import { Converter, ObjectHelper } from "@twin.org/core";
-import { Ed25519 } from "@twin.org/crypto";
-import { JsonLdHelper } from "@twin.org/data-json-ld";
-import { addAllContextsToDocumentCache } from "@twin.org/standards-ld-contexts";
-import { type IJwk, Jwk } from "@twin.org/web";
+import { Converter, ObjectHelper } from "@3sixty/core";
+import { Ed25519 } from "@3sixty/crypto";
+import { JsonLdHelper } from "@3sixty/data-json-ld";
+import { addAllContextsToDocumentCache } from "@3sixty/standards-ld-contexts";
+import { type IJwk, Jwk } from "@3sixty/web";
 import type { IDidVerifiableCredential } from "../../src/models/IDidVerifiableCredential.js";
 import type { IJsonWebSignature2020Proof } from "../../src/models/IJsonWebSignature2020Proof.js";
 import { ProofTypes } from "../../src/models/proofTypes.js";

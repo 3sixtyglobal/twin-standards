@@ -21,7 +21,7 @@ export const DublinCoreContexts = {
 	/**
 	 * JSON-LD Context URL for Dublin Core Terms.
 	 */
-	JsonLdContextTerms: "https://schema.twindev.org/dublin-core/terms.jsonld",
+	JsonLdContextTerms: "https://schema.3sixty.global/dublin-core/terms.jsonld",
 
 	/**
 	 * The canonical RDF namespace URI for Dublin Core DCMI Types.
@@ -38,12 +38,12 @@ export const DublinCoreContexts = {
 	/**
 	 * JSON-LD Context URL for DCMI Types
 	 */
-	JsonLdContextDcmiType: "https://schema.twindev.org/dublin-core/dcmitype.jsonld",
+	JsonLdContextDcmiType: "https://schema.3sixty.global/dublin-core/dcmitype.jsonld",
 
 	/**
 	 * The namespace location of the hosted version of the JSON Schema.
 	 */
-	JsonSchemaNamespace: "https://schema.twindev.org/dublin-core/"
+	JsonSchemaNamespace: "https://schema.3sixty.global/dublin-core/"
 } as const;
 
 /**

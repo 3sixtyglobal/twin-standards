@@ -9,7 +9,7 @@ import {
   LD_CONTEXTS,
   addAllContextsToDocumentCache,
   addContextToDocumentCache
-} from '@twin.org/standards-ld-contexts';
+} from '@3sixty/standards-ld-contexts';
 
 const contextCount = Object.keys(LD_CONTEXTS).length;
 await addAllContextsToDocumentCache();

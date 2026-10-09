@@ -5,7 +5,7 @@ These snippets demonstrate registering schema support and defining person record
 ## FoafDataTypes
 
 ```typescript
-import { FoafContexts, FoafDataTypes, FoafTypes, type IFoafPerson } from '@twin.org/standards-foaf';
+import { FoafContexts, FoafDataTypes, FoafTypes, type IFoafPerson } from '@3sixty/standards-foaf';
 
 FoafDataTypes.registerRedirects();
 FoafDataTypes.registerTypes();

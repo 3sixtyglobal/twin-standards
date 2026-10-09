@@ -1,4 +1,4 @@
-# @twin.org/standards-schema-org
+# @3sixty/standards-schema-org
 
 ## Classes
 

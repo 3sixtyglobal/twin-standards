@@ -1,4 +1,4 @@
-# @twin.org/standards-w3c-vcard
+# @3sixty/standards-w3c-vcard
 
 ## Type Aliases
 

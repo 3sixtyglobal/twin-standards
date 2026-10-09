@@ -1,11 +1,11 @@
-# TWIN Standards UNECE
+# 3Sixty Standards UNECE
 
 This package provides data models for [UN/CEFACT semantic vocabularies](https://vocabulary.uncefact.org/), supporting interoperable trade and logistics information exchange.
 
 ## Installation
 
 ```shell
-npm install @twin.org/standards-unece
+npm install @3sixty/standards-unece
 ```
 
 ## Examples

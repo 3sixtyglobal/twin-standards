@@ -8,11 +8,11 @@ import {
 	JsonHelper,
 	ObjectHelper,
 	Uint8ArrayHelper
-} from "@twin.org/core";
-import { Ed25519, Sha256 } from "@twin.org/crypto";
-import { JsonLdProcessor, type IJsonLdNodeObject } from "@twin.org/data-json-ld";
-import { nameof } from "@twin.org/nameof";
-import { Jwk, type IJwk } from "@twin.org/web";
+} from "@3sixty/core";
+import { Ed25519, Sha256 } from "@3sixty/crypto";
+import { JsonLdProcessor, type IJsonLdNodeObject } from "@3sixty/data-json-ld";
+import { nameof } from "@3sixty/nameof";
+import { Jwk, type IJwk } from "@3sixty/web";
 import { DidContexts } from "../models/didContexts.js";
 import { DidCryptoSuites } from "../models/didCryptoSuites.js";
 import type { IDataIntegrityProof } from "../models/IDataIntegrityProof.js";

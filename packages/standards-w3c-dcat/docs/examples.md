@@ -10,7 +10,7 @@ import {
   DcatContexts,
   DcatDataTypes,
   type IDcatCatalog
-} from '@twin.org/standards-w3c-dcat';
+} from '@3sixty/standards-w3c-dcat';
 
 DcatDataTypes.registerRedirects();
 DcatDataTypes.registerTypes();

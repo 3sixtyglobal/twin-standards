@@ -1,4 +1,4 @@
-# @twin.org/standards-w3c-activity-streams
+# @3sixty/standards-w3c-activity-streams
 
 ## Classes
 

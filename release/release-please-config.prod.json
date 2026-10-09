@@ -8,6 +8,7 @@
 	"release-type": "node",
 	"initial-version": "0.0.1",
 	"versioning": "default",
+	"last-release-sha": "a90089adb8d8c3e36e21ec7101653e39a76edac5",
 	"packages": {
 		"packages/standards-ld-contexts": {
 			"package-name": "standards-ld-contexts",

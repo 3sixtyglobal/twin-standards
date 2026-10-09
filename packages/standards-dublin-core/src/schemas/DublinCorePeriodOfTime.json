@@ -1,6 +1,6 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"$id": "https://schema.twindev.org/dublin-core/DublinCorePeriodOfTime",
+	"$id": "https://schema.3sixty.global/dublin-core/DublinCorePeriodOfTime",
 	"title": "DublinCorePeriodOfTime",
 	"description": "Interface for Dublin Core Terms Period of Time.\nAn interval of time that is named or defined by its start and end dates.",
 	"type": "object",

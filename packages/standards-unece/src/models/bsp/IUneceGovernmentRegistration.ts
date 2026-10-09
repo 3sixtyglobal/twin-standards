@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
+import type { IJsonLdValueObject } from "@3sixty/data-json-ld";
 import type { IUneceSpecifiedPeriod } from "./IUneceSpecifiedPeriod.js";
 import type { UneceCountryId } from "../lists/uneceCountryId.js";
 import type { UneceGovernmentRegistrationTypeCodeList } from "../typeCodes/uneceGovernmentRegistrationTypeCodeList.js";

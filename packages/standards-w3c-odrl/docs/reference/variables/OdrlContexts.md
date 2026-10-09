@@ -27,6 +27,6 @@ The JSON-LD Context URL.
 
 ### JsonSchemaNamespace {#jsonschemanamespace}
 
-> `readonly` **JsonSchemaNamespace**: `"https://schema.twindev.org/w3c-odrl/"` = `"https://schema.twindev.org/w3c-odrl/"`
+> `readonly` **JsonSchemaNamespace**: `"https://schema.3sixty.global/w3c-odrl/"` = `"https://schema.3sixty.global/w3c-odrl/"`
 
 The namespace location of the hosted version of the JSON Schema.

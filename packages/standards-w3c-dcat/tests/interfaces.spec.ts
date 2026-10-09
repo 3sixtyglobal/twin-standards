@@ -1,12 +1,12 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import { ObjectHelper } from "@twin.org/core";
-import { DataTypeHandlerFactory, JsonSchemaHelper, type IJsonSchema } from "@twin.org/data-core";
-import { JsonLdProcessor } from "@twin.org/data-json-ld";
-import { DublinCoreContexts } from "@twin.org/standards-dublin-core";
-import { FoafContexts } from "@twin.org/standards-foaf";
-import { addAllContextsToDocumentCache } from "@twin.org/standards-ld-contexts";
-import { VCardContexts } from "@twin.org/standards-w3c-vcard";
+import { ObjectHelper } from "@3sixty/core";
+import { DataTypeHandlerFactory, JsonSchemaHelper, type IJsonSchema } from "@3sixty/data-core";
+import { JsonLdProcessor } from "@3sixty/data-json-ld";
+import { DublinCoreContexts } from "@3sixty/standards-dublin-core";
+import { FoafContexts } from "@3sixty/standards-foaf";
+import { addAllContextsToDocumentCache } from "@3sixty/standards-ld-contexts";
+import { VCardContexts } from "@3sixty/standards-w3c-vcard";
 import { DcatDataTypes } from "../src/dataTypes/dcatDataTypes.js";
 import { DcatClasses } from "../src/models/dcatClasses.js";
 import { DcatContexts } from "../src/models/dcatContexts.js";

@@ -1,11 +1,11 @@
-# TWIN Standards W3C DCAT
+# 3Sixty Standards W3C DCAT
 
 This package provides data models for the [W3C Data Catalog Vocabulary (DCAT)](https://www.w3.org/TR/vocab-dcat-3/), supporting consistent publication and discovery of data assets.
 
 ## Installation
 
 ```shell
-npm install @twin.org/standards-w3c-dcat
+npm install @3sixty/standards-w3c-dcat
 ```
 
 ## Examples

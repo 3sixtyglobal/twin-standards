@@ -1,11 +1,11 @@
-# TWIN Standards VDA
+# 3Sixty Standards VDA
 
 This package provides data models for [VDA JAIF semantics](https://www.vda.de/en/topics/digitalization/data-ecosystem-catena-x), helping automotive ecosystem participants align shared data definitions.
 
 ## Installation
 
 ```shell
-npm install @twin.org/standards-vda
+npm install @3sixty/standards-vda
 ```
 
 ## Examples

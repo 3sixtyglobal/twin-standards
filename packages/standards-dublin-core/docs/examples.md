@@ -11,7 +11,7 @@ import {
   DublinCoreDataTypes,
   DublinCorePropertyType,
   type IDublinCorePeriodOfTime
-} from '@twin.org/standards-dublin-core';
+} from '@3sixty/standards-dublin-core';
 
 DublinCoreDataTypes.registerRedirects();
 

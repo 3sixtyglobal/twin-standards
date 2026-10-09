@@ -1,4 +1,4 @@
-# @twin.org/standards-vda
+# @3sixty/standards-vda
 
 ## Classes
 

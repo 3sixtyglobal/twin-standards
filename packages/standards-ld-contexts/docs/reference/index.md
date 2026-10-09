@@ -1,4 +1,4 @@
-# @twin.org/standards-ld-contexts
+# @3sixty/standards-ld-contexts
 
 ## Variables
 

@@ -10,7 +10,7 @@ import {
   OdrlDataTypes,
   PolicyType,
   type IOdrlPolicy
-} from '@twin.org/standards-w3c-odrl';
+} from '@3sixty/standards-w3c-odrl';
 
 OdrlDataTypes.registerRedirects();
 OdrlDataTypes.registerTypes();

@@ -22,7 +22,7 @@ The Dublin Core Terms JSON-LD context URL format includes a trailing slash.
 
 ### JsonLdContextTerms {#jsonldcontextterms}
 
-> `readonly` **JsonLdContextTerms**: `"https://schema.twindev.org/dublin-core/terms.jsonld"` = `"https://schema.twindev.org/dublin-core/terms.jsonld"`
+> `readonly` **JsonLdContextTerms**: `"https://schema.3sixty.global/dublin-core/terms.jsonld"` = `"https://schema.3sixty.global/dublin-core/terms.jsonld"`
 
 JSON-LD Context URL for Dublin Core Terms.
 
@@ -42,12 +42,12 @@ The Dublin Core DCMI Types JSON-LD context URL format includes a trailing slash.
 
 ### JsonLdContextDcmiType {#jsonldcontextdcmitype}
 
-> `readonly` **JsonLdContextDcmiType**: `"https://schema.twindev.org/dublin-core/dcmitype.jsonld"` = `"https://schema.twindev.org/dublin-core/dcmitype.jsonld"`
+> `readonly` **JsonLdContextDcmiType**: `"https://schema.3sixty.global/dublin-core/dcmitype.jsonld"` = `"https://schema.3sixty.global/dublin-core/dcmitype.jsonld"`
 
 JSON-LD Context URL for DCMI Types
 
 ### JsonSchemaNamespace {#jsonschemanamespace}
 
-> `readonly` **JsonSchemaNamespace**: `"https://schema.twindev.org/dublin-core/"` = `"https://schema.twindev.org/dublin-core/"`
+> `readonly` **JsonSchemaNamespace**: `"https://schema.3sixty.global/dublin-core/"` = `"https://schema.3sixty.global/dublin-core/"`
 
 The namespace location of the hosted version of the JSON Schema.

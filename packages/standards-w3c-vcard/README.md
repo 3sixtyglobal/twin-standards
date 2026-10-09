@@ -1,11 +1,11 @@
-# TWIN Standards W3C vCard
+# 3Sixty Standards W3C vCard
 
 This package provides data models for the [W3C vCard RDF vocabulary](https://www.w3.org/TR/vcard-rdf/), supporting interoperable exchange of profile and contact information.
 
 ## Installation
 
 ```shell
-npm install @twin.org/standards-w3c-vcard
+npm install @3sixty/standards-w3c-vcard
 ```
 
 ## Examples

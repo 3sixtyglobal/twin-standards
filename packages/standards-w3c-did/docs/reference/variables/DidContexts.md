@@ -20,7 +20,7 @@ The value to use in the JSON-LD context for DID.
 
 ### JsonSchemaNamespace {#jsonschemanamespace}
 
-> `readonly` **JsonSchemaNamespace**: `"https://schema.twindev.org/w3c-did/"` = `"https://schema.twindev.org/w3c-did/"`
+> `readonly` **JsonSchemaNamespace**: `"https://schema.3sixty.global/w3c-did/"` = `"https://schema.3sixty.global/w3c-did/"`
 
 The namespace location of the hosted version of the JSON Schema.
 

@@ -1,11 +1,11 @@
-# TWIN Standards DCSA
+# 3Sixty Standards DCSA
 
 This package provides data models aligned with the [DCSA Track and Trace standard](https://dcsa.org/standards/track-and-trace/standard-documentation-track-and-trace), supporting interoperable maritime logistics events and references.
 
 ## Installation
 
 ```shell
-npm install @twin.org/standards-dcsa
+npm install @3sixty/standards-dcsa
 ```
 
 ## Examples

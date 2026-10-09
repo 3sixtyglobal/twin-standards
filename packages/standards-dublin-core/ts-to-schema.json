@@ -1,5 +1,5 @@
 {
-	"baseUrl": "https://schema.twindev.org/dublin-core/",
+	"baseUrl": "https://schema.3sixty.global/dublin-core/",
 	"types": [
 		"./src/models/IDublinCorePeriodOfTime.ts"
 	]

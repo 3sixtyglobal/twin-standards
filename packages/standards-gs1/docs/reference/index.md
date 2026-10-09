@@ -1,4 +1,4 @@
-# @twin.org/standards-gs1
+# @3sixty/standards-gs1
 
 ## Classes
 

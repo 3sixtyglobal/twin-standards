@@ -1,7 +1,7 @@
 // Copyright 2026 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import { GeneralError, Guards, I18n, Is, StringHelper } from "@twin.org/core";
-import { nameof } from "@twin.org/nameof";
+import { GeneralError, Guards, I18n, Is, StringHelper } from "@3sixty/core";
+import { nameof } from "@3sixty/nameof";
 import type { UneceCodeLists } from "../models/uneceCodeLists.js";
 
 /**

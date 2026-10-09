@@ -1,11 +1,11 @@
-# TWIN Standards GS1
+# 3Sixty Standards GS1
 
 This package provides data models aligned with [GS1 standards](https://www.gs1.org/standards), helping supply chain and product data remain semantically consistent between participants.
 
 ## Installation
 
 ```shell
-npm install @twin.org/standards-gs1
+npm install @3sixty/standards-gs1
 ```
 
 ## Examples

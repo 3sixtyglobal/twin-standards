@@ -1,5 +1,5 @@
 {
-	"baseUrl": "https://schema.twindev.org/dcsa/",
+	"baseUrl": "https://schema.3sixty.global/dcsa/",
 	"types": [
 		"./src/models/dcsaDocumentTypeCodes.ts",
 		"./src/models/dcsaEquipmentEventTypeCodes.ts",

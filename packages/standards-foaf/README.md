@@ -1,11 +1,11 @@
-# TWIN Standards FOAF
+# 3Sixty Standards FOAF
 
 This package provides data models for the [FOAF vocabulary](https://xmlns.com/foaf/spec/), supporting interoperable descriptions of people, organisations, and social relationships.
 
 ## Installation
 
 ```shell
-npm install @twin.org/standards-foaf
+npm install @3sixty/standards-foaf
 ```
 
 ## Examples

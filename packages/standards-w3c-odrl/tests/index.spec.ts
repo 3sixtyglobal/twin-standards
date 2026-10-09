@@ -1,10 +1,10 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import { ArrayHelper } from "@twin.org/core";
-import { DataTypeHandlerFactory, type IJsonSchema, JsonSchemaHelper } from "@twin.org/data-core";
-import { JsonLdDataTypes, JsonLdHelper } from "@twin.org/data-json-ld";
-import { DublinCoreContexts, DublinCorePropertyType } from "@twin.org/standards-dublin-core";
-import { VCardContexts, VCardPropertyType } from "@twin.org/standards-w3c-vcard";
+import { ArrayHelper } from "@3sixty/core";
+import { DataTypeHandlerFactory, type IJsonSchema, JsonSchemaHelper } from "@3sixty/data-core";
+import { JsonLdDataTypes, JsonLdHelper } from "@3sixty/data-json-ld";
+import { DublinCoreContexts, DublinCorePropertyType } from "@3sixty/standards-dublin-core";
+import { VCardContexts, VCardPropertyType } from "@3sixty/standards-w3c-vcard";
 import { OdrlDataTypes } from "../src/dataTypes/odrlDataTypes.js";
 import type { IOdrlAction } from "../src/models/IOdrlAction.js";
 import type { IOdrlAsset } from "../src/models/IOdrlAsset.js";
@@ -1756,7 +1756,7 @@ describe("OdrlDataTypes Validation", () => {
 							minItems: 1,
 							prefixItems: [
 								{
-									$ref: "https://schema.twindev.org/json-ld/JsonLdContextDefinitionElement"
+									$ref: "https://schema.3sixty.global/json-ld/JsonLdContextDefinitionElement"
 								}
 							],
 							items: true,

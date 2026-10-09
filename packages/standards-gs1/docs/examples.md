@@ -5,8 +5,8 @@ These snippets cover identifier checks, helper extraction methods, validation ut
 ## Gs1IdentifiersValidation
 
 ```typescript
-import type { IValidationFailure } from '@twin.org/core';
-import { Gs1IdentifiersValidation } from '@twin.org/standards-gs1';
+import type { IValidationFailure } from '@3sixty/core';
+import { Gs1IdentifiersValidation } from '@3sixty/standards-gs1';
 
 const failures: IValidationFailure[] = [];
 const epc = 'urn:epc:id:sgtin:0614141.112345.400';
@@ -23,8 +23,8 @@ console.log(gln); // 0614141.12345.0
 ## Gs1Validation
 
 ```typescript
-import type { IValidationFailure } from '@twin.org/core';
-import { Gs1Location, Gs1Validation } from '@twin.org/standards-gs1';
+import type { IValidationFailure } from '@3sixty/core';
+import { Gs1Location, Gs1Validation } from '@3sixty/standards-gs1';
 
 const failures: IValidationFailure[] = [];
 const location = new Gs1Location();
@@ -43,7 +43,7 @@ console.log(failures.length); // 0
 ## Gs1Is And Data Type Registration
 
 ```typescript
-import { EpcisDataTypes, Gs1DataTypes, Gs1Identifiers, Gs1Is } from '@twin.org/standards-gs1';
+import { EpcisDataTypes, Gs1DataTypes, Gs1Identifiers, Gs1Is } from '@3sixty/standards-gs1';
 
 EpcisDataTypes.registerRedirects();
 EpcisDataTypes.registerTypes();

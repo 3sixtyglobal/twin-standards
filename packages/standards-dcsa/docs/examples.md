@@ -10,7 +10,7 @@ import {
   DcsaEventTypes,
   DcsaTransportEventTypeCodes,
   type IDcsaTransportEvent
-} from '@twin.org/standards-dcsa';
+} from '@3sixty/standards-dcsa';
 
 DcsaDataTypes.registerRedirects();
 DcsaDataTypes.registerTypes();

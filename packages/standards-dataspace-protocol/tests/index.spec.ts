@@ -1,16 +1,16 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import { ArrayHelper } from "@twin.org/core";
-import { JsonLdProcessor } from "@twin.org/data-json-ld";
-import { DublinCoreContexts } from "@twin.org/standards-dublin-core";
-import { addAllContextsToDocumentCache } from "@twin.org/standards-ld-contexts";
+import { ArrayHelper } from "@3sixty/core";
+import { JsonLdProcessor } from "@3sixty/data-json-ld";
+import { DublinCoreContexts } from "@3sixty/standards-dublin-core";
+import { addAllContextsToDocumentCache } from "@3sixty/standards-ld-contexts";
 import {
 	type IDcatCatalog,
 	type IDcatDataset,
 	DcatContexts,
 	DcatDataTypes
-} from "@twin.org/standards-w3c-dcat";
-import { OdrlDataTypes } from "@twin.org/standards-w3c-odrl";
+} from "@3sixty/standards-w3c-dcat";
+import { OdrlDataTypes } from "@3sixty/standards-w3c-odrl";
 import { DataspaceProtocolDataTypes } from "../src/dataTypes/dataspaceProtocolDataTypes.js";
 import { DataspaceProtocolCatalogTypes } from "../src/models/catalog/dataspaceProtocolCatalogTypes.js";
 import type { IDataspaceProtocolCatalogError } from "../src/models/catalog/IDataspaceProtocolCatalogError.js";

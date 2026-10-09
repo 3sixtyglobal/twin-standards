@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import { DataTypeHelper } from "@twin.org/data-core";
-import { JsonLdDataTypes, JsonLdProcessor } from "@twin.org/data-json-ld";
+import { DataTypeHelper } from "@3sixty/data-core";
+import { JsonLdDataTypes, JsonLdProcessor } from "@3sixty/data-json-ld";
 import * as CompiledValidators from "../compiled/validators.js";
 import { UneceContexts } from "../models/uneceContexts.js";
 import { UneceTypes } from "../models/uneceTypes.js";
@@ -689,7 +689,8 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.AccountingAccountBalanceReopeningTypeCodeList,
 				schema: UneceAccountingAccountBalanceReopeningTypeCodeListSchema,
-				compiledValidator: CompiledValidators.CompiledUneceAccountingAccountBalanceReopeningTypeCodeList
+				compiledValidator:
+					CompiledValidators.CompiledUneceAccountingAccountBalanceReopeningTypeCodeList
 			},
 			{
 				type: UneceTypes.AccountingAccountClassificationCodeList,
@@ -2709,7 +2710,8 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.ProductCharacteristicConditionTypeCodeList,
 				schema: UneceProductCharacteristicConditionTypeCodeListSchema,
-				compiledValidator: CompiledValidators.CompiledUneceProductCharacteristicConditionTypeCodeList
+				compiledValidator:
+					CompiledValidators.CompiledUneceProductCharacteristicConditionTypeCodeList
 			},
 			{
 				type: UneceTypes.ProductCharacteristicTypeCodeList,
@@ -2794,7 +2796,8 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.ProductionWasteMaterialComponentTypeCodeList,
 				schema: UneceProductionWasteMaterialComponentTypeCodeListSchema,
-				compiledValidator: CompiledValidators.CompiledUneceProductionWasteMaterialComponentTypeCodeList
+				compiledValidator:
+					CompiledValidators.CompiledUneceProductionWasteMaterialComponentTypeCodeList
 			},
 			{
 				type: UneceTypes.ProductionWasteMaterialTypeCodeList,
@@ -2969,7 +2972,8 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.ResponsibleGovernmentAgencyInvolvementCodeList,
 				schema: UneceResponsibleGovernmentAgencyInvolvementCodeListSchema,
-				compiledValidator: CompiledValidators.CompiledUneceResponsibleGovernmentAgencyInvolvementCodeList
+				compiledValidator:
+					CompiledValidators.CompiledUneceResponsibleGovernmentAgencyInvolvementCodeList
 			},
 			{
 				type: UneceTypes.ReturnableAssetInstructions,
@@ -3559,7 +3563,8 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.TransportationWasteMaterialComponentTypeCodeList,
 				schema: UneceTransportationWasteMaterialComponentTypeCodeListSchema,
-				compiledValidator: CompiledValidators.CompiledUneceTransportationWasteMaterialComponentTypeCodeList
+				compiledValidator:
+					CompiledValidators.CompiledUneceTransportationWasteMaterialComponentTypeCodeList
 			},
 			{
 				type: UneceTypes.TransportationWasteMaterialTypeCodeList,
@@ -3569,7 +3574,8 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.TransportationWasteRecoveryDisposalProcess,
 				schema: UneceTransportationWasteRecoveryDisposalProcessSchema,
-				compiledValidator: CompiledValidators.CompiledUneceTransportationWasteRecoveryDisposalProcess
+				compiledValidator:
+					CompiledValidators.CompiledUneceTransportationWasteRecoveryDisposalProcess
 			},
 			{
 				type: UneceTypes.TransportContractMovementCodeList,
@@ -3589,7 +3595,8 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.TransportEquipmentHaulageArrangementsCodeList,
 				schema: UneceTransportEquipmentHaulageArrangementsCodeListSchema,
-				compiledValidator: CompiledValidators.CompiledUneceTransportEquipmentHaulageArrangementsCodeList
+				compiledValidator:
+					CompiledValidators.CompiledUneceTransportEquipmentHaulageArrangementsCodeList
 			},
 			{
 				type: UneceTypes.TransportEquipmentLegalStatusCodeList,
@@ -3604,7 +3611,8 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.TransportEquipmentOperationalStatusCodeList,
 				schema: UneceTransportEquipmentOperationalStatusCodeListSchema,
-				compiledValidator: CompiledValidators.CompiledUneceTransportEquipmentOperationalStatusCodeList
+				compiledValidator:
+					CompiledValidators.CompiledUneceTransportEquipmentOperationalStatusCodeList
 			},
 			{
 				type: UneceTypes.TransportEquipmentSizeTypeCodeList,
@@ -3614,7 +3622,8 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.TransportEquipmentSupplierPartyRoleCodeList,
 				schema: UneceTransportEquipmentSupplierPartyRoleCodeListSchema,
-				compiledValidator: CompiledValidators.CompiledUneceTransportEquipmentSupplierPartyRoleCodeList
+				compiledValidator:
+					CompiledValidators.CompiledUneceTransportEquipmentSupplierPartyRoleCodeList
 			},
 			{
 				type: UneceTypes.TransportEvent,
@@ -3694,7 +3703,8 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.TransportServicePaymentArrangementCodeList,
 				schema: UneceTransportServicePaymentArrangementCodeListSchema,
-				compiledValidator: CompiledValidators.CompiledUneceTransportServicePaymentArrangementCodeList
+				compiledValidator:
+					CompiledValidators.CompiledUneceTransportServicePaymentArrangementCodeList
 			},
 			{
 				type: UneceTypes.TransportServicePriorityCodeList,
@@ -3887,7 +3897,11 @@ export class UneceDataTypes {
 		DataTypeHelper.registerTypes(
 			UneceContexts.JsonSchemaNamespace,
 			UneceContexts.JsonLdContext,
-			types.map(t => ({ type: `Unece${t.type}`, schema: t.schema, compiledValidator: t.compiledValidator }))
+			types.map(t => ({
+				type: `Unece${t.type}`,
+				schema: t.schema,
+				compiledValidator: t.compiledValidator
+			}))
 		);
 	}
 }

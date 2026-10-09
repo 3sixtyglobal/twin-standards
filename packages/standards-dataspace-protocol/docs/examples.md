@@ -5,12 +5,12 @@ These snippets show how to prepare payloads for conformance checks and register 
 ## DataspaceProtocolHelper
 
 ```typescript
-import type { IValidationFailure } from '@twin.org/core';
-import type { IJsonLdNodeObject } from '@twin.org/data-json-ld';
+import type { IValidationFailure } from '@3sixty/core';
+import type { IJsonLdNodeObject } from '@3sixty/data-json-ld';
 import {
   DataspaceProtocolHelper,
   DataspaceProtocolTransferProcessTypes
-} from '@twin.org/standards-dataspace-protocol';
+} from '@3sixty/standards-dataspace-protocol';
 
 const payload: IJsonLdNodeObject = {
   '@context': 'https://w3id.org/dspace/2025/1/context.json',
@@ -32,7 +32,7 @@ import {
   ContractNegotiationDataTypes,
   DataspaceProtocolDataTypes,
   TransferProcessDataTypes
-} from '@twin.org/standards-dataspace-protocol';
+} from '@3sixty/standards-dataspace-protocol';
 
 DataspaceProtocolDataTypes.registerRedirects();
 DataspaceProtocolDataTypes.registerTypes();

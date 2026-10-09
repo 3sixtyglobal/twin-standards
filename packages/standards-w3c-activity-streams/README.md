@@ -1,11 +1,11 @@
-# TWIN Standards W3C Activity Streams
+# 3Sixty Standards W3C Activity Streams
 
 This package provides data models for the [W3C Activity Streams vocabulary](https://www.w3.org/TR/activitystreams-core/), making activity and event data easier to exchange with shared semantics.
 
 ## Installation
 
 ```shell
-npm install @twin.org/standards-w3c-activity-streams
+npm install @3sixty/standards-w3c-activity-streams
 ```
 
 ## Examples

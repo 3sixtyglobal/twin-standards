@@ -26,7 +26,7 @@ export const EpcisContexts = {
 	/**
 	 * The namespace location of the hosted version of the JSON Schema.
 	 */
-	JsonSchemaNamespace: "https://schema.twindev.org/gs1/"
+	JsonSchemaNamespace: "https://schema.3sixty.global/gs1/"
 } as const;
 
 /**

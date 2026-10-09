@@ -8,13 +8,13 @@ TWIN Data Space Protocol Profile endpoint type identifiers.
 
 ### HttpsQueryEndpoint {#httpsqueryendpoint}
 
-> `readonly` **HttpsQueryEndpoint**: `"https://schema.twindev.org/dspace/v1/Https-Query-Endpoint"` = `"https://schema.twindev.org/dspace/v1/Https-Query-Endpoint"`
+> `readonly` **HttpsQueryEndpoint**: `"https://schema.3sixty.global/dspace/v1/Https-Query-Endpoint"` = `"https://schema.3sixty.global/dspace/v1/Https-Query-Endpoint"`
 
 HTTPS query endpoint for PULL transfers via the TWIN Data Space Connector Query interface.
 
 ### HttpsActivityStreamEndpoint {#httpsactivitystreamendpoint}
 
-> `readonly` **HttpsActivityStreamEndpoint**: `"https://schema.twindev.org/dspace/v1/Https-Activity-Stream-Endpoint"` = `"https://schema.twindev.org/dspace/v1/Https-Activity-Stream-Endpoint"`
+> `readonly` **HttpsActivityStreamEndpoint**: `"https://schema.3sixty.global/dspace/v1/Https-Activity-Stream-Endpoint"` = `"https://schema.3sixty.global/dspace/v1/Https-Activity-Stream-Endpoint"`
 
 HTTPS Activity Stream endpoint for PUSH transfers via the Activity Streams 2.0 protocol.
 

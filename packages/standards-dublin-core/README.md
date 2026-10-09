@@ -1,11 +1,11 @@
-# TWIN Standards Dublin Core
+# 3Sixty Standards Dublin Core
 
 This package provides data models aligned with the [Dublin Core metadata terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/), making metadata descriptions easier to share and validate across systems.
 
 ## Installation
 
 ```shell
-npm install @twin.org/standards-dublin-core
+npm install @3sixty/standards-dublin-core
 ```
 
 ## Examples

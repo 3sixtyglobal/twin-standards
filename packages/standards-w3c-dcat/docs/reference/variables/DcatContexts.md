@@ -28,7 +28,7 @@ The JSON-LD Context URL.
 
 ### JsonSchemaNamespace {#jsonschemanamespace}
 
-> `readonly` **JsonSchemaNamespace**: `"https://schema.twindev.org/w3c-dcat/"` = `"https://schema.twindev.org/w3c-dcat/"`
+> `readonly` **JsonSchemaNamespace**: `"https://schema.3sixty.global/w3c-dcat/"` = `"https://schema.3sixty.global/w3c-dcat/"`
 
 The namespace location of the hosted version of the JSON Schema.
 
@@ -44,7 +44,7 @@ https://www.w3.org/TR/rdf-schema/
 
 ### JsonLdContextRdf {#jsonldcontextrdf}
 
-> `readonly` **JsonLdContextRdf**: `"https://schema.twindev.org/w3c-rdf/types.jsonld"` = `"https://schema.twindev.org/w3c-rdf/types.jsonld"`
+> `readonly` **JsonLdContextRdf**: `"https://schema.3sixty.global/w3c-rdf/types.jsonld"` = `"https://schema.3sixty.global/w3c-rdf/types.jsonld"`
 
 The context for RDF vocabulary Json-LD.
 

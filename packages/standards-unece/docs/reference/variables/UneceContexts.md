@@ -26,6 +26,6 @@ The JSON-LD Context URL.
 
 ### JsonSchemaNamespace {#jsonschemanamespace}
 
-> `readonly` **JsonSchemaNamespace**: `"https://schema.twindev.org/unece/"` = `"https://schema.twindev.org/unece/"`
+> `readonly` **JsonSchemaNamespace**: `"https://schema.3sixty.global/unece/"` = `"https://schema.3sixty.global/unece/"`
 
 The namespace location of the hosted version of the JSON Schema.

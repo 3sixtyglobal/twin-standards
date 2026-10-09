@@ -1,4 +1,4 @@
-# TWIN Standards
+# 3Sixty Standards
 
 This repository contains reusable standards-aligned data model packages that help organisations exchange information with consistent semantics across identity, policy, metadata, logistics, and data space scenarios.
 

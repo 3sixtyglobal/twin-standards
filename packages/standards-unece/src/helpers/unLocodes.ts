@@ -1,8 +1,8 @@
 // Copyright 2026 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import fs from "node:fs/promises";
-import { Compression, CompressionType, Guards, Is, ObjectHelper } from "@twin.org/core";
-import { nameof } from "@twin.org/nameof";
+import { Compression, CompressionType, Guards, Is, ObjectHelper } from "@3sixty/core";
+import { nameof } from "@3sixty/nameof";
 import type { IUnLocodeCountry } from "../models/IUnLocodeCountry.js";
 import type { IUnLocodeCountrySubdivisionRecord } from "../models/IUnLocodeCountrySubdivisionRecord.js";
 import type { IUnLocodeFunction } from "../models/IUnLocodeFunction.js";

@@ -1,7 +1,7 @@
 // Copyright 2026 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import { Is } from "@twin.org/core";
-import { DataTypeHandlerFactory, JsonSchemaHelper } from "@twin.org/data-core";
+import { Is } from "@3sixty/core";
+import { DataTypeHandlerFactory, JsonSchemaHelper } from "@3sixty/data-core";
 import * as CompiledValidators from "../../src/compiled/validators.js";
 import { UneceDataTypes } from "../../src/dataTypes/uneceDataTypes.js";
 import { UneceUnitMeasureCode } from "../../src/models/lists/uneceUnitMeasureCode.js";

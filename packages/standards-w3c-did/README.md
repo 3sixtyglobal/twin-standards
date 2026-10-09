@@ -1,11 +1,11 @@
-# TWIN Standards W3C DID
+# 3Sixty Standards W3C DID
 
 This package provides data models for the [W3C DID Core specification](https://www.w3.org/TR/did-core/), helping teams represent decentralised identifiers with consistent, interoperable structures.
 
 ## Installation
 
 ```shell
-npm install @twin.org/standards-w3c-did
+npm install @3sixty/standards-w3c-did
 ```
 
 ## Examples

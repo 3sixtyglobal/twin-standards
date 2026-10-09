@@ -5,7 +5,7 @@ These snippets use shared context constants and common property keys to build co
 ## VCard Contexts And Properties
 
 ```typescript
-import { VCardContexts, VCardPropertyType } from '@twin.org/standards-w3c-vcard';
+import { VCardContexts, VCardPropertyType } from '@3sixty/standards-w3c-vcard';
 
 const card = {
   '@context': VCardContexts.Context,

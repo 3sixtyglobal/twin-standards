@@ -1,4 +1,4 @@
-# @twin.org/standards-dataspace-protocol
+# @3sixty/standards-dataspace-protocol
 
 ## Classes
 

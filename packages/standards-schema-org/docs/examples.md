@@ -5,8 +5,8 @@ These snippets register data types and validate coordinate payloads against sche
 ## SchemaOrgValidation
 
 ```typescript
-import type { IValidationFailure } from '@twin.org/core';
-import { SchemaOrgDataTypes, SchemaOrgValidation } from '@twin.org/standards-schema-org';
+import type { IValidationFailure } from '@3sixty/core';
+import { SchemaOrgDataTypes, SchemaOrgValidation } from '@3sixty/standards-schema-org';
 
 SchemaOrgDataTypes.registerRedirects();
 SchemaOrgDataTypes.registerTypes();

@@ -1,7 +1,7 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import { GeneralError, Is } from "@twin.org/core";
-import { JsonLdProcessor } from "@twin.org/data-json-ld";
+import { GeneralError, Is } from "@3sixty/core";
+import { JsonLdProcessor } from "@3sixty/data-json-ld";
 import dataspaceProtocol2024 from "./ldContexts/dataspace-protocol-2024.json" with { type: "json" };
 import dataspaceProtocol2025 from "./ldContexts/dataspace-protocol-2025.json" with { type: "json" };
 import dcmitype from "./ldContexts/dublin-core-dcmitype.json" with { type: "json" };
@@ -36,7 +36,7 @@ export const LD_CONTEXTS: { [id: string]: unknown } = {
 	"https://w3id.org/dspace/2025/1/": dataspaceProtocol2025,
 	"https://w3id.org/dspace/2025/1/context.json": dataspaceProtocol2025,
 	"https://w3id.org/dspace/2025/1/context.jsonld": dataspaceProtocol2025,
-	"https://schema.twindev.org/dataspace-protocol/": dataspaceProtocol2025,
+	"https://schema.3sixty.global/dataspace-protocol/": dataspaceProtocol2025,
 	"https://w3id.org/dspace/2025/1/odrl-profile.jsonld": odrlDataspaceProtocol,
 
 	// DCSA does not have JSON-LD context definitions
@@ -44,12 +44,12 @@ export const LD_CONTEXTS: { [id: string]: unknown } = {
 	// Dublin Core
 	"http://purl.org/dc/terms/": dcTerms,
 	"http://purl.org/dc/dcmitype/": dcmitype,
-	"https://schema.twindev.org/dublin-core/terms.jsonld": dcTerms,
-	"https://schema.twindev.org/dublin-core/dcmitype.jsonld": dcmitype,
+	"https://schema.3sixty.global/dublin-core/terms.jsonld": dcTerms,
+	"https://schema.3sixty.global/dublin-core/dcmitype.jsonld": dcmitype,
 
 	// Foaf
-	"https://schema.twindev.org/foaf/": foaf,
-	"https://schema.twindev.org/foaf/types.jsonld": foaf,
+	"https://schema.3sixty.global/foaf/": foaf,
+	"https://schema.3sixty.global/foaf/types.jsonld": foaf,
 	"http://xmlns.com/foaf/0.1/": foaf,
 
 	// GS1 EPCIS
@@ -99,8 +99,8 @@ export const LD_CONTEXTS: { [id: string]: unknown } = {
 	"http://www.w3.org/ns/odrl.jsonld": w3cOdrl,
 
 	// W3C RDF
-	"https://schema.twindev.org/w3c-rdf/": w3cRdf,
-	"https://schema.twindev.org/w3c-rdf/types.jsonld": w3cRdf,
+	"https://schema.3sixty.global/w3c-rdf/": w3cRdf,
+	"https://schema.3sixty.global/w3c-rdf/types.jsonld": w3cRdf,
 	"http://www.w3.org/2000/01/rdf-schema#": w3cRdf
 };
 

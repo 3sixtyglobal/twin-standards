@@ -10,7 +10,7 @@ import {
   ActivityStreamsDataTypes,
   ActivityStreamsObjectTypes,
   type IActivityStreamsActivity
-} from '@twin.org/standards-w3c-activity-streams';
+} from '@3sixty/standards-w3c-activity-streams';
 
 ActivityStreamsDataTypes.registerRedirects();
 ActivityStreamsDataTypes.registerTypes();

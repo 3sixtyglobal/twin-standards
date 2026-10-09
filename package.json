@@ -1,10 +1,10 @@
 {
-	"name": "@twin.org/standards",
+	"name": "@3sixty/standards",
 	"version": "0.0.0",
 	"description": "Standards",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/3sixtyglobal/twin-standards.git"
+		"url": "git+https://github.com/3sixtyglobal/standards.git"
 	},
 	"author": "martyn.janes@iota.org",
 	"license": "Apache-2.0",
@@ -35,7 +35,7 @@
 		"quality:no-test": "pnpm run format && concurrently -g -n lint,compile \"pnpm run lint\" \"pnpm run compile\" && pnpm run validate-locales",
 		"docs": "pnpm -r run docs",
 		"package:update-latest": "pnpm update --recursive --interactive --latest",
-		"package:update-framework": "pnpm update --recursive --no-save \"@twin.org/*\"",
+		"package:update-framework": "pnpm update --recursive --no-save \"@3sixty/*\"",
 		"package:update": "pnpm run package:update-latest && pnpm run package:update-framework",
 		"local-link": "node ./scripts/local-link.mjs",
 		"commitlint": "commitlint --edit",
@@ -50,7 +50,7 @@
 		"@eslint/js": "10.0.1",
 		"@stylistic/eslint-plugin": "5.10.0",
 		"@tony.ganchev/eslint-plugin-header": "3.4.4",
-		"@twin.org/data-core": "next",
+		"@3sixty/data-core": "next",
 		"@typescript-eslint/eslint-plugin": "8.70.1",
 		"@typescript-eslint/parser": "8.70.1",
 		"concurrently": "10.0.5",
@@ -72,7 +72,7 @@
 	},
 	"type": "module",
 	"bugs": {
-		"url": "git+https://github.com/3sixtyglobal/twin-standards/issues"
+		"url": "git+https://github.com/3sixtyglobal/standards/issues"
 	},
-	"homepage": "https://twindev.org"
+	"homepage": "https://3sixty.global"
 }

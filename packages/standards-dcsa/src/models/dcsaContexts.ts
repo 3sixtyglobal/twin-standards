@@ -14,7 +14,7 @@ export const DcsaContexts = {
 	/**
 	 * The namespace location of the hosted version of the JSON Schema.
 	 */
-	JsonSchemaNamespace: "https://schema.twindev.org/dcsa/"
+	JsonSchemaNamespace: "https://schema.3sixty.global/dcsa/"
 } as const;
 
 /**

@@ -27,7 +27,7 @@ export const DcatContexts = {
 	/**
 	 * The namespace location of the hosted version of the JSON Schema.
 	 */
-	JsonSchemaNamespace: "https://schema.twindev.org/w3c-dcat/",
+	JsonSchemaNamespace: "https://schema.3sixty.global/w3c-dcat/",
 
 	/**
 	 * The namespace for RDF vocabulary.
@@ -39,7 +39,7 @@ export const DcatContexts = {
 	 * The context for RDF vocabulary Json-LD.
 	 * @see https://www.w3.org/TR/rdf-schema/
 	 */
-	JsonLdContextRdf: "https://schema.twindev.org/w3c-rdf/types.jsonld"
+	JsonLdContextRdf: "https://schema.3sixty.global/w3c-rdf/types.jsonld"
 } as const;
 
 /**

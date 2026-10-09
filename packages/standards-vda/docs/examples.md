@@ -5,8 +5,8 @@ These snippets validate JAIF identifiers, extract parsed segments, and register 
 ## VdaIdentifiersValidation
 
 ```typescript
-import type { IValidationFailure } from '@twin.org/core';
-import { VdaIdentifiersValidation } from '@twin.org/standards-vda';
+import type { IValidationFailure } from '@3sixty/core';
+import { VdaIdentifiersValidation } from '@3sixty/standards-vda';
 
 const failures: IValidationFailure[] = [];
 const urn = 'urn:jaif:id:obj:A1A020123456789AB12+SERIAL1';
@@ -21,7 +21,7 @@ console.log(parsed?.issuingAgencyCode); // 02
 ## VdaIdentifiers
 
 ```typescript
-import { VdaIdentifiers } from '@twin.org/standards-vda';
+import { VdaIdentifiers } from '@3sixty/standards-vda';
 
 VdaIdentifiers.registerIdentifiers();
 

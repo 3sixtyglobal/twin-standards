@@ -2,9 +2,9 @@
 // SPDX-License-Identifier: Apache-2.0.
 import fs from "node:fs/promises";
 import path from "node:path";
-import { Is } from "@twin.org/core";
-import { DataTypeHandlerFactory } from "@twin.org/data-core";
-import { JsonLdDataTypes } from "@twin.org/data-json-ld";
+import { Is } from "@3sixty/core";
+import { DataTypeHandlerFactory } from "@3sixty/data-core";
+import { JsonLdDataTypes } from "@3sixty/data-json-ld";
 import { EpcisDataTypes } from "../../src/dataTypes/epcisDataTypes.js";
 
 const SCHEMAS_DIRECTORY = path.join(import.meta.dirname, "..", "..", "src", "schemas");

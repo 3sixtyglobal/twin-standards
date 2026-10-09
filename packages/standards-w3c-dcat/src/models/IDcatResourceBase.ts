@@ -1,13 +1,13 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { ObjectOrArray } from "@twin.org/core";
+import type { ObjectOrArray } from "@3sixty/core";
 import type {
 	IJsonLdNodeObject,
 	JsonLdObjectWithAliases,
 	JsonLdObjectWithOptionalContext
-} from "@twin.org/data-json-ld";
-import type { IFoafAgent } from "@twin.org/standards-foaf";
-import type { IOdrlPolicy } from "@twin.org/standards-w3c-odrl";
+} from "@3sixty/data-json-ld";
+import type { IFoafAgent } from "@3sixty/standards-foaf";
+import type { IOdrlPolicy } from "@3sixty/standards-w3c-odrl";
 import type { DcatClasses } from "./dcatClasses.js";
 import type { IDcatRelationship } from "./IDcatRelationship.js";
 

@@ -1,11 +1,11 @@
-# TWIN Standards LD Contexts
+# 3Sixty Standards LD Contexts
 
 This package provides local JSON-LD contexts commonly used across standards workflows, so development and validation can continue reliably in offline or controlled environments.
 
 ## Installation
 
 ```shell
-npm install @twin.org/standards-ld-contexts
+npm install @3sixty/standards-ld-contexts
 ```
 
 ## Examples

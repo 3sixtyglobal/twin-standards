@@ -25,7 +25,7 @@ export const OdrlContexts = {
 	/**
 	 * The namespace location of the hosted version of the JSON Schema.
 	 */
-	JsonSchemaNamespace: "https://schema.twindev.org/w3c-odrl/"
+	JsonSchemaNamespace: "https://schema.3sixty.global/w3c-odrl/"
 } as const;
 
 /**

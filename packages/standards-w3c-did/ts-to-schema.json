@@ -1,5 +1,5 @@
 {
-	"baseUrl": "https://schema.twindev.org/w3c-did/",
+	"baseUrl": "https://schema.3sixty.global/w3c-did/",
 	"types": [
 		"./src/models/didCryptoSuites.ts",
 		"./src/models/didTypes.ts",
@@ -26,8 +26,8 @@
 		"./src/models/IProof.ts"
 	],
 	"externalReferences": {
-		"JsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1",
-		"Jwk": "https://schema.twindev.org/framework/"
+		"JsonLd(.*)": "https://schema.3sixty.global/json-ld/JsonLd$1",
+		"Jwk": "https://schema.3sixty.global/framework/"
 	},
 	"skippablePackages": [
 		"jose"

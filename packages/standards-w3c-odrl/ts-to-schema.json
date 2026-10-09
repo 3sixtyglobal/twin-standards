@@ -1,5 +1,5 @@
 {
-	"baseUrl": "https://schema.twindev.org/w3c-odrl/",
+	"baseUrl": "https://schema.3sixty.global/w3c-odrl/",
 	"types": [
 		"./src/models/odrlContextType.ts",
 		"./src/models/IOdrlAction.ts",
@@ -29,6 +29,6 @@
 		"./src/models/types/odrlRightOperandType.ts"
 	],
 	"externalReferences": {
-		"JsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1"
+		"JsonLd(.*)": "https://schema.3sixty.global/json-ld/JsonLd$1"
 	}
 }

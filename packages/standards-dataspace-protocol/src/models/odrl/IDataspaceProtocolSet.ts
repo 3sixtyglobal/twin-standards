@@ -1,6 +1,6 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IOdrlSet } from "@twin.org/standards-w3c-odrl";
+import type { IOdrlSet } from "@3sixty/standards-w3c-odrl";
 
 /**
  * Set interface compliant with Eclipse Data Space Protocol, requiring an id and omitting context.

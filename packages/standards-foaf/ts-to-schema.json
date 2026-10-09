@@ -1,5 +1,5 @@
 {
-	"baseUrl": "https://schema.twindev.org/foaf/",
+	"baseUrl": "https://schema.3sixty.global/foaf/",
 	"types": [
 		"./src/models/foafContextType.ts",
 		"./src/models/IFoafAgent.ts",
@@ -11,6 +11,6 @@
 		"./src/models/IFoafPerson.ts"
 	],
 	"externalReferences": {
-		"JsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1"
+		"JsonLd(.*)": "https://schema.3sixty.global/json-ld/JsonLd$1"
 	}
 }

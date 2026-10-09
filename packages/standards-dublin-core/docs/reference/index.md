@@ -1,4 +1,4 @@
-# @twin.org/standards-dublin-core
+# @3sixty/standards-dublin-core
 
 ## Classes
 

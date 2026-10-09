@@ -1,5 +1,5 @@
 {
-	"baseUrl": "https://schema.twindev.org/gs1/",
+	"baseUrl": "https://schema.3sixty.global/gs1/",
 	"types": [
 		"./src/models/epcis20/epcisContextType.ts",
 		"./src/models/epcis20/epcisActionTypes.ts",
@@ -42,6 +42,6 @@
 		"./src/models/epcis20/IEpcisVocabularyElement.ts"
 	],
 	"externalReferences": {
-		"JsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1"
+		"JsonLd(.*)": "https://schema.3sixty.global/json-ld/JsonLd$1"
 	}
 }
